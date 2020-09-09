@@ -1,0 +1,85 @@
+{
+    "lessons": [
+        {
+            "lessonid": 0,
+            "lessonName": "Introduction",
+            "lessonDescription": "Lesson 0",
+            "lessonText": "Introduction",
+            "quiz": {
+                "questions": [
+                    
+                ]
+            }
+        },
+        {
+            "lessonid": 2.1,
+            "lessonName": "Voiced and Voiceless Sounds",
+            "lessonDescription": "Lesson 2.1",
+            "lessonText": "When vocal cord vibrates, voiced sound is generated. For example, \"g\" is voiced while \"k\" is a voiceless consonant. It is generally not difficult sound to hear or pronounce. Research has shown that Chinese native speakers would have difficulty with hearing voicless consonant in some conditions.\n",
+            "quiz": {
+                "questions": [
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["ビザ", "ひざ"],
+                        "answer" : 0,
+                        "audioName": "biza"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["ビザ", "ひざ"],
+                        "answer" : 1,
+                        "audioName": "hiza"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["ときどき", "どきどき"],
+                        "answer" : 1,
+                        "audioName": "dokidoki"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["ときどき", "どきどき"],
+                        "answer" : 0,
+                        "audioName": "tokidoki"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["だいがく", "たいがく"],
+                        "answer" : 0,
+                        "audioName": "daigaku"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["だいがく", "たいがく"],
+                        "answer" : 1,
+                        "audioName": "taigaku"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["がいこく", "かいこく"],
+                        "answer" : 0,
+                        "audioName": "gaikoku"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["がいこく", "かいこく"],
+                        "answer" : 1,
+                        "audioName": "kaikoku"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["かいしゃ", "がいしゃ"],
+                        "answer" : 0,
+                        "audioName": "kaisya"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["かいしゃ", "がいしゃ"],
+                        "answer" : 1,
+                        "audioName": "gaisya"
+                    }
+                ]
+            }
+        }
+    ]
+}
