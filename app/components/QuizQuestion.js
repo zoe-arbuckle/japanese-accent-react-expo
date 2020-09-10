@@ -59,14 +59,8 @@ export default class QuizQuestion extends Component {
 				shouldPlay: false,
 				volume
 			}
-			
-			const source = {
-				uri: `../assets/sounds/${this.state.audioName}.mp3`
-			}
 
-			console.log(source.uri);
-
-			await playbackInstance.loadAsync(source, status, true);
+			await playbackInstance.loadAsync(sounds.biza, status, true);
 			this.setState({playbackInstance})
 
         } catch(e){
