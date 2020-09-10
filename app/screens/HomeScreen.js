@@ -18,7 +18,7 @@ function HomeScreen({ navigation }) {
                             key={item.lessonid}
                             title={item.lessonName}
                             onPress={() => navigation.navigate('Lesson', {
-                                lessonName: item.lessonName,
+                                data: item,
                             })}>
                         </LessonButton>
                     ))

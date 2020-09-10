@@ -6,7 +6,9 @@ import QuizQuestion from '../components/QuizQuestion'
 
 // function for selecting an answer
 
-function PracticeScreen({ navigation }) {
+function PracticeScreen({ route, navigation }) {
+    const { quiz } = route.params;
+    console.log(quiz.questions);
     return (
         <QuizQuestion></QuizQuestion>
     );

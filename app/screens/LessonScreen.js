@@ -2,28 +2,57 @@ import React from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
 
 function LessonScreen({ route, navigation }) {
-    const {lessonName} = route.params;
+    const { data } = route.params;
     return (
         <View style={styles.screen}>
-            <Text style={styles.text}>{lessonName}</Text>
-            <View>
-                <Button title="Practice" onPress={() => navigation.navigate('Practice')}/>
+            <View style={styles.lessonView}>
+                <Text style={styles.title}>{data.lessonName}</Text>
+                <View>
+                    <Text style={styles.text}>{data.lessonText}</Text>
+                </View>
             </View>
+            <View style={styles.buttonView}>
+                <Button 
+                    title="Practice" 
+                    onPress={() => navigation.navigate('Practice', {
+                        quiz: data.quiz
+                    })}
+                    style={styles.practiceButton}/>
+            </View>
+            
         </View>
     );
 };
 
 const styles = StyleSheet.create({
+    buttonView: {
+        flexDirection: 'row',
+        alignItems: 'flex-end',
+        flex: 1,
+        justifyContent: 'center',
+        marginBottom: 20,
+    },
+    lessonView: {
+        flex: 6, 
+    },
+    practiceButton: {
+        margin: 30,
+    },
     screen: {
         flex: 1,
         backgroundColor: 'white',
         padding: 10,
-        alignItems: 'center',
-        justifyContent: 'center',
     },
     text: {
         color: 'black',
         fontSize: 18,
+        marginTop: 20,
+    },
+    title: {
+        fontSize: 22,
+        fontWeight: 'bold',
+        alignSelf: 'center',
+        color: 'darkblue',
     }
 });
 
