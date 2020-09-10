@@ -6,7 +6,7 @@ import LessonButton from '../components/LessonButton';
 import data from '../assets/data'
 
 let lessons = data.lessons;
-console.log(lessons);
+// console.log(lessons);
 
 function HomeScreen({ navigation }) {
     return (
