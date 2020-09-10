@@ -5,11 +5,16 @@ import { Component } from 'react'
 import { Audio } from 'expo-av'
 
 import colors from '../config/colors.js'
+import sounds from '../config/sounds.js'
 
 export default class QuizQuestion extends Component {
 	state = {
 		playbackInstance: null,
 		volume: 1.0,
+		question: null,
+		answers: [],
+		answer: 0,
+		audioName: null,
 	}
 
 	constructor(props){
@@ -17,6 +22,10 @@ export default class QuizQuestion extends Component {
 
 		this.state = {
 			volume: 0.5,
+			question: props.question,
+			answers: props.answers,
+			answer: props.answer,
+			audioName: props.audioName
 		};
 	}
 
@@ -50,8 +59,14 @@ export default class QuizQuestion extends Component {
 				shouldPlay: false,
 				volume
 			}
+			
+			const source = {
+				uri: `../assets/sounds/${this.state.audioName}.mp3`
+			}
 
-			await playbackInstance.loadAsync(require('../assets/sounds/biza.mp3'), status, true);
+			console.log(source.uri);
+
+			await playbackInstance.loadAsync(source, status, true);
 			this.setState({playbackInstance})
 
         } catch(e){
@@ -62,23 +77,24 @@ export default class QuizQuestion extends Component {
     playAudio = async () => {
 		console.log("playing audio")
 		const { playbackInstance } = this.state;
-		await playbackInstance.replayAsync();
+		try{ await playbackInstance.replayAsync();}
+		catch(e){console.log(e)}
     }
 
     render() {
         return (
             <View style={styles.screen}>
-                <Text style={styles.questionText}>Which word do you hear?</Text>
+                <Text style={styles.questionText}>{this.state.question}</Text>
 		    	<View style={styles.buttonView}>
 		    		<TouchableOpacity style={styles.audioButton} onPress={this.playAudio}>
 		    			<Image source={require('../assets/images/audio.png')} style={styles.audioImage}/>
 		    		</TouchableOpacity>
 		    		<View style={styles.answerView}>
 		    			<TouchableOpacity style={styles.answerButton}>
-		    				<Text style={styles.answerText}>Button 1</Text>
+		    				<Text style={styles.answerText}>{this.state.answers[0]}</Text>
 		    			</TouchableOpacity>
 		    			<TouchableOpacity style={styles.answerButton}>
-		    				<Text style={styles.answerText}>Button 2</Text>
+		    				<Text style={styles.answerText}>{this.state.answers[1]}</Text>
 		    			</TouchableOpacity>
 		    		</View>
 		    	</View>
