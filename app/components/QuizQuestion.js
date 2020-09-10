@@ -7,13 +7,17 @@ import { Audio } from 'expo-av'
 import colors from '../config/colors.js'
 
 export default class QuizQuestion extends Component {
-
 	state = {
-		isPlaying: false,
 		playbackInstance: null,
-		currentIndex: 0,
 		volume: 1.0,
-		isBuffering: false
+	}
+
+	constructor(props){
+		super(props);
+
+		this.state = {
+			volume: 0.5,
+		};
 	}
 
     async componentDidMount() {
@@ -38,12 +42,12 @@ export default class QuizQuestion extends Component {
 	}
 
     async loadAudio() {
-		const { isPlaying, volume} = this.state;
+		const { volume } = this.state;
         try{
 			const playbackInstance = new Audio.Sound();
 			
 			const status = {
-				shouldPlay: isPlaying,
+				shouldPlay: false,
 				volume
 			}
 
@@ -59,8 +63,6 @@ export default class QuizQuestion extends Component {
 		console.log("playing audio")
 		const { playbackInstance } = this.state;
 		await playbackInstance.replayAsync();
-
-
     }
 
     render() {
