@@ -7,6 +7,9 @@ import { Audio } from 'expo-av'
 import colors from '../config/colors.js'
 import sounds from '../config/sounds.js'
 
+// constant values
+const soundObjects = {}
+
 export default class MultipleChoiceQuiz extends Component {
 	state = {
 		playbackInstance: null,
@@ -64,32 +67,44 @@ export default class MultipleChoiceQuiz extends Component {
 	}
 	
 	async componentWillUnmount() {
-		await this.state.playbackInstance.unloadAsync();
+		for (const question in this.state.questionList){
+			const audioName = this.state.questionList[question].audioName
+			await soundObjects[audioName].unloadAsync();
+		}
 	}
 
     async loadAudio() {
 		const { volume } = this.state;
-        try{
-			const playbackInstance = new Audio.Sound();
-			
-			const status = {
-				shouldPlay: false,
-				volume
+		await Audio.setIsEnabledAsync(true);
+		const questionList = this.state.questionList
+
+		for (const question in questionList){
+			const audioName = questionList[question].audioName
+			const source = sounds[audioName]
+			try{
+				soundObjects[audioName] = new Audio.Sound();
+
+				const status = {
+					shouldPlay: false,
+					volume
+				}
+				await soundObjects[audioName].loadAsync(source)
+			} catch(e){
+				console.log(e);
 			}
-
-			await playbackInstance.loadAsync(sounds.biza, status, true);
-			this.setState({playbackInstance})
-
-        } catch(e){
-            console.log(e);
-        }
+		}
+        
 	}
 
     playAudio = async () => {
-		console.log("playing audio")
-		const { playbackInstance } = this.state;
-		try{ await playbackInstance.replayAsync();}
-		catch(e){console.log(e)}
+		console.log("playing audio for " + this.state.audioName)
+		try { 
+			if(soundObjects[this.state.audioName]){
+				await soundObjects[this.state.audioName].replayAsync();
+			}
+		} catch(e) {
+			console.log(e)
+		}
 	}
 	
 	pickAnswer = () => {
@@ -100,7 +115,6 @@ export default class MultipleChoiceQuiz extends Component {
 		let index = this.state.currentIndex + 1
 		if(index == this.state.questionListLen){
 			// end the quiz
-			console.log("end")
 			this.setState({endQuiz: true})
 		} else {
 			const next = this.state.questionList[index]
@@ -133,7 +147,7 @@ export default class MultipleChoiceQuiz extends Component {
 		    			</TouchableOpacity>
 		    		</View>
 		    	</View>
-				<TouchableOpacity onPress={this.getNextQuestion}>
+				<TouchableOpacity style={styles.answerButton} onPress={this.getNextQuestion}>
 					<Text>{this.state.endQuiz ? "End Quiz" : "Next Question" }</Text>
 				</TouchableOpacity>
             </View>
