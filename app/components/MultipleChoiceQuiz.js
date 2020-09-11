@@ -7,25 +7,42 @@ import { Audio } from 'expo-av'
 import colors from '../config/colors.js'
 import sounds from '../config/sounds.js'
 
-export default class QuizQuestion extends Component {
+export default class MultipleChoiceQuiz extends Component {
 	state = {
 		playbackInstance: null,
 		volume: 1.0,
+		questionList: null,
 		question: null,
 		answers: [],
 		answer: 0,
 		audioName: null,
+		questionListLen: 0,
 	}
 
 	constructor(props){
 		super(props);
 
+		const array = props.questions
+
+		// shuffle the question array using the Fisher-Yates method
+
+		for(let i = array.length - 1; i > 0; i--){
+			const j = Math.floor(Math.random() * i)
+			const temp = array[i]
+			array[i] = array[j]
+			array[j] = temp
+		}
+
 		this.state = {
 			volume: 0.5,
-			question: props.question,
-			answers: props.answers,
-			answer: props.answer,
-			audioName: props.audioName
+			questionList: props.questions,
+			question: props.questions[0].question,
+			answers: props.questions[0].answers,
+			answer: props.questions[0].answer,
+			audioName: props.questions[0].audioName,
+			currentIndex: 0,
+			questionListLen: props.questions.length,
+			endQuiz: false,
 		};
 	}
 
@@ -73,7 +90,31 @@ export default class QuizQuestion extends Component {
 		const { playbackInstance } = this.state;
 		try{ await playbackInstance.replayAsync();}
 		catch(e){console.log(e)}
-    }
+	}
+	
+	pickAnswer = () => {
+
+	}
+
+	getNextQuestion = () => {
+		let index = this.state.currentIndex + 1
+		if(index == this.state.questionListLen){
+			// end the quiz
+			console.log("end")
+			this.setState({endQuiz: true})
+		} else {
+			const next = this.state.questionList[index]
+
+			this.setState({
+				question: next.question,
+				answers: next.answers,
+				answer: next.answer,
+				audioName: next.audioName,
+				currentIndex: index,
+			})
+		}
+		
+	}
 
     render() {
         return (
@@ -92,6 +133,9 @@ export default class QuizQuestion extends Component {
 		    			</TouchableOpacity>
 		    		</View>
 		    	</View>
+				<TouchableOpacity onPress={this.getNextQuestion}>
+					<Text>{this.state.endQuiz ? "End Quiz" : "Next Question" }</Text>
+				</TouchableOpacity>
             </View>
         );
     }
