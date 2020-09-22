@@ -1,10 +1,15 @@
 {
   "expo": {
-    "name": "TestProject",
-    "slug": "TestProject",
-    "version": "1.0.0",
+    "name": "JapanesePronunciation",
+    "slug": "JapanesePronunciation",
+    "privacy": "unlisted",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -17,7 +22,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kazumihatasa.JapanesePronunciation"
     },
     "web": {
       "favicon": "./assets/favicon.png"
