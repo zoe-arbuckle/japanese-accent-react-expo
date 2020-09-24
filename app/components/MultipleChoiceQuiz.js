@@ -118,7 +118,15 @@ export default class MultipleChoiceQuiz extends Component {
 	// HANDLING QUESTIONS
 	
 	pickAnswer = answerValue => () => {
+		const correctAnswer = this.state.answers[this.state.answer]
+
 		console.log(answerValue);
+		if(answerValue === correctAnswer){
+			console.log("Correct!")
+			this.setState({gaveCorrectAnswer: true})
+		} else {
+			this.setState({gaveCorrectAnswer: false})
+		}
 	}
 
 	getNextQuestion = () => {
@@ -135,6 +143,7 @@ export default class MultipleChoiceQuiz extends Component {
 				answer: next.answer,
 				audioName: next.audioName,
 				currentIndex: index,
+				gaveCorrectAnswer: null,
 			})
 		}
 		
@@ -143,6 +152,21 @@ export default class MultipleChoiceQuiz extends Component {
 	// RENDER
 
     render() {
+		let nextQuestionButton;
+		if(this.state.gaveCorrectAnswer){
+			nextQuestionButton = 
+				<TouchableOpacity style={styles.nextQuestionButtonCorrect} onPress={this.getNextQuestion}>
+					<Text>{this.state.endQuiz ? "End Quiz" : "Well Done! Next Question?" }</Text>
+				</TouchableOpacity>
+		} else if(this.state.gaveCorrectAnswer == false) {
+			nextQuestionButton = 
+				<TouchableOpacity style={styles.nextQuestionButtonIncorrect}>
+					<Text>Incorrect</Text>
+				</TouchableOpacity>
+		} else {
+			nextQuestionButton = <Text>Please answer the question to move on.</Text>
+		}
+
         return (
             <View style={styles.screen}>
                 <Text style={styles.questionText}>{this.state.question}</Text>
@@ -161,9 +185,7 @@ export default class MultipleChoiceQuiz extends Component {
 					}
 		    		</View>
 		    	</View>
-				<TouchableOpacity style={styles.answerButton} onPress={this.getNextQuestion}>
-					<Text>{this.state.endQuiz ? "End Quiz" : "Next Question" }</Text>
-				</TouchableOpacity>
+				{nextQuestionButton}
             </View>
         );
     }
@@ -172,18 +194,6 @@ export default class MultipleChoiceQuiz extends Component {
 // STYLE
 
 const styles = StyleSheet.create({
-	answerButton: {
-		margin: 10,
-		width: '100%',
-		height: 50,
-		backgroundColor: colors.purduegold,
-		justifyContent: 'center',
-		alignItems: 'center',
-	},
-	answerText: {
-		color: 'black',
-		fontSize: 18,
-	},
 	answerView: {
 		alignItems: 'center',
 		justifyContent: 'center',
@@ -203,6 +213,22 @@ const styles = StyleSheet.create({
 		flexDirection: 'row',
 		width: '100%',
 		margin: 50,
+		alignItems: 'center',
+	},
+	nextQuestionButtonCorrect: {
+		margin: 10,
+		width: '100%',
+		height: 50,
+		backgroundColor: colors.correct,
+		justifyContent: 'center',
+		alignItems: 'center',
+	},
+	nextQuestionButtonIncorrect: {
+		margin: 10,
+		width: '100%',
+		height: 50,
+		backgroundColor: colors.incorrect,
+		justifyContent: 'center',
 		alignItems: 'center',
 	},
     screen: {
