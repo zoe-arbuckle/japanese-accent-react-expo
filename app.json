@@ -25,6 +25,10 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.kazumihatasa.JapanesePronunciation"
     },
+    "android": {
+      "package": "com.kazumihatasa.JapanesePronunciation",
+      "versionCode": 1
+    },
     "web": {
       "favicon": "./assets/favicon.png"
     }
