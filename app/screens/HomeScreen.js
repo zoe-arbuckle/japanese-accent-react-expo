@@ -19,8 +19,7 @@ function HomeScreen({ navigation }) {
                             title={item.lessonName}
                             onPress={() => navigation.navigate('Lesson', {
                                 data: item,
-                            })}>
-                        </LessonButton>
+                            })}/>
                     ))
                 }
         </View>

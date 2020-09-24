@@ -6,6 +6,7 @@ import { Audio } from 'expo-av'
 
 import colors from '../config/colors.js'
 import sounds from '../config/sounds.js'
+import AnswerButton from './AnswerButton.js';
 
 // constant values
 const soundObjects = {}
@@ -152,12 +153,10 @@ export default class MultipleChoiceQuiz extends Component {
 		    		<View style={styles.answerView}>
 					{
 						this.state.answers.map((value, index) => (
-							<Button
+							<AnswerButton
 								key={index}
-								title={value} 
-								style={styles.answerButton}
-								onPress={this.pickAnswer(value)}
-							></Button>
+								title={value}
+								onPress={this.pickAnswer(value)}/>
 						))
 					}
 		    		</View>
@@ -177,7 +176,7 @@ const styles = StyleSheet.create({
 		margin: 10,
 		width: '100%',
 		height: 50,
-		color: colors.purduegold,
+		backgroundColor: colors.purduegold,
 		justifyContent: 'center',
 		alignItems: 'center',
 	},
