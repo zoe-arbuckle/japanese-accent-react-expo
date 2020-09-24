@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, TouchableOpacity, Text, View, Image } from 'react-native'
+import { StyleSheet, TouchableOpacity, Text, View, Image, Button } from 'react-native'
 import { Component } from 'react'
 
 import { Audio } from 'expo-av'
@@ -11,6 +11,9 @@ import sounds from '../config/sounds.js'
 const soundObjects = {}
 
 export default class MultipleChoiceQuiz extends Component {
+
+	/* INITIALIZATION */
+
 	state = {
 		playbackInstance: null,
 		volume: 1.0,
@@ -49,6 +52,8 @@ export default class MultipleChoiceQuiz extends Component {
 		};
 	}
 
+	// COMPONENT MOUNTING
+
     async componentDidMount() {
         try{
             await Audio.setAudioModeAsync({
@@ -72,6 +77,8 @@ export default class MultipleChoiceQuiz extends Component {
 			await soundObjects[audioName].unloadAsync();
 		}
 	}
+
+	// AUDIO
 
     async loadAudio() {
 		const { volume } = this.state;
@@ -106,15 +113,17 @@ export default class MultipleChoiceQuiz extends Component {
 			console.log(e)
 		}
 	}
-	
-	pickAnswer = () => {
 
+	// HANDLING QUESTIONS
+	
+	pickAnswer = answerValue => () => {
+		console.log(answerValue);
 	}
 
 	getNextQuestion = () => {
 		let index = this.state.currentIndex + 1
 		if(index == this.state.questionListLen){
-			// end the quiz
+			// end the quiz - need to give a score and navigate back to lesson
 			this.setState({endQuiz: true})
 		} else {
 			const next = this.state.questionList[index]
@@ -130,6 +139,8 @@ export default class MultipleChoiceQuiz extends Component {
 		
 	}
 
+	// RENDER
+
     render() {
         return (
             <View style={styles.screen}>
@@ -139,12 +150,16 @@ export default class MultipleChoiceQuiz extends Component {
 		    			<Image source={require('../assets/images/audio.png')} style={styles.audioImage}/>
 		    		</TouchableOpacity>
 		    		<View style={styles.answerView}>
-		    			<TouchableOpacity style={styles.answerButton}>
-		    				<Text style={styles.answerText}>{this.state.answers[0]}</Text>
-		    			</TouchableOpacity>
-		    			<TouchableOpacity style={styles.answerButton}>
-		    				<Text style={styles.answerText}>{this.state.answers[1]}</Text>
-		    			</TouchableOpacity>
+					{
+						this.state.answers.map((value, index) => (
+							<Button
+								key={index}
+								title={value} 
+								style={styles.answerButton}
+								onPress={this.pickAnswer(value)}
+							></Button>
+						))
+					}
 		    		</View>
 		    	</View>
 				<TouchableOpacity style={styles.answerButton} onPress={this.getNextQuestion}>
@@ -155,12 +170,14 @@ export default class MultipleChoiceQuiz extends Component {
     }
 }
 
+// STYLE
+
 const styles = StyleSheet.create({
 	answerButton: {
 		margin: 10,
 		width: '100%',
 		height: 50,
-		backgroundColor: colors.purduegold,
+		color: colors.purduegold,
 		justifyContent: 'center',
 		alignItems: 'center',
 	},

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Text } from 'react-native'
 
 import MultipleChoiceQuiz from '../components/MultipleChoiceQuiz'
 
@@ -10,11 +11,17 @@ function PracticeScreen({ route, navigation }) {
     const { quiz } = route.params;
     // console.log(quiz.questions);
     const questions = quiz.questions;
-    return (
-        <MultipleChoiceQuiz
-            questions={questions}
-        ></MultipleChoiceQuiz>
-    );
+    if(questions.length == 0){
+        return (
+            <Text>There are no questions :)</Text>
+        )
+    } else {
+        return (
+            <MultipleChoiceQuiz
+                questions={questions}
+            ></MultipleChoiceQuiz>
+        );
+    }
 };
 
 
