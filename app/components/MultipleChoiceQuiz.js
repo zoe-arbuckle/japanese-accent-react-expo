@@ -160,8 +160,8 @@ export default class MultipleChoiceQuiz extends Component {
 				</TouchableOpacity>
 		} else if(this.state.gaveCorrectAnswer == false) {
 			nextQuestionButton = 
-				<TouchableOpacity style={styles.nextQuestionButtonIncorrect}>
-					<Text>Incorrect</Text>
+				<TouchableOpacity style={styles.nextQuestionButtonIncorrect} onPress={this.getNextQuestion}>
+				<Text>Incorrect. Next Question</Text>
 				</TouchableOpacity>
 		} else {
 			nextQuestionButton = <Text>Please answer the question to move on.</Text>
