@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
 		backgroundColor: colors.purduegold,
 		justifyContent: 'center',
         alignItems: 'center',
-        opacity: 0.5,
+        opacity: 0.4,
     }
 })
 
