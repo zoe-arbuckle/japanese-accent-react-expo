@@ -20,63 +20,111 @@
                 "questions": [
                     {
                         "question" : "Which word do you hear?",
-                        "answers" : ["ビザ", "ひざ"],
-                        "answer" : 0,
-                        "audioName": "biza"
-                    },
-                    {
-                        "question" : "Which word do you hear?",
-                        "answers" : ["ビザ", "ひざ"],
+                        "answers" : ["けんきゅう", "げんきゅう"],
                         "answer" : 1,
-                        "audioName": "hiza"
+                        "audioName": "genkyu"
                     },
                     {
                         "question" : "Which word do you hear?",
-                        "answers" : ["ときどき", "どきどき"],
+                        "answers" : ["けんきゅう", "げんきゅう"],
+                        "answer" : 0,
+                        "audioName": "kenkyu"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["こうどう", "ごうどう"],
                         "answer" : 1,
-                        "audioName": "dokidoki"
+                        "audioName": "goudou"
                     },
                     {
                         "question" : "Which word do you hear?",
-                        "answers" : ["ときどき", "どきどき"],
+                        "answers" : ["こうどう", "ごうどう"],
                         "answer" : 0,
-                        "audioName": "tokidoki"
+                        "audioName": "koudou"
                     },
                     {
                         "question" : "Which word do you hear?",
-                        "answers" : ["だいがく", "たいがく"],
-                        "answer" : 0,
-                        "audioName": "daigaku"
-                    },
-                    {
-                        "question" : "Which word do you hear?",
-                        "answers" : ["だいがく", "たいがく"],
+                        "answers" : ["かんたん", "がんたん"],
                         "answer" : 1,
-                        "audioName": "taigaku"
+                        "audioName": "gantan"
                     },
                     {
                         "question" : "Which word do you hear?",
-                        "answers" : ["がいこく", "かいこく"],
+                        "answers" : ["かんたん", "がんたん"],
                         "answer" : 0,
+                        "audioName": "kantan"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["だいかくめい", "だいがくめい"],
+                        "answer" : 1,
+                        "audioName": "daigakumei"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["だいかくめい", "だいがくめい"],
+                        "answer" : 0,
+                        "audioName": "daikakumei"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["しょうかい", "しょうがい"],
+                        "answer" : 1,
+                        "audioName": "shougai"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["しょうかい", "しょうがい"],
+                        "answer" : 0,
+                        "audioName": "shoukai"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["かんこく", "かんごく"],
+                        "answer" : 1,
+                        "audioName": "kangoku"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["かんこく", "かんごく"],
+                        "answer" : 0,
+                        "audioName": "kankoku"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["きかい", "ぎかい"],
+                        "answer" : 1,
+                        "audioName": "gikai"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["きかい", "ぎかい"],
+                        "answer" : 0,
+                        "audioName": "kikai"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["くち", "ぐち"],
+                        "answer" : 1,
+                        "audioName": "guchi"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["くち", "ぐち"],
+                        "answer" : 0,
+                        "audioName": "kuchi"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["かいこく", "がいこく"],
+                        "answer" : 1,
                         "audioName": "gaikoku"
                     },
                     {
                         "question" : "Which word do you hear?",
-                        "answers" : ["がいこく", "かいこく"],
-                        "answer" : 1,
-                        "audioName": "kaikoku"
-                    },
-                    {
-                        "question" : "Which word do you hear?",
-                        "answers" : ["かいしゃ", "がいしゃ"],
+                        "answers" : ["かいこく", "がいこく"],
                         "answer" : 0,
-                        "audioName": "kaisya"
-                    },
-                    {
-                        "question" : "Which word do you hear?",
-                        "answers" : ["かいしゃ", "がいしゃ"],
-                        "answer" : 1,
-                        "audioName": "gaisya"
+                        "audioName": "kaikoku"
                     }
                 ]
             }
