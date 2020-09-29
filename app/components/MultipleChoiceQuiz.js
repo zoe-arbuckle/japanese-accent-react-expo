@@ -65,11 +65,11 @@ export default class MultipleChoiceQuiz extends Component {
                 shouldDuckAndroid: true,
                 staysActiveInBackground: true,
                 playThroughEarpieceAndroid: true
-			});
-			this.loadAudio();
+			})
+			this.loadAudio()
         } catch(e) {
             console.log(e)
-        }
+		}
 	}
 	
 	async componentWillUnmount() {
@@ -101,6 +101,8 @@ export default class MultipleChoiceQuiz extends Component {
 				console.log(e);
 			}
 		}
+
+		this.playAudio()
         
 	}
 
@@ -129,7 +131,7 @@ export default class MultipleChoiceQuiz extends Component {
 		}
 	}
 
-	getNextQuestion = () => {
+	getNextQuestion = async () => {
 		let index = this.state.currentIndex + 1
 		if(index == this.state.questionListLen){
 			// end the quiz - need to give a score and navigate back to lesson
@@ -137,7 +139,7 @@ export default class MultipleChoiceQuiz extends Component {
 		} else {
 			const next = this.state.questionList[index]
 
-			this.setState({
+			await this.setState({
 				question: next.question,
 				answers: next.answers,
 				answer: next.answer,
@@ -145,6 +147,9 @@ export default class MultipleChoiceQuiz extends Component {
 				currentIndex: index,
 				gaveCorrectAnswer: null,
 			})
+
+			this.playAudio()
+
 		}
 		
 	}
