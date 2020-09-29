@@ -3,11 +3,12 @@ import { Text, TouchableOpacity, StyleSheet } from 'react-native'
 
 import colors from '../config/colors'
 
-const AnswerButton = ( {title, onPress} ) => {
+const AnswerButton = ( {title, onPress, disabled} ) => {
     return (
         <TouchableOpacity
-            style={styles.answerButton}
-            onPress={onPress}>
+            style={disabled ? styles.disabledButton : styles.answerButton}
+            onPress={onPress}
+            disabled={disabled}>
             <Text style={styles.answerText}>{title}</Text>
         </TouchableOpacity>
     )
@@ -25,7 +26,16 @@ const styles = StyleSheet.create({
     answerText: {
 		color: 'black',
 		fontSize: 18,
-	},
+    },
+    disabledButton:{
+        margin: 10,
+		width: '100%',
+		height: 50,
+		backgroundColor: colors.purduegold,
+		justifyContent: 'center',
+        alignItems: 'center',
+        opacity: 0.5,
+    }
 })
 
 export default AnswerButton

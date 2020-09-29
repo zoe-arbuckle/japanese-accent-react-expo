@@ -15,16 +15,7 @@ export default class MultipleChoiceQuiz extends Component {
 
 	/* INITIALIZATION */
 
-	state = {
-		playbackInstance: null,
-		volume: 1.0,
-		questionList: null,
-		question: null,
-		answers: [],
-		answer: 0,
-		audioName: null,
-		questionListLen: 0,
-	}
+	state = {}
 
 	constructor(props){
 		super(props);
@@ -50,6 +41,8 @@ export default class MultipleChoiceQuiz extends Component {
 			currentIndex: 0,
 			questionListLen: props.questions.length,
 			endQuiz: false,
+			score: 0,
+			disabled: false,
 		};
 	}
 
@@ -121,11 +114,11 @@ export default class MultipleChoiceQuiz extends Component {
 	
 	pickAnswer = answerValue => () => {
 		const correctAnswer = this.state.answers[this.state.answer]
+		this.setState({disabled: true})
 
 		console.log(answerValue);
 		if(answerValue === correctAnswer){
-			console.log("Correct!")
-			this.setState({gaveCorrectAnswer: true})
+			this.setState({gaveCorrectAnswer: true, score: (this.state.score + 1)})
 		} else {
 			this.setState({gaveCorrectAnswer: false})
 		}
@@ -136,6 +129,7 @@ export default class MultipleChoiceQuiz extends Component {
 		if(index == this.state.questionListLen){
 			// end the quiz - need to give a score and navigate back to lesson
 			this.setState({endQuiz: true})
+			console.log(this.state.score)
 		} else {
 			const next = this.state.questionList[index]
 
@@ -146,6 +140,7 @@ export default class MultipleChoiceQuiz extends Component {
 				audioName: next.audioName,
 				currentIndex: index,
 				gaveCorrectAnswer: null,
+				disabled: false,
 			})
 
 			this.playAudio()
@@ -185,7 +180,8 @@ export default class MultipleChoiceQuiz extends Component {
 							<AnswerButton
 								key={index}
 								title={value}
-								onPress={this.pickAnswer(value)}/>
+								onPress={this.pickAnswer(value)}
+								disabled={this.state.disabled}/>
 						))
 					}
 		    		</View>
