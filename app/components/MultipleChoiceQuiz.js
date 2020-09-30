@@ -7,6 +7,7 @@ import { Audio } from 'expo-av'
 import colors from '../config/colors.js'
 import sounds from '../config/sounds.js'
 import AnswerButton from './AnswerButton.js';
+import ScoreScreen from '../screens/ScoreScreen.js';
 
 // constant values
 const soundObjects = {}
@@ -43,6 +44,7 @@ export default class MultipleChoiceQuiz extends Component {
 			endQuiz: false,
 			score: 0,
 			disabled: false,
+			navigation: props.navigation
 		};
 	}
 
@@ -94,8 +96,9 @@ export default class MultipleChoiceQuiz extends Component {
 				console.log(e);
 			}
 		}
-
-		this.playAudio()
+		if(!this.state.endQuiz){
+			this.playAudio()
+		}
         
 	}
 
@@ -152,7 +155,19 @@ export default class MultipleChoiceQuiz extends Component {
 	// RENDER
 
     render() {
-		let nextQuestionButton;
+		// return the score screen if the quiz is over
+		if(this.state.endQuiz){
+			return (
+				<ScoreScreen
+					score={this.state.score}
+					possibleScore={this.state.questionListLen}
+					navigation={this.state.navigation}/>
+			)
+		}
+
+		// otherwise return the quiz
+		let nextQuestionButton
+
 		if(this.state.gaveCorrectAnswer){
 			nextQuestionButton = 
 				<TouchableOpacity style={styles.nextQuestionButtonCorrect} onPress={this.getNextQuestion}>

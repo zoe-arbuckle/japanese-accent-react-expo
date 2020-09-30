@@ -19,6 +19,7 @@ function PracticeScreen({ route, navigation }) {
         return (
             <MultipleChoiceQuiz
                 questions={questions}
+                navigation={navigation}
             ></MultipleChoiceQuiz>
         );
     }

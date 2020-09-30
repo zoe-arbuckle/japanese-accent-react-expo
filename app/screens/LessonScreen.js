@@ -15,7 +15,7 @@ function LessonScreen({ route, navigation }) {
                 <Button 
                     title="Practice" 
                     onPress={() => navigation.navigate('Practice', {
-                        quiz: data.quiz
+                        quiz: data.quiz,
                     })}
                     style={styles.practiceButton}/>
             </View>
