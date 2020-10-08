@@ -128,6 +128,136 @@
                     }
                 ]
             }
+        },
+        {
+            "lessonid": 2.4,
+            "lessonName": "Long Vowels",
+            "lessonDescription": "Lesson 2.4",
+            "lessonText": "Many learners of Japanese find long vowels to be somewhat difficult.\n It changes a meaning of word. Observe following pairs. \n You can see a vowel \"o\" is much longer in コート, compared to the one in こと. The tip is to make a vowel sufficiently longer and not to hurry.",
+            "quiz": {
+                "questions": [
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["ビル", "ビール"],
+                        "answer" : 0,
+                        "audioName": "biru"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["ビル", "ビール"],
+                        "answer" : 1,
+                        "audioName": "biiru"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["しゅじん", "しゅうじん"],
+                        "answer" : 0,
+                        "audioName": "syujin"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["しゅじん", "しゅうじん"],
+                        "answer" : 1,
+                        "audioName": "syuujin"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["そこ", "そうこ"],
+                        "answer" : 0,
+                        "audioName": "soko"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["そこ", "そうこ"],
+                        "answer" : 1,
+                        "audioName": "sooko"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["おじさん", "おじいさん"],
+                        "answer" : 0,
+                        "audioName": "ojisan"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["おじさん", "おじいさん"],
+                        "answer" : 1,
+                        "audioName": "ojiisan"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["さっか", "サッカー"],
+                        "answer" : 0,
+                        "audioName": "sakka"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["さっか", "サッカー"],
+                        "answer" : 1,
+                        "audioName": "sakkaa"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["かれ", "カレー"],
+                        "answer" : 0,
+                        "audioName": "kare"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["かれ", "カレー"],
+                        "answer" : 1,
+                        "audioName": "karee"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["きぼ", "きぼう"],
+                        "answer" : 0,
+                        "audioName": "kibo"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["きぼ", "きぼう"],
+                        "answer" : 1,
+                        "audioName": "kiboo"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["くつ", "くつう"],
+                        "answer" : 0,
+                        "audioName": "kutsu"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["くつ", "くつう"],
+                        "answer" : 1,
+                        "audioName": "kutsuu"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["さと", "さとう"],
+                        "answer" : 0,
+                        "audioName": "sato"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["さと", "さとう"],
+                        "answer" : 1,
+                        "audioName": "satoo"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["こんど", "こんどう"],
+                        "answer" : 0,
+                        "audioName": "kondo"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["こんど", "こんどう"],
+                        "answer" : 1,
+                        "audioName": "kondoo"
+                    }
+                ]
+            }
         }
     ]
 }
