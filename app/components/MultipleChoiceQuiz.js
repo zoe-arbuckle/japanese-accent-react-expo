@@ -70,7 +70,11 @@ export default class MultipleChoiceQuiz extends Component {
 	async componentWillUnmount() {
 		for (const question in this.state.questionList){
 			const audioName = this.state.questionList[question].audioName
-			await soundObjects[audioName].unloadAsync();
+			try {
+				await soundObjects[audioName].unloadAsync();
+			} catch (e){
+				console.log(e)
+			}
 		}
 	}
 
@@ -78,7 +82,12 @@ export default class MultipleChoiceQuiz extends Component {
 
     async loadAudio() {
 		const { volume } = this.state;
-		await Audio.setIsEnabledAsync(true);
+		try {
+			await Audio.setIsEnabledAsync(true);
+		}catch(e){
+			console.log(e)
+		}
+	
 		const questionList = this.state.questionList
 
 		for (const question in questionList){
@@ -136,15 +145,19 @@ export default class MultipleChoiceQuiz extends Component {
 		} else {
 			const next = this.state.questionList[index]
 
-			await this.setState({
-				question: next.question,
-				answers: next.answers,
-				answer: next.answer,
-				audioName: next.audioName,
-				currentIndex: index,
-				gaveCorrectAnswer: null,
-				disabled: false,
-			})
+			try { 
+				await this.setState({
+					question: next.question,
+					answers: next.answers,
+					answer: next.answer,
+					audioName: next.audioName,
+					currentIndex: index,
+					gaveCorrectAnswer: null,
+					disabled: false,
+				})
+			} catch(e){
+				console.log(e)
+			}
 
 			this.playAudio()
 

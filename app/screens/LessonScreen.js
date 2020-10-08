@@ -3,6 +3,19 @@ import { View, Text, StyleSheet, Button } from 'react-native';
 
 function LessonScreen({ route, navigation }) {
     const { data } = route.params;
+    let buttons = []
+
+    if(data.quiz.questions.length > 0){
+        buttons.push(
+            <Button 
+                title="Practice"
+                key="Practice" 
+                onPress={() => navigation.navigate('Practice', {
+                    quiz: data.quiz,
+                })}
+                style={styles.practiceButton}/>)
+    }
+
     return (
         <View style={styles.screen}>
             <View style={styles.lessonView}>
@@ -12,12 +25,7 @@ function LessonScreen({ route, navigation }) {
                 </View>
             </View>
             <View style={styles.buttonView}>
-                <Button 
-                    title="Practice" 
-                    onPress={() => navigation.navigate('Practice', {
-                        quiz: data.quiz,
-                    })}
-                    style={styles.practiceButton}/>
+                {buttons}
             </View>
             
         </View>
