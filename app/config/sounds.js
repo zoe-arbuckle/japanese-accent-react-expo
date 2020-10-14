@@ -1,4 +1,7 @@
 const sounds = {
+    // audio feedback
+    correct: require('../assets/sounds/feedback/Correct_Answer.mp3'),
+    incorrect: require('../assets/sounds/feedback/Wrong_Buzzer.mp3'),
     // voiced consonants
     genkyu: require('../assets/sounds/voicedconsonant/01-genkyu-M.mp3'),
     kenkyu: require('../assets/sounds/voicedconsonant/02-kenkyu-M.mp3'),

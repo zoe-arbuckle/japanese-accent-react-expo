@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, TouchableOpacity, Text, View, Image, Button } from 'react-native'
+import { StyleSheet, TouchableOpacity, Text, View, Image } from 'react-native'
 import { Component } from 'react'
 
 import { Audio } from 'expo-av'
@@ -11,6 +11,8 @@ import ScoreScreen from '../screens/ScoreScreen.js';
 
 // constant values
 const soundObjects = {}
+const correctSound = new Audio.Sound()
+const incorrectSound = new Audio.Sound()
 
 export default class MultipleChoiceQuiz extends Component {
 
@@ -33,7 +35,7 @@ export default class MultipleChoiceQuiz extends Component {
 		}
 
 		this.state = {
-			volume: 0.5,
+			volume: 1,
 			questionList: props.questions,
 			question: props.questions[0].question,
 			answers: props.questions[0].answers,
@@ -43,7 +45,6 @@ export default class MultipleChoiceQuiz extends Component {
 			questionListLen: props.questions.length,
 			endQuiz: false,
 			score: 0,
-			disabled: false,
 			navigation: props.navigation
 		};
 	}
@@ -68,6 +69,8 @@ export default class MultipleChoiceQuiz extends Component {
 	}
 	
 	async componentWillUnmount() {
+		await correctSound.unloadAsync()
+		await incorrectSound.unloadAsync()
 		for (const question in this.state.questionList){
 			const audioName = this.state.questionList[question].audioName
 			try {
@@ -89,7 +92,19 @@ export default class MultipleChoiceQuiz extends Component {
 		}
 	
 		const questionList = this.state.questionList
+		// load the audio for the audio feedback
+		try{
+			const status = {
+				shouldPlay: false,
+				volume
+			}
+			await correctSound.loadAsync(sounds.correct)
+			await incorrectSound.loadAsync(sounds.incorrect)
+		}catch(e){
+			console.log(e)
+		}
 
+		// load the audio for the questions
 		for (const question in questionList){
 			const audioName = questionList[question].audioName
 			const source = sounds[audioName]
@@ -112,7 +127,6 @@ export default class MultipleChoiceQuiz extends Component {
 	}
 
     playAudio = async () => {
-		console.log("playing audio for " + this.state.audioName)
 		try { 
 			if(soundObjects[this.state.audioName]){
 				await soundObjects[this.state.audioName].replayAsync();
@@ -124,14 +138,23 @@ export default class MultipleChoiceQuiz extends Component {
 
 	// HANDLING QUESTIONS
 	
-	pickAnswer = answerValue => () => {
+	pickAnswer = answerValue => async () => {
 		const correctAnswer = this.state.answers[this.state.answer]
-		this.setState({disabled: true})
 
-		console.log(answerValue);
 		if(answerValue === correctAnswer){
+			try{
+				await correctSound.replayAsync()
+			} catch (e){
+				console.log(e)
+			}
 			this.setState({gaveCorrectAnswer: true, score: (this.state.score + 1)})
+			this.getNextQuestion()
 		} else {
+			try{
+				await incorrectSound.replayAsync()
+			} catch (e){
+				console.log(e)
+			}
 			this.setState({gaveCorrectAnswer: false})
 		}
 	}
@@ -141,7 +164,6 @@ export default class MultipleChoiceQuiz extends Component {
 		if(index == this.state.questionListLen){
 			// end the quiz - need to give a score and navigate back to lesson
 			this.setState({endQuiz: true})
-			console.log(this.state.score)
 		} else {
 			const next = this.state.questionList[index]
 
@@ -153,7 +175,6 @@ export default class MultipleChoiceQuiz extends Component {
 					audioName: next.audioName,
 					currentIndex: index,
 					gaveCorrectAnswer: null,
-					disabled: false,
 				})
 			} catch(e){
 				console.log(e)
@@ -178,26 +199,12 @@ export default class MultipleChoiceQuiz extends Component {
 			)
 		}
 
-		// otherwise return the quiz
-		let nextQuestionButton
-
-		if(this.state.gaveCorrectAnswer){
-			nextQuestionButton = 
-				<TouchableOpacity style={styles.nextQuestionButtonCorrect} onPress={this.getNextQuestion}>
-					<Text>{this.state.endQuiz ? "End Quiz" : "Well Done! Next Question?" }</Text>
-				</TouchableOpacity>
-		} else if(this.state.gaveCorrectAnswer == false) {
-			nextQuestionButton = 
-				<TouchableOpacity style={styles.nextQuestionButtonIncorrect} onPress={this.getNextQuestion}>
-				<Text>Incorrect. Next Question</Text>
-				</TouchableOpacity>
-		} else {
-			nextQuestionButton = <Text>Please answer the question to move on.</Text>
-		}
-
         return (
             <View style={styles.screen}>
-                <Text style={styles.questionText}>{this.state.question}</Text>
+				<View style={styles.questionInfoView}>
+                	<Text style={styles.questionText}>{this.state.question}</Text>
+					<Text style={styles.questionNumber}>{this.state.currentIndex + 1}/{this.state.questionListLen}</Text>
+				</View>
 		    	<View style={styles.buttonView}>
 		    		<TouchableOpacity style={styles.audioButton} onPress={this.playAudio}>
 		    			<Image source={require('../assets/images/audio.png')} style={styles.audioImage}/>
@@ -208,13 +215,11 @@ export default class MultipleChoiceQuiz extends Component {
 							<AnswerButton
 								key={index}
 								title={value}
-								onPress={this.pickAnswer(value)}
-								disabled={this.state.disabled}/>
+								onPress={this.pickAnswer(value)}/>
 						))
 					}
 		    		</View>
 		    	</View>
-				{nextQuestionButton}
             </View>
         );
     }
@@ -267,9 +272,24 @@ const styles = StyleSheet.create({
 		justifyContent: 'flex-start',
 		alignItems: 'center',
 	},
+	questionInfoView:{
+		flexDirection: 'row',
+		backgroundColor: colors.purduegold,
+		padding: 10,
+		alignContent: 'flex-end',
+		borderRadius: 10,
+	},
+	questionNumber: {
+		color: 'black',
+		fontSize: 18,
+		alignItems: 'center',
+		fontWeight: 'bold',
+		flex: 1
+	},
     questionText: {
         color: 'black',
 		fontSize: 18,
-		alignSelf: 'auto',
+		alignSelf: 'flex-end',
+		flex: 8
     }
 });
