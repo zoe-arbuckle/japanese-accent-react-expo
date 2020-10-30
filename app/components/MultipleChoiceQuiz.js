@@ -147,7 +147,9 @@ export default class MultipleChoiceQuiz extends Component {
 			} catch (e){
 				console.log(e)
 			}
-			this.setState({gaveCorrectAnswer: true, score: (this.state.score + 1)})
+			if(this.state.gaveCorrectAnswer != false){
+				this.setState({score: (this.state.score + 1)})
+			}
 			this.getNextQuestion()
 		} else {
 			try{
