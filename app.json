@@ -4,7 +4,7 @@
     "slug": "JapanesePronunciation",
     "privacy": "unlisted",
     "version": "1.3",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "platforms": [
       "ios",
