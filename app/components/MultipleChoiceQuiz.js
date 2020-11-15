@@ -276,7 +276,7 @@ const styles = StyleSheet.create({
 	},
 	questionInfoView:{
 		flexDirection: 'row',
-		backgroundColor: colors.purduegold,
+		backgroundColor: colors.background,
 		padding: 10,
 		alignContent: 'flex-end',
 		borderRadius: 10,
