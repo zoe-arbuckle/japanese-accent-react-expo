@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         backgroundColor: colors.primary,
         justifyContent: 'center',
         alignItems: 'center',
-        borderRadius: 10
+        borderRadius: 10,
     },
     buttonText: {
         color: 'black',

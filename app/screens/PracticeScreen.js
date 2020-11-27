@@ -26,13 +26,13 @@ function PracticeScreen({
                 questions
             } navigation = {
                 navigation
-            } >
-            </MultipleChoiceQuiz>);
+            } />);
         }
     }
     if (scrambler != undefined) {
+        const questions = scrambler.questions
         return ( <Scrambler questions = {
-            scrambler.questions
+            questions
         } navigation = {
             navigation
         } /> )
