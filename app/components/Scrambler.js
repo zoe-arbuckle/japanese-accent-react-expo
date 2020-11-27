@@ -1,10 +1,18 @@
 import React from 'react'
 import { Text, View, StyleSheet, TouchableOpacity, Image } from "react-native";
 import { Component } from "react";
-import ScrambleButton from './ScrambleButton';
+
+import { Audio } from "expo-av";
 
 import colors from "../config/colors.js";
+import sounds from '../config/sounds.js'
 import ScoreScreen from '../screens/ScoreScreen';
+import ScrambleButton from './ScrambleButton';
+
+// constant values
+const soundObjects = {}
+const correctSound = new Audio.Sound()
+const incorrectSound = new Audio.Sound()
 
 export default class Scrambler extends Component {
     // INITIALIZATION
@@ -16,21 +24,115 @@ export default class Scrambler extends Component {
 
         const questionArray = props.questions
 
+        for(let i = questionArray.length - 1; i > 0; i--){
+			const j = Math.floor(Math.random() * i)
+			const temp = questionArray[i]
+			questionArray[i] = questionArray[j]
+			questionArray[j] = temp
+		}
+
         this.state = {
-            questionList: questionArray,
-            question: questionArray[0].question,
-            answer: questionArray[0].answer,
-            answers: questionArray[0].answers,
-            currentIndex: 0,
-            questionListLen: props.questions.length,
-            score: 0,
+            volume: 1,
+			questionList: props.questions,
+			question: props.questions[0].question,
+			answers: props.questions[0].answers,
+			answer: props.questions[0].answer,
+			audioName: props.questions[0].audioName,
+			currentIndex: 0,
+			questionListLen: props.questions.length,
+			endQuiz: false,
+			score: 0,
+            navigation: props.navigation,
             currentAnswer: [],
-            endQuiz: false,
-            navigation: props.navigation
         };
     };
 
-    // handling questions
+    // COMPONENT MOUNTING
+    async componentDidMount() {
+        try{
+            await Audio.setAudioModeAsync({
+                allowsRecordingIOS: false,
+                interruptionModeIOS: Audio.INTERRUPTION_MODE_ANDROID_DO_NOT_MIX,
+                playsInSilentModeIOS: true,
+                interruptionModeAndroid: Audio.INTERRUPTION_MODE_ANDROID_DUCK_OTHERS,
+                shouldDuckAndroid: true,
+                staysActiveInBackground: true,
+                playThroughEarpieceAndroid: true
+			})
+			this.loadAudio()
+        } catch(e) {
+            console.log(e)
+		}
+	}
+	
+	async componentWillUnmount() {
+		await correctSound.unloadAsync()
+		await incorrectSound.unloadAsync()
+		for (const question in this.state.questionList){
+			const audioName = this.state.questionList[question].audioName
+			try {
+				await soundObjects[audioName].unloadAsync();
+			} catch (e){
+				console.log(e)
+			}
+		}
+    }
+    
+    // AUDIO
+    async loadAudio() {
+		const { volume } = this.state;
+		try {
+			await Audio.setIsEnabledAsync(true);
+		}catch(e){
+			console.log(e)
+		}
+	
+		const questionList = this.state.questionList
+		// load the audio for the audio feedback
+		try{
+			const status = {
+				shouldPlay: false,
+				volume
+			}
+			await correctSound.loadAsync(sounds.correct)
+			await incorrectSound.loadAsync(sounds.incorrect)
+		}catch(e){
+			console.log(e)
+		}
+
+		// load the audio for the questions
+		for (const question in questionList){
+			const audioName = questionList[question].audioName
+			const source = sounds[audioName]
+			try{
+				soundObjects[audioName] = new Audio.Sound();
+
+				const status = {
+					shouldPlay: false,
+					volume
+				}
+				await soundObjects[audioName].loadAsync(source)
+			} catch(e){
+				console.log(e);
+			}
+		}
+		if(!this.state.endQuiz){
+			this.playAudio()
+		}
+        
+	}
+
+    playAudio = async () => {
+		try { 
+			if(soundObjects[this.state.audioName]){
+				await soundObjects[this.state.audioName].replayAsync();
+			}
+		} catch(e) {
+			console.log(e)
+		}
+	}
+
+    // HANDLING QUESTIONS
     addAnswer = value => async () => {
         let currentAnswerVal = this.state.currentAnswer
 
@@ -103,33 +205,38 @@ export default class Scrambler extends Component {
                     <Text style={styles.questionText}>{this.state.question}</Text>
                     <Text style={styles.questionNumber}>{this.state.currentIndex + 1}/{this.state.questionListLen}</Text>
                 </View>
-                <View style={styles.answerView}>
-                    <View style={styles.currentAnswerView}>
-                        {
-                            this.state.currentAnswer.map((value, index) => (
-                                <ScrambleButton
-                                    key={index}
-                                    title={value}
-                                    answer={true}
-                                    onPress={this.removeAnswer(index)}/>
-                            ))
-                        }
+                <View style={styles.buttonView}>
+                    <TouchableOpacity style={styles.audioButton} onPress={this.playAudio}>
+		    			<Image source={require('../assets/images/audio.png')} style={styles.audioImage}/>
+		    		</TouchableOpacity>
+                    <View style={styles.answerView}>
+                        <View style={styles.currentAnswerView}>
+                            {
+                                this.state.currentAnswer.map((value, index) => (
+                                    <ScrambleButton
+                                        key={index}
+                                        title={value}
+                                        answer={true}
+                                        onPress={this.removeAnswer(index)}/>
+                                ))
+                            }
+                        </View>
+                        <View style={styles.scrambleButtonView}>
+                            {
+                                this.state.answers.map((value, index) => (
+                                    <ScrambleButton
+                                        key={index}
+                                        title={value}
+                                        answer={false}
+                                        onPress={this.addAnswer(value)}/>
+                                ))
+                            }
+                        </View>
                     </View>
-                    <View style={styles.scrambleButtonView}>
-                        {
-                            this.state.answers.map((value, index) => (
-                                <ScrambleButton
-                                    key={index}
-                                    title={value}
-                                    answer={false}
-                                    onPress={this.addAnswer(value)}/>
-                            ))
-                        }
-                    </View>
-                    <TouchableOpacity style={styles.checkAnswerButton} onPress={this.checkAnswer}>
-                        <Text style={styles.checkAnswerText}>Check Answer</Text>
-                    </TouchableOpacity>
                 </View>
+                <TouchableOpacity style={styles.checkAnswerButton} onPress={this.checkAnswer}>
+                    <Text style={styles.checkAnswerText}>Check Answer</Text>
+                </TouchableOpacity>
             </View>
         );
     }
@@ -148,13 +255,25 @@ const styles = StyleSheet.create({
     audioButton: {
 		width: 100,
 		height: 100,
-		margin: 10,
-	},
+        margin: 10,
+    },
+    audioImage: {
+		width: 100,
+		height: 100,
+		resizeMode: 'contain',
+    },
+    buttonView:{
+        flexDirection: "row",
+        flex: 1,
+        margin: 10,
+        justifyContent: 'center'
+    },
     currentAnswerView: {
         flexDirection: 'row',
         width: '100%',
         justifyContent: 'center',
-        alignContent: 'flex-start',
+        alignContent: 'center',
+        flex: 2,
     },
     checkAnswerButton: {
         backgroundColor: colors.background,
@@ -177,6 +296,7 @@ const styles = StyleSheet.create({
         width: '100%',
         justifyContent: 'center',
         alignContent: 'flex-end',
+        flex: 1,
     },
     screen: {
         flex: 1,

@@ -127,8 +127,9 @@
                 "questions": [
                     {
                         "question": "Spell out the word",
-                        "answers": ["ひ", "び", "ざ"],
-                        "answer": "ひざ"
+                        "answers": ["く", "ぐ", "ち"],
+                        "answer": "くち",
+                        "audioName": "kuchi"
                     }
                 ]
             }
