@@ -127,8 +127,8 @@
                 "questions": [
                     {
                         "question": "Spell out the word",
-                        "answers": ["こんにちは"],
-                        "answer": 0
+                        "answers": ["ひ", "び", "ざ"],
+                        "answer": "ひざ"
                     }
                 ]
             }

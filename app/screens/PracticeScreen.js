@@ -24,15 +24,18 @@ function PracticeScreen({
         } else {
             return ( <MultipleChoiceQuiz questions = {
                 questions
-            }
-            navigation = {
+            } navigation = {
                 navigation
             } >
             </MultipleChoiceQuiz>);
         }
     }
     if (scrambler != undefined) {
-        return ( <Scrambler/> )
+        return ( <Scrambler questions = {
+            scrambler.questions
+        } navigation = {
+            navigation
+        } /> )
     }
 }
 

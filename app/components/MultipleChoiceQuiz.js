@@ -251,22 +251,6 @@ const styles = StyleSheet.create({
 		margin: 50,
 		alignItems: 'center',
 	},
-	nextQuestionButtonCorrect: {
-		margin: 10,
-		width: '100%',
-		height: 50,
-		backgroundColor: colors.correct,
-		justifyContent: 'center',
-		alignItems: 'center',
-	},
-	nextQuestionButtonIncorrect: {
-		margin: 10,
-		width: '100%',
-		height: 50,
-		backgroundColor: colors.incorrect,
-		justifyContent: 'center',
-		alignItems: 'center',
-	},
     screen: {
         flex: 1,
         backgroundColor: 'white',
