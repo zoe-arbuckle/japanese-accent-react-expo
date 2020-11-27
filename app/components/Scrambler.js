@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, View, StyleSheet } from "react-native";
+import { Text, View, StyleSheet, TouchableOpacity, Image } from "react-native";
 import { Component } from "react";
 import ScrambleButton from './ScrambleButton';
 
@@ -45,13 +45,18 @@ export default class Scrambler extends Component {
 
         currentAnswerVal.splice(index, 1)
 
-        console.log(currentAnswerVal)
-
         try {
             await this.setState({currentAnswer: currentAnswerVal})
         } catch (e) {
             console.log(e)
         }
+    };
+
+    checkAnswer = async () => {
+        console.log(this.state)
+        let myAnswer = this.state.currentAnswer.join('')
+        console.log(myAnswer)
+        console.log(myAnswer === this.state.answer)
     }
 
     render() {
@@ -83,6 +88,9 @@ export default class Scrambler extends Component {
                                     onPress={this.addAnswer(value)}/>
                             ))
                         }
+                        <TouchableOpacity onPress={this.checkAnswer}>
+                            <Text>Check Answer</Text>
+                        </TouchableOpacity>
                     </View>
                 </View>
             </View>
@@ -100,6 +108,11 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-end',
         alignContent: 'flex-end',
     },
+    audioButton: {
+		width: 100,
+		height: 100,
+		margin: 10,
+	},
     currentAnswerView: {
         flexDirection: 'row',
         width: '100%',
