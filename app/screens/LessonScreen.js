@@ -5,15 +5,27 @@ function LessonScreen({ route, navigation }) {
     const { data } = route.params;
     let buttons = []
 
-    if(data.quiz.questions.length > 0){
+    if(data.quiz != undefined && data.quiz.questions.length > 0){
         buttons.push(
             <Button 
-                title="Practice"
-                key="Practice" 
+                title="Multiple Choice Quiz"
+                key="Practice"
                 onPress={() => navigation.navigate('Practice', {
                     quiz: data.quiz,
                 })}
                 style={styles.practiceButton}/>)
+    }
+
+    if(data.spellQuiz != undefined && data.spellQuiz.questions.length > 0){
+        buttons.push(
+            <Button 
+                title="Spell It Out"
+                key="Spelling Practice"
+                onPress={() => navigation.navigate('Practice', {
+                    spellQuiz: data.spellQuiz,
+                })}
+                style={styles.practiceButton}/>
+        )
     }
 
     return (

@@ -4,12 +4,7 @@
             "lessonid": 0,
             "lessonName": "Introduction",
             "lessonDescription": "Lesson 0",
-            "lessonText": "Introduction",
-            "quiz": {
-                "questions": [
-                    
-                ]
-            }
+            "lessonText": "Introduction"
         },
         {
             "lessonid": 2.1,
@@ -125,6 +120,15 @@
                         "answers" : ["かいこく", "がいこく"],
                         "answer" : 0,
                         "audioName": "kaikoku"
+                    }
+                ]
+            },
+            "spellQuiz": {
+                "questions": [
+                    {
+                        "question": "Spell out the word",
+                        "answers": ["こんにちは"],
+                        "answer": 0
                     }
                 ]
             }
