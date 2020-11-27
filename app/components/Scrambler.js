@@ -4,6 +4,7 @@ import { Component } from "react";
 import ScrambleButton from './ScrambleButton';
 
 import colors from "../config/colors.js";
+import ScoreScreen from '../screens/ScoreScreen';
 
 export default class Scrambler extends Component {
     // INITIALIZATION
@@ -24,6 +25,8 @@ export default class Scrambler extends Component {
             questionListLen: props.questions.length,
             score: 0,
             currentAnswer: [],
+            endQuiz: false,
+            navigation: props.navigation
         };
     };
 
@@ -53,13 +56,47 @@ export default class Scrambler extends Component {
     };
 
     checkAnswer = async () => {
-        console.log(this.state)
         let myAnswer = this.state.currentAnswer.join('')
-        console.log(myAnswer)
-        console.log(myAnswer === this.state.answer)
+
+        if(myAnswer === this.state.answer) {
+            if(this.state.gaveCorrectAnswer != false){
+                this.setState({score: (this.state.score + 1)})
+            }
+            this.getNextQuestion()
+        } else {
+            this.setState({gaveCorrectAnswer: false})
+        }
+    }
+
+    getNextQuestion = async () => {
+        let index = this.state.currentIndex + 1
+        if (index == this.state.questionListLen) {
+            this.setState({endQuiz: true})
+        } else {
+            const next = this.state.questionList[index]
+
+            try {
+                await this.setState({
+                    question: next.question,
+                    answers: next.answers,
+                    answer: next.answer,
+                    currentIndex: index,
+                    gaveCorrectAnswer: null,
+                })
+            } catch (e){
+                console.log(e)
+            }
+        }
     }
 
     render() {
+        if(this.state.endQuiz){
+            return <ScoreScreen 
+                score={this.state.score}
+                possibleScore={this.state.questionListLen}
+                navigation={this.state.navigation}/>
+        }
+
         return (
             <View style={styles.screen}>
                 <View style={styles.questionInfoView}>
@@ -88,10 +125,10 @@ export default class Scrambler extends Component {
                                     onPress={this.addAnswer(value)}/>
                             ))
                         }
-                        <TouchableOpacity onPress={this.checkAnswer}>
-                            <Text>Check Answer</Text>
-                        </TouchableOpacity>
                     </View>
+                    <TouchableOpacity style={styles.checkAnswerButton} onPress={this.checkAnswer}>
+                        <Text style={styles.checkAnswerText}>Check Answer</Text>
+                    </TouchableOpacity>
                 </View>
             </View>
         );
@@ -118,6 +155,22 @@ const styles = StyleSheet.create({
         width: '100%',
         justifyContent: 'center',
         alignContent: 'flex-start',
+    },
+    checkAnswerButton: {
+        backgroundColor: colors.background,
+        alignSelf: 'center',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontSize: 18,
+        width: '80%',
+        marginVertical: 20,
+        height: 50
+    },
+    checkAnswerText:{
+        color: 'black',
+        fontSize: 18,
+        fontWeight: 'bold',
+        alignSelf: 'center'
     },
     scrambleButtonView: {
         flexDirection: 'row',
