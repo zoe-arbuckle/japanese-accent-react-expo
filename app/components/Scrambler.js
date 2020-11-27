@@ -28,7 +28,6 @@ export default class Scrambler extends Component {
     };
 
     // handling questions
-
     addAnswer = value => async () => {
         let currentAnswerVal = this.state.currentAnswer
 
@@ -41,6 +40,20 @@ export default class Scrambler extends Component {
         }
     };
 
+    removeAnswer = index => async () => {
+        let currentAnswerVal = this.state.currentAnswer
+
+        currentAnswerVal.splice(index, 1)
+
+        console.log(currentAnswerVal)
+
+        try {
+            await this.setState({currentAnswer: currentAnswerVal})
+        } catch (e) {
+            console.log(e)
+        }
+    }
+
     render() {
         return (
             <View style={styles.screen}>
@@ -49,13 +62,14 @@ export default class Scrambler extends Component {
                     <Text style={styles.questionNumber}>{this.state.currentIndex + 1}/{this.state.questionListLen}</Text>
                 </View>
                 <View style={styles.answerView}>
-                    <View>
+                    <View style={styles.currentAnswerView}>
                         {
                             this.state.currentAnswer.map((value, index) => (
                                 <ScrambleButton
                                     key={index}
                                     title={value}
-                                    onPress={console.log(value)}/>
+                                    answer={true}
+                                    onPress={this.removeAnswer(index)}/>
                             ))
                         }
                     </View>
@@ -65,6 +79,7 @@ export default class Scrambler extends Component {
                                 <ScrambleButton
                                     key={index}
                                     title={value}
+                                    answer={false}
                                     onPress={this.addAnswer(value)}/>
                             ))
                         }
@@ -84,6 +99,12 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'flex-end',
         alignContent: 'flex-end',
+    },
+    currentAnswerView: {
+        flexDirection: 'row',
+        width: '100%',
+        justifyContent: 'center',
+        alignContent: 'flex-start',
     },
     scrambleButtonView: {
         flexDirection: 'row',
