@@ -2,7 +2,7 @@ import React from 'react'
 import { Text } from "react-native";
 import { Component } from "react";
 
-export default class SpellOutQuiz extends Component {
+export default class Scrambler extends Component {
     // INITIALIZATION
     state = {}
 

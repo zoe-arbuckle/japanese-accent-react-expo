@@ -16,13 +16,13 @@ function LessonScreen({ route, navigation }) {
                 style={styles.practiceButton}/>)
     }
 
-    if(data.spellQuiz != undefined && data.spellQuiz.questions.length > 0){
+    if(data.scrambler != undefined && data.scrambler.questions.length > 0){
         buttons.push(
             <Button 
-                title="Spell It Out"
-                key="Spelling Practice"
+                title="Scrambler"
+                key="Scrambler Practice"
                 onPress={() => navigation.navigate('Practice', {
-                    spellQuiz: data.spellQuiz,
+                    scrambler: data.scrambler,
                 })}
                 style={styles.practiceButton}/>
         )

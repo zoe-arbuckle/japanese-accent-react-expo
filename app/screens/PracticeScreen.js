@@ -2,7 +2,7 @@ import React from 'react'
 import { Text } from 'react-native'
 
 import MultipleChoiceQuiz from '../components/MultipleChoiceQuiz'
-import SpellOutQuiz from '../components/SpellOutQuiz';
+import Scrambler from '../components/Scrambler';
 
 // function for playing audio when audio button pressed
 
@@ -14,7 +14,7 @@ function PracticeScreen({
 }) {
     const {
         quiz,
-        spellQuiz
+        scrambler
     } = route.params;
     // console.log(quiz.questions);
     if (quiz != undefined) {
@@ -31,8 +31,8 @@ function PracticeScreen({
             </MultipleChoiceQuiz>);
         }
     }
-    if (spellQuiz != undefined) {
-        return ( <SpellOutQuiz/> )
+    if (scrambler != undefined) {
+        return ( <Scrambler/> )
     }
 }
 
