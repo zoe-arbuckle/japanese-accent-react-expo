@@ -43,7 +43,6 @@ export default class Scrambler extends Component {
                 q.answers[k] = temp
             }
             questionArray[i].answers = q.answers
-            console.log(questionArray[i].answers)
         }
         
         this.state = {
@@ -203,6 +202,7 @@ export default class Scrambler extends Component {
                     audioName: next.audioName,
                     currentIndex: index,
                     gaveCorrectAnswer: null,
+                    currentAnswer: [],
                 })
             } catch (e){
                 console.log(e)

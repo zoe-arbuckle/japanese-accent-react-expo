@@ -163,13 +163,13 @@
                     },
                     {
                         "question" : "Which word do you hear?",
-                        "answers" : ["だ","い","か","が","く","め","い"],
+                        "answers" : ["だ","い","か","が","く","め"],
                         "answer" : "だいがくめい",
                         "audioName": "daigakumei"
                     },
                     {
                         "question" : "Which word do you hear?",
-                        "answers" : ["だ","い","か","が","く","め","い"],
+                        "answers" : ["だ","い","か","が","く","め"],
                         "answer" : "だいかくめい",
                         "audioName": "daikakumei"
                     },
