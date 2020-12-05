@@ -126,10 +126,112 @@
             "scrambler": {
                 "questions": [
                     {
-                        "question": "Spell out the word",
-                        "answers": ["く", "ぐ", "ち"],
-                        "answer": "くち",
+                        "question" : "Which word do you hear?",
+                        "answers" : ["け", "ん", "きゅ","う", "げ"],
+                        "answer" : "げんきゅう",
+                        "audioName": "genkyu"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["け", "ん", "きゅ","う", "げ"],
+                        "answer" : "けんきゅう",
+                        "audioName": "kenkyu"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["こ", "う", "ど", "ご"],
+                        "answer" : "ごうどう",
+                        "audioName": "goudou"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["こ", "う", "ど", "ご"],
+                        "answer" : "こうどう",
+                        "audioName": "koudou"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["か","ん","た","が"],
+                        "answer" : "がんたん",
+                        "audioName": "gantan"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["か","ん","た","が"],
+                        "answer" : "かんたん",
+                        "audioName": "kantan"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["だ","い","か","が","く","め","い"],
+                        "answer" : "だいがくめい",
+                        "audioName": "daigakumei"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["だ","い","か","が","く","め","い"],
+                        "answer" : "だいかくめい",
+                        "audioName": "daikakumei"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["しょ","う","か","い", "が"],
+                        "answer" : "しょうかい",
+                        "audioName": "shougai"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["しょ","う","か","い", "が"],
+                        "answer" : "しょうかい",
+                        "audioName": "shoukai"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["か","ん","こ","く", "ご"],
+                        "answer" : "かんごく",
+                        "audioName": "kangoku"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["か","ん","こ","く", "ご"],
+                        "answer" : "かんこく",
+                        "audioName": "kankoku"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["き","か","い", "ぎ"],
+                        "answer" : "ぎかい",
+                        "audioName": "gikai"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["き","か","い", "ぎ"],
+                        "answer" : "きかい",
+                        "audioName": "kikai"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["く","ち", "ぐ"],
+                        "answer" : "ぐち",
+                        "audioName": "guchi"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["く","ち", "ぐ"],
+                        "answer" : "くち",
                         "audioName": "kuchi"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["か","い","こ","く", "が"],
+                        "answer" : "がいこく",
+                        "audioName": "gaikoku"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["か","い","こ","く", "が"],
+                        "answer" : "かいこく",
+                        "audioName": "kaikoku"
                     }
                 ]
             }

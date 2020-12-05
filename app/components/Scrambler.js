@@ -22,15 +22,30 @@ export default class Scrambler extends Component {
         //TODO initialize
         super(props)
 
-        const questionArray = props.questions
+        let questionArray = props.questions
 
         for(let i = questionArray.length - 1; i > 0; i--){
-			const j = Math.floor(Math.random() * i)
+            const j = Math.floor(Math.random() * i)
+
 			const temp = questionArray[i]
 			questionArray[i] = questionArray[j]
-			questionArray[j] = temp
-		}
+            questionArray[j] = temp
+            
+        }
 
+        //shuffles answers too
+        for(let i = 0; i < questionArray.length; i++){
+            let q = questionArray[i]
+            for(let j = 0; j < q.answers.length; j++){
+                const k = Math.floor(Math.random() * j)
+                const temp = q.answers[j]
+                q.answers[j] = q.answers[k]
+                q.answers[k] = temp
+            }
+            questionArray[i].answers = q.answers
+            console.log(questionArray[i].answers)
+        }
+        
         this.state = {
             volume: 1,
 			questionList: props.questions,
@@ -134,6 +149,7 @@ export default class Scrambler extends Component {
 
     // HANDLING QUESTIONS
     addAnswer = value => async () => {
+        // should consider removing from answer list
         let currentAnswerVal = this.state.currentAnswer
 
         currentAnswerVal.push(value)
@@ -163,10 +179,12 @@ export default class Scrambler extends Component {
         if(myAnswer === this.state.answer) {
             if(this.state.gaveCorrectAnswer != false){
                 this.setState({score: (this.state.score + 1)})
+                await correctSound.replayAsync()
             }
             this.getNextQuestion()
         } else {
             this.setState({gaveCorrectAnswer: false})
+            await incorrectSound.replayAsync()
         }
     }
 
@@ -182,13 +200,17 @@ export default class Scrambler extends Component {
                     question: next.question,
                     answers: next.answers,
                     answer: next.answer,
+                    audioName: next.audioName,
                     currentIndex: index,
                     gaveCorrectAnswer: null,
                 })
             } catch (e){
                 console.log(e)
             }
+
+            this.playAudio()
         }
+        // console.log(this.state.answer)
     }
 
     render() {
@@ -276,7 +298,7 @@ const styles = StyleSheet.create({
         flex: 2,
     },
     checkAnswerButton: {
-        backgroundColor: colors.background,
+        backgroundColor: colors.primary,
         alignSelf: 'center',
         alignItems: 'center',
         justifyContent: 'center',
