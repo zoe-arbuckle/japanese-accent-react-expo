@@ -42,6 +42,24 @@ const sounds = {
     satoo: require('../assets/sounds/longvowel/18-satoo-M.mp3'),
     kondo: require('../assets/sounds/longvowel/19-kondo-M.mp3'),
     kondoo: require('../assets/sounds/longvowel/20-kondoo-M.mp3'),
+    // mora
+    arigatou: require('../assets/sounds/mora/arigatou-ET.mp3'),
+    chokkaku: require('../assets/sounds/mora/chokkaku-ET.mp3'),
+    doshasaigai: require('../assets/sounds/mora/doshasaigai-ET.mp3'),
+    gyogyou: require('../assets/sounds/mora/gyogyou-ET.mp3'),
+    gyuunyuu: require('../assets/sounds/mora/gyuunyuu-ET.mp3'),
+    joshu: require('../assets/sounds/mora/joshu-ET.mp3'),
+    jouryuushu: require('../assets/sounds/mora/jouryuushu-ET.mp3'),
+    jouryuusui: require('../assets/sounds/mora/jouryuusui-ET.mp3'),
+    kippu: require('../assets/sounds/mora/kippu-ET.mp3'),
+    konnichiha: require('../assets/sounds/mora/konnichiha-ET.mp3'),
+    kotoba: require('../assets/sounds/mora/kotoba-ET.mp3'),
+    kyouto: require('../assets/sounds/mora/kyouto-ET.mp3'),
+    nihongo: require('../assets/sounds/mora/nihongo-ET.mp3'),
+    sensei: require('../assets/sounds/mora/sensei-ET.mp3'),
+    shoujozou: require('../assets/sounds/mora/shoujozou-ET.mp3'),
+    teiryuujo: require('../assets/sounds/mora/teiryuujo-ET.mp3'),
+    toukyou: require('../assets/sounds/mora/toukyou-ET.mp3'),
 }
 
 export default sounds

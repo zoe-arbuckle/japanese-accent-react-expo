@@ -7,6 +7,106 @@
             "lessonText": "Introduction"
         },
         {
+            "lessonid": 1,
+            "lessonName": "Mora Basics",
+            "lessonDescription": "Lesson 1",
+            "lessonText": "First, you will learn about basic rythmic unit, called \"mora\". \nMora is a technical term that linguists use to define a phonological unit of a language.",
+            "scrambler": {
+                "questions": [
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["あ", "り", "が","と", "う", "か"],
+                        "answer" : "ありがとう",
+                        "audioName": "arigatou"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["ちょ", "っ", "か", "く", "が"],
+                        "answer" : "ちょっかく",
+                        "audioName": "chokkaku"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["ど","しゃ","さ","い","が","い","と"],
+                        "answer" : "どしゃさいがい",
+                        "audioName": "doshasaigai"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["ぎょぎょう"],
+                        "answer" : "ぎょぎょう",
+                        "audioName": "gyogyou"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["ぎゅ","う","にゅ","う","ぎゅ"],
+                        "answer" : "ぎゅうにゅう",
+                        "audioName": "gyuunyuu"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["じょ","しゅ", "じゅ"],
+                        "answer" : "じょしゅ",
+                        "audioName": "joshu"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["じょ","う","りゅ","う","しゅ","じゅ"],
+                        "answer" : "じょうりゅうしゅ",
+                        "audioName": "jouryuushu"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["じょ","う","りゅ","う","す","い", "え"],
+                        "answer" : "じょうりゅうすい",
+                        "audioName": "jouryuusui"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["こ","と","ば","ご"],
+                        "answer" : "ことば",
+                        "audioName": "kotoba"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["きょ","う","と","ど"],
+                        "answer" : "きょうと",
+                        "audioName": "kyouto"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["に","ほ","ん","ご","が"],
+                        "answer" : "にほんご",
+                        "audioName": "nihongo"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["せ","ん","せ","い","え"],
+                        "answer" : "せんせい",
+                        "audioName": "sensei"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["しょ","う","じょ","ぞ","う","じょ"],
+                        "answer" : "しょうじょぞう",
+                        "audioName": "shoujozou"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["て","い","りゅ","う","じょ","ぞ"],
+                        "answer" : "ていりゅうじょ",
+                        "audioName": "teiryuujo"
+                    },
+                    {
+                        "question" : "Which word do you hear?",
+                        "answers" : ["と","う","きょ","う","ど"],
+                        "answer" : "とうきょう",
+                        "audioName": "toukyou"
+                    }
+                ]
+            }
+        },
+        {
             "lessonid": 2.1,
             "lessonName": "Voiced and Voiceless Sounds",
             "lessonDescription": "Lesson 2.1",

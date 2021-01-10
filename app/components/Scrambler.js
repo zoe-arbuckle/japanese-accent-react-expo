@@ -160,6 +160,7 @@ export default class Scrambler extends Component {
         }
     };
 
+    //add a clear button
     removeAnswer = index => async () => {
         let currentAnswerVal = this.state.currentAnswer
 
@@ -266,6 +267,7 @@ export default class Scrambler extends Component {
 }
 
 // STYLES
+//make fonts bigger
 
 const styles = StyleSheet.create({
     answerView: {
