@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Button } from 'react-native';
+import { View, StyleSheet, Image } from 'react-native';
 
 import LessonButton from '../components/LessonButton';
 
@@ -11,6 +11,7 @@ let lessons = data.lessons;
 function HomeScreen({ navigation }) {
     return (
         <View style={styles.screen}>
+            <Image style={styles.logo} source={require('../assets/images/logo.png')}/>
            {
                     lessons.map((item, index) => (
                         
@@ -28,12 +29,18 @@ function HomeScreen({ navigation }) {
 
 const styles =  StyleSheet.create({
     screen: {
-        flex: 1,
+        flex: 5,
         backgroundColor: 'white',
         padding: 10,
         alignItems: 'center',
         justifyContent: 'center',
+        overflow: 'scroll',
     },
+    logo: {
+        flex: 1,
+        height: 20,
+        resizeMode: 'contain',
+    }
 });
 
 export default HomeScreen;
