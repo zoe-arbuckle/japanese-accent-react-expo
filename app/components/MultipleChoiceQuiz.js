@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, TouchableOpacity, Text, View, Image } from 'react-native'
+import { StyleSheet, TouchableOpacity, Text, View, Image, SafeAreaView } from 'react-native'
 import { Component } from 'react'
 
 import { Audio } from 'expo-av'
@@ -202,7 +202,7 @@ export default class MultipleChoiceQuiz extends Component {
 		}
 
         return (
-            <View style={styles.screen}>
+            <SafeAreaView style={styles.screen}>
 				<View style={styles.questionInfoView}>
                 	<Text style={styles.questionText}>{this.state.question}</Text>
 					<Text style={styles.questionNumber}>{this.state.currentIndex + 1}/{this.state.questionListLen}</Text>
@@ -222,7 +222,7 @@ export default class MultipleChoiceQuiz extends Component {
 					}
 		    		</View>
 		    	</View>
-            </View>
+            </SafeAreaView>
         );
     }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, Image } from 'react-native';
+import { SafeAreaView, ScrollView, StyleSheet, Image } from 'react-native';
 
 import LessonButton from '../components/LessonButton';
 
@@ -10,9 +10,9 @@ let lessons = data.lessons;
 
 function HomeScreen({ navigation }) {
     return (
-        <View style={styles.screen}>
+        <SafeAreaView style={styles.screen}>
             <Image style={styles.logo} source={require('../assets/images/logo.png')}/>
-            <View style={styles.lessons}>{
+            <ScrollView style={styles.lessons}>{
                lessons.map((item, index) => (
                     <LessonButton 
                         key={item.lessonid}
@@ -21,8 +21,8 @@ function HomeScreen({ navigation }) {
                             data: item,
                         })}/>
                     ))}
-            </View>
-        </View>
+            </ScrollView>
+        </SafeAreaView>
         
     );
 };
@@ -36,15 +36,14 @@ const styles =  StyleSheet.create({
         justifyContent: 'center',
     },
     lessons: {
-        flex: 5,
+        flex: 6,
         backgroundColor: 'white',
         overflow: 'scroll',
         alignContent: 'center',
-        justifyContent: 'center',
         width: '90%',
     },
     logo: {
-        flex: 2,
+        flex: 0.5,
         resizeMode: 'contain',
         alignSelf: 'center',
     }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Button } from 'react-native';
+import { SafeAreaView, View, Text, StyleSheet, Button } from 'react-native';
 
 function LessonScreen({ route, navigation }) {
     const { data } = route.params;
@@ -29,7 +29,7 @@ function LessonScreen({ route, navigation }) {
     }
 
     return (
-        <View style={styles.screen}>
+        <SafeAreaView style={styles.screen}>
             <View style={styles.lessonView}>
                 <Text style={styles.title}>{data.lessonName}</Text>
                 <View>
@@ -40,7 +40,7 @@ function LessonScreen({ route, navigation }) {
                 {buttons}
             </View>
             
-        </View>
+        </SafeAreaView>
     );
 };
 

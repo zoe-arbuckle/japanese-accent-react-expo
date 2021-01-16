@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, View, StyleSheet, TouchableOpacity, Image } from "react-native";
+import { Text, View, StyleSheet, TouchableOpacity, Image, SafeAreaView } from "react-native";
 import { Component } from "react";
 
 import { Audio } from "expo-av";
@@ -229,7 +229,7 @@ export default class Scrambler extends Component {
         }
 
         return (
-            <View style={styles.screen}>
+            <SafeAreaView style={styles.screen}>
                 <View style={styles.questionInfoView}>
                     <Text style={styles.questionText}>{this.state.question}</Text>
                     <Text style={styles.questionNumber}>{this.state.currentIndex + 1}/{this.state.questionListLen}</Text>
@@ -271,7 +271,7 @@ export default class Scrambler extends Component {
                         <Text style={styles.checkAnswerText}>Check Answer</Text>
                     </TouchableOpacity>
                 </View>
-            </View>
+            </SafeAreaView>
         );
     }
 
