@@ -36,6 +36,6 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         color: 'black',
-        fontSize: 18
+        fontSize: 24
     }
 })

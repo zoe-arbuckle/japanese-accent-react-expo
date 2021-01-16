@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     },
     answerText: {
 		color: 'black',
-		fontSize: 18,
+		fontSize: 24,
     }
 })
 

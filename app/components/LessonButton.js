@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         marginVertical: 10,
     },
     buttonText: {
-        fontSize: 18,
+        fontSize: 24,
         color: 'white',
         fontWeight: 'bold',
         alignSelf: 'center',

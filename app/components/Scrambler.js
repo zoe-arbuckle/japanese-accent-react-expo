@@ -160,7 +160,7 @@ export default class Scrambler extends Component {
         }
     };
 
-    //add a clear button
+    // TODO : add a clear button
     removeAnswer = index => async () => {
         let currentAnswerVal = this.state.currentAnswer
 
@@ -267,7 +267,7 @@ export default class Scrambler extends Component {
 }
 
 // STYLES
-//make fonts bigger
+// TODO: make fonts bigger
 
 const styles = StyleSheet.create({
     answerView: {
@@ -304,14 +304,14 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         alignItems: 'center',
         justifyContent: 'center',
-        fontSize: 18,
+        fontSize: 24,
         width: '80%',
         marginVertical: 20,
         height: 50
     },
     checkAnswerText:{
         color: 'black',
-        fontSize: 18,
+        fontSize: 24,
         fontWeight: 'bold',
         alignSelf: 'center'
     },
@@ -329,12 +329,12 @@ const styles = StyleSheet.create({
     },
     questionText: {
         color: 'black',
-		fontSize: 18,
+		fontSize: 24,
 		flex: 8
     },
     questionNumber: {
 		color: 'black',
-		fontSize: 18,
+		fontSize: 24,
         fontWeight: 'bold',
         alignSelf: 'flex-end',
 		flex: 1

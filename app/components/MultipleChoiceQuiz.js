@@ -267,14 +267,14 @@ const styles = StyleSheet.create({
 	},
 	questionNumber: {
 		color: 'black',
-		fontSize: 18,
+		fontSize: 24,
 		alignItems: 'center',
 		fontWeight: 'bold',
 		flex: 1
 	},
     questionText: {
         color: 'black',
-		fontSize: 18,
+		fontSize: 24,
 		alignSelf: 'flex-end',
 		flex: 8
     }
