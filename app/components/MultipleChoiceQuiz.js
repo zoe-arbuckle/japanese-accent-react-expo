@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, TouchableOpacity, Text, View, Image, SafeAreaView } from 'react-native'
+import { StyleSheet, TouchableOpacity, Text, View, Image, SafeAreaView, Modal } from 'react-native'
 import { Component } from 'react'
 
 import { Audio } from 'expo-av'
@@ -139,7 +139,7 @@ export default class MultipleChoiceQuiz extends Component {
 	// HANDLING QUESTIONS
 	
 	pickAnswer = answerValue => async () => {
-		const correctAnswer = this.state.answers[this.state.answer]
+		const correctAnswer = this.state.answer
 
 		if(answerValue === correctAnswer){
 			try{
@@ -250,6 +250,21 @@ const styles = StyleSheet.create({
 		width: '100%',
 		margin: 50,
 		alignItems: 'center',
+	},
+	modalView: {
+		margin: 20,
+		backgroundColor: "white",
+		borderRadius: 20,
+		padding: 35,
+		alignItems: "center",
+		shadowColor: "#000",
+		shadowOffset: {
+		  width: 0,
+		  height: 2
+		},
+		shadowOpacity: 0.25,
+		shadowRadius: 3.84,
+		elevation: 5,
 	},
     screen: {
         flex: 1,

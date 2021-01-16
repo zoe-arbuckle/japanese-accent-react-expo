@@ -16,6 +16,17 @@ function LessonScreen({ route, navigation }) {
                 style={styles.practiceButton}/>)
     }
 
+    if(data.chooseAmountQuiz != undefined && data.chooseAmountQuiz.questions.length > 0){
+        buttons.push(
+            <Button 
+                title="Multiple Choice Quiz 2"
+                key="Practice 2"
+                onPress={() => navigation.navigate('Practice', {
+                    chooseAmountQuiz: data.chooseAmountQuiz,
+                })}
+                style={styles.practiceButton}/>)
+    }
+
     if(data.scrambler != undefined && data.scrambler.questions.length > 0){
         buttons.push(
             <Button 
