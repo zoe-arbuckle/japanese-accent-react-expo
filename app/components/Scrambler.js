@@ -19,7 +19,6 @@ export default class Scrambler extends Component {
     state = {}
 
     constructor(props){
-        //TODO initialize
         super(props)
 
         let questionArray = props.questions
@@ -160,7 +159,14 @@ export default class Scrambler extends Component {
         }
     };
 
-    // TODO : add a clear button
+    clearAnswer = async () => {
+        try {
+            await this.setState({currentAnswer: []})
+        } catch (e) {
+            console.log(e)
+        }
+    }
+
     removeAnswer = index => async () => {
         let currentAnswerVal = this.state.currentAnswer
 
@@ -257,9 +263,14 @@ export default class Scrambler extends Component {
                         </View>
                     </View>
                 </View>
-                <TouchableOpacity style={styles.checkAnswerButton} onPress={this.checkAnswer}>
-                    <Text style={styles.checkAnswerText}>Check Answer</Text>
-                </TouchableOpacity>
+                <View style={styles.buttonView}>
+                    <TouchableOpacity style={styles.clearAnswerButton} onPress={this.clearAnswer}>
+                        <Text style={styles.checkAnswerText}>Clear Answer</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.checkAnswerButton} onPress={this.checkAnswer}>
+                        <Text style={styles.checkAnswerText}>Check Answer</Text>
+                    </TouchableOpacity>
+                </View>
             </View>
         );
     }
@@ -305,8 +316,8 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         fontSize: 24,
-        width: '80%',
-        marginVertical: 20,
+        flex: 1,
+        margin: 20,
         height: 50
     },
     checkAnswerText:{
@@ -314,6 +325,16 @@ const styles = StyleSheet.create({
         fontSize: 24,
         fontWeight: 'bold',
         alignSelf: 'center'
+    },
+    clearAnswerButton: {
+        backgroundColor: colors.secondary,
+        alignSelf: 'center',
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontSize: 24,
+        flex: 1,
+        margin: 20,
+        height: 50
     },
     scrambleButtonView: {
         flexDirection: 'row',
