@@ -12,34 +12,41 @@ function HomeScreen({ navigation }) {
     return (
         <View style={styles.screen}>
             <Image style={styles.logo} source={require('../assets/images/logo.png')}/>
-           {
-                    lessons.map((item, index) => (
-                        
-                        <LessonButton 
-                            key={item.lessonid}
-                            title={item.lessonName}
-                            onPress={() => navigation.navigate('Lesson', {
-                                data: item,
-                            })}/>
-                    ))
-                }
+            <View style={styles.lessons}>{
+               lessons.map((item, index) => (
+                    <LessonButton 
+                        key={item.lessonid}
+                        title={item.lessonName}
+                        onPress={() => navigation.navigate('Lesson', {
+                            data: item,
+                        })}/>
+                    ))}
+            </View>
         </View>
+        
     );
 };
 
 const styles =  StyleSheet.create({
     screen: {
-        flex: 5,
+        flex: 1,
         backgroundColor: 'white',
         padding: 10,
         alignItems: 'center',
         justifyContent: 'center',
+    },
+    lessons: {
+        flex: 5,
+        backgroundColor: 'white',
         overflow: 'scroll',
+        alignContent: 'center',
+        justifyContent: 'center',
+        width: '90%',
     },
     logo: {
-        flex: 1,
-        height: 20,
+        flex: 2,
         resizeMode: 'contain',
+        alignSelf: 'center',
     }
 });
 
