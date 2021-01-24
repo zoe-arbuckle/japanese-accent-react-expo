@@ -4,9 +4,9 @@ import { SafeAreaView, ScrollView, StyleSheet, Image } from 'react-native';
 import LessonButton from '../components/LessonButton';
 
 import data from '../assets/data'
+import ExpandableLesson from '../components/ExpandableLesson';
 
 let lessons = data.lessons;
-// console.log(lessons);
 
 function HomeScreen({ navigation }) {
     return (
@@ -14,13 +14,13 @@ function HomeScreen({ navigation }) {
             <Image style={styles.logo} source={require('../assets/images/logo.png')}/>
             <ScrollView style={styles.lessons}>{
                lessons.map((item, index) => (
-                    <LessonButton 
+                   <ExpandableLesson 
                         key={item.lessonid}
                         title={item.lessonName}
-                        onPress={() => navigation.navigate('Lesson', {
-                            data: item,
-                        })}/>
-                    ))}
+                        navigation={navigation}
+                        data={item.subsections}
+                   />
+                ))}
             </ScrollView>
         </SafeAreaView>
         

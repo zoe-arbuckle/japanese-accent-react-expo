@@ -15,12 +15,13 @@ const LessonButton = ( {title, onPress} ) => {
 
 const styles = StyleSheet.create({
     buttonContainer: {
-        width: '100%',
+        width: '80%',
         elevation: 8,
         backgroundColor: colors.primary,
         borderRadius: 10,
         paddingVertical: 10,
         marginVertical: 10,
+        alignSelf: 'center'
     },
     buttonText: {
         fontSize: 24,
