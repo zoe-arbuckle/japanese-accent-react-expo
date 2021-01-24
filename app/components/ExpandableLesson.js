@@ -27,7 +27,7 @@ export default class ExpandableLesson extends Component {
                         <LessonButton
                             key={item.lessonid}
                             title={item.lessonName}
-                            onPress={() => navigation.navigate('Lesson', {
+                            onPress={() => this.state.navigation.navigate('Lesson', {
                                 data: item,
                             })}
                         />
