@@ -230,31 +230,413 @@
                         ]
                     },
                     "chooseAmountQuiz": {
-                        "numOfQuestions": 4,
+                        "numOfQuestions": 56,
                         "questions": [
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["ときどき", "どきどき"],
                                 "answer" : "ときどき",
-                                "audioName": "tokidoki"
+                                "audioName": "tokidoki",
+                                "meaning": "sometimes"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["ときどき", "どきどき"],
                                 "answer" : "どきどき",
-                                "audioName": "dokidoki"
+                                "audioName": "dokidoki",
+                                "meaning": "fast beating"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["たいがく", "だいがく"],
                                 "answer" : "たいがく",
-                                "audioName": "taigaku"
+                                "audioName": "taigaku",
+                                "meaning": "expelling"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["たいがく", "だいがく"],
                                 "answer" : "だいがく",
-                                "audioName": "daigaku"
+                                "audioName": "daigaku",
+                                "meaning": "college"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["たいがく", "だいがく"],
+                                "answer" : "だいがく",
+                                "audioName": "daigaku",
+                                "meaning": "college"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["きん", "ぎん"],
+                                "answer" : "きん",
+                                "audioName": "kin",
+                                "meaning": "gold"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["きん", "ぎん"],
+                                "answer" : "ぎん",
+                                "audioName": "gin",
+                                "meaning": "silver"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["ピザ", "ビザ"],
+                                "answer" : "ピザ",
+                                "audioName": "piza",
+                                "meaning": "pizza"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["ピザ", "ビザ"],
+                                "answer" : "ビザ",
+                                "audioName": "biza",
+                                "meaning": "visa"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["てんき", "でんき"],
+                                "answer" : "てんき",
+                                "audioName": "tenki",
+                                "meaning": "weather"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["てんき", "でんき"],
+                                "answer" : "でんき",
+                                "audioName": "denki",
+                                "meaning": "electricity"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["かき", "かぎ"],
+                                "answer" : "かき",
+                                "audioName": "kaki",
+                                "meaning": "persimmon"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["かき", "かぎ"],
+                                "answer" : "かぎ",
+                                "audioName": "kagi",
+                                "meaning": "key"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["つき", "つぎ"],
+                                "answer" : "つき",
+                                "audioName": "tsuki",
+                                "meaning": "moon"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["つき", "つぎ"],
+                                "answer" : "つぎ",
+                                "audioName": "tsugi",
+                                "meaning": "next"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["ピン", "ビン"],
+                                "answer" : "ピン",
+                                "audioName": "pin",
+                                "meaning": "pin"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["ピン", "ビン"],
+                                "answer" : "ビン",
+                                "audioName": "bin",
+                                "meaning": "bottle"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["しんぞう", "じんぞう"],
+                                "answer" : "しんぞう",
+                                "audioName": "shinzou",
+                                "meaning": "heart"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["しんぞう", "じんぞう"],
+                                "answer" : "じんぞう",
+                                "audioName": "jinzou",
+                                "meaning": "kidney"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["こま", "ごま"],
+                                "answer" : "こま",
+                                "audioName": "koma",
+                                "meaning": "spinning top"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["こま", "ごま"],
+                                "answer" : "ごま",
+                                "audioName": "goma",
+                                "meaning": "sesame"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["しけん", "じけん"],
+                                "answer" : "しけん",
+                                "audioName": "shiken",
+                                "meaning": "exam"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["しけん", "じけん"],
+                                "answer" : "じけん",
+                                "audioName": "shigen",
+                                "meaning": "incident"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["かいしゃ", "がいしゃ"],
+                                "answer" : "かいしゃ",
+                                "audioName": "kaisya",
+                                "meaning": "company"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["かいしゃ", "がいしゃ"],
+                                "answer" : "がいしゃ",
+                                "audioName": "gaisya",
+                                "meaning": "imported car"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["みつ", "みず"],
+                                "answer" : "みつ",
+                                "audioName": "mitsu",
+                                "meaning": "honey"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["みつ", "みず"],
+                                "answer" : "みず",
+                                "audioName": "mizu",
+                                "meaning": "water"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["しかい", "しがい"],
+                                "answer" : "しかい",
+                                "audioName": "shikai",
+                                "meaning": "master of ceremony"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["しかい", "しがい"],
+                                "answer" : "しがい",
+                                "audioName": "shigai",
+                                "meaning": "suburb"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["けんきゅう", "げんきゅう"],
+                                "answer" : "けんきゅう",
+                                "audioName": "kenkyuu",
+                                "meaning": "resesarch"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["けんきゅう", "げんきゅう"],
+                                "answer" : "げんきゅう",
+                                "audioName": "genkyuu",
+                                "meaning": "salary reduction"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["こうどう", "ごうどう"],
+                                "answer" : "こうどう",
+                                "audioName": "koudou",
+                                "meaning": "action"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["こうどう", "ごうどう"],
+                                "answer" : "ごうどう",
+                                "audioName": "goudou",
+                                "meaning": "combined"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["かんたん", "がんたん"],
+                                "answer" : "かんたん",
+                                "audioName": "kantan",
+                                "meaning": "easy"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["かんたん", "がんたん"],
+                                "answer" : "がんたん",
+                                "audioName": "gantan",
+                                "meaning": "New Year's Day"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["ちょきん", "じょきん"],
+                                "answer" : "ちょきん",
+                                "audioName": "chokin",
+                                "meaning": "savings"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["ちょきん", "じょきん"],
+                                "answer" : "じょきん",
+                                "audioName": "jokin",
+                                "meaning": "sterilization"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["だいかくめい", "だいがくめい"],
+                                "answer" : "だいかくめい",
+                                "audioName": "daikakumei",
+                                "meaning": "large revolution"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["だいかくめい", "だいがくめい"],
+                                "answer" : "だいがくめい",
+                                "audioName": "daigakumei",
+                                "meaning": "university name"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["しょうかい", "しょうがい"],
+                                "answer" : "しょうかい",
+                                "audioName": "shoukai",
+                                "meaning": "introduction"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["しょうかい", "しょうがい"],
+                                "answer" : "しょうがい",
+                                "audioName": "shougai",
+                                "meaning": "disability"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["たいて", "だいて"],
+                                "answer" : "たいて",
+                                "audioName": "taite",
+                                "meaning": "cooking rice"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["たいて", "だいて"],
+                                "answer" : "だいて",
+                                "audioName": "daite",
+                                "meaning": "holding"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["たいがく", "だいがく"],
+                                "answer" : "だいがく",
+                                "audioName": "daigaku",
+                                "meaning": "college"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["かんこく", "かんごく"],
+                                "answer" : "かんこく",
+                                "audioName": "kankoku",
+                                "meaning": "South Korea"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["かんこく", "かんごく"],
+                                "answer" : "かんごく",
+                                "audioName": "kangoku",
+                                "meaning": "prison"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["といて", "といで"],
+                                "answer" : "といて",
+                                "audioName": "toite",
+                                "meaning": "solve"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["といて", "といで"],
+                                "answer" : "といで",
+                                "audioName": "toide",
+                                "meaning": "sharpen"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["きかい", "ぎかい"],
+                                "answer" : "きかい",
+                                "audioName": "kikai",
+                                "meaning": "opportunity"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["きかい", "ぎかい"],
+                                "answer" : "ぎかい",
+                                "audioName": "gikai",
+                                "meaning": "congress"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["いと", "いど"],
+                                "answer" : "いと",
+                                "audioName": "ito",
+                                "meaning": "thread"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["いと", "いど"],
+                                "answer" : "いど",
+                                "audioName": "ido",
+                                "meaning": "well"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["かち", "かじ"],
+                                "answer" : "かち",
+                                "audioName": "kachi",
+                                "meaning": "value"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["かち", "かじ"],
+                                "answer" : "かじ",
+                                "audioName": "kaji",
+                                "meaning": "household"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["くち", "ぐち"],
+                                "answer" : "くち",
+                                "audioName": "kuchi",
+                                "meaning": "mouth"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["くち", "ぐち"],
+                                "answer" : "ぐち",
+                                "audioName": "guchi",
+                                "meaning": "whining"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["かいこく", "がいこく"],
+                                "answer" : "かいこく",
+                                "audioName": "kaikoku",
+                                "meaning": "opening country"
+                            },
+                            {
+                                "question" : "Which word do you hear?",
+                                "answers" : ["かいこく", "がいこく"],
+                                "answer" : "がいこく",
+                                "audioName": "kaikoku",
+                                "meaning": "foreign country"
                             }
                         ]
                     },
