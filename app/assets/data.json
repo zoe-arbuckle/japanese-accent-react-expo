@@ -390,7 +390,7 @@
                                 "question" : "Which word do you hear?",
                                 "answers" : ["しけん", "じけん"],
                                 "answer" : "じけん",
-                                "audioName": "shigen",
+                                "audioName": "jiken",
                                 "meaning": "incident"
                             },
                             {
