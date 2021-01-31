@@ -26,9 +26,9 @@
       "bundleIdentifier": "com.kazumihatasa.JapanesePronunciation"
     },
     "android": {
+      "permissions": [],
       "package": "com.kazumihatasa.JapanesePronunciation",
-      "versionCode": 5,
-      "permissons": []
+      "versionCode": 5
     },
     "web": {
       "favicon": "./assets/icon.png"
