@@ -262,13 +262,6 @@
                             },
                             {
                                 "question" : "Which word do you hear?",
-                                "answers" : ["たいがく", "だいがく"],
-                                "answer" : "だいがく",
-                                "audioName": "daigaku",
-                                "meaning": "college"
-                            },
-                            {
-                                "question" : "Which word do you hear?",
                                 "answers" : ["きん", "ぎん"],
                                 "answer" : "きん",
                                 "audioName": "kin",
@@ -535,13 +528,6 @@
                             },
                             {
                                 "question" : "Which word do you hear?",
-                                "answers" : ["たいがく", "だいがく"],
-                                "answer" : "だいがく",
-                                "audioName": "daigaku",
-                                "meaning": "college"
-                            },
-                            {
-                                "question" : "Which word do you hear?",
                                 "answers" : ["かんこく", "かんごく"],
                                 "answer" : "かんこく",
                                 "audioName": "kankoku",
@@ -635,7 +621,7 @@
                                 "question" : "Which word do you hear?",
                                 "answers" : ["かいこく", "がいこく"],
                                 "answer" : "がいこく",
-                                "audioName": "kaikoku",
+                                "audioName": "gaikoku",
                                 "meaning": "foreign country"
                             }
                         ]

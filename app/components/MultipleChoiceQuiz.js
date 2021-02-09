@@ -24,6 +24,13 @@ export default class MultipleChoiceQuiz extends Component {
 		super(props);
 
 		const array = props.questions
+		var len;
+
+		if (props.chooseNumber){
+			len = 5;
+		} else {
+			len = array.length;
+		}
 
 		// shuffle the question array using the Fisher-Yates method
 
@@ -42,7 +49,7 @@ export default class MultipleChoiceQuiz extends Component {
 			answer: props.questions[0].answer,
 			audioName: props.questions[0].audioName,
 			currentIndex: 0,
-			questionListLen: props.questions.length,
+			questionListLen: len,
 			endQuiz: false,
 			score: 0,
 			navigation: props.navigation
