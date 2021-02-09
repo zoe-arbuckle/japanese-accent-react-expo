@@ -27,7 +27,7 @@ export default class MultipleChoiceQuiz extends Component {
 		var len;
 
 		if (props.chooseNumber){
-			len = 5;
+			len = props.chooseNumber;
 		} else {
 			len = array.length;
 		}
@@ -41,15 +41,17 @@ export default class MultipleChoiceQuiz extends Component {
 			array[j] = temp
 		}
 
+		array = array.slice(0, len)
+
 		this.state = {
 			volume: 1,
-			questionList: props.questions,
-			question: props.questions[0].question,
-			answers: props.questions[0].answers,
-			answer: props.questions[0].answer,
-			audioName: props.questions[0].audioName,
+			questionList: array,
+			question: array[0].question,
+			answers: array[0].answers,
+			answer: array[0].answer,
+			audioName: array[0].audioName,
 			currentIndex: 0,
-			questionListLen: len,
+			questionListLen: array.length,
 			endQuiz: false,
 			score: 0,
 			navigation: props.navigation

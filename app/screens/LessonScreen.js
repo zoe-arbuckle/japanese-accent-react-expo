@@ -1,9 +1,9 @@
 import React from 'react';
-import { SafeAreaView, View, Text, StyleSheet, Button } from 'react-native';
+import { SafeAreaView, View, Text, StyleSheet, Button, Modal } from 'react-native';
 
 function LessonScreen({ route, navigation }) {
     const { data } = route.params;
-    let buttons = []
+    let buttons = [];
 
     if(data.quiz != undefined && data.quiz.questions.length > 0){
         buttons.push(
@@ -21,9 +21,10 @@ function LessonScreen({ route, navigation }) {
             <Button 
                 title="Multiple Choice Quiz 2"
                 key="Practice 2"
-                onPress={() => navigation.navigate('Practice', {
-                    chooseAmountQuiz: data.chooseAmountQuiz,
-                })}
+                // onPress={() => navigation.navigate('Practice', {
+                //     chooseAmountQuiz: data.chooseAmountQuiz,
+                // })}
+                onPress={() => modalVisible = modalVisible}
                 style={styles.practiceButton}/>)
     }
 
@@ -41,6 +42,11 @@ function LessonScreen({ route, navigation }) {
 
     return (
         <SafeAreaView style={styles.screen}>
+            <Modal visible={modalVisible} animationType="slide" transparent={true}>
+                <View style={styles.modalView}>
+                    <Text>Hello Modal</Text>
+                </View>
+            </Modal>
             <View style={styles.lessonView}>
                 <Text style={styles.title}>{data.lessonName}</Text>
                 <View>
@@ -66,6 +72,21 @@ const styles = StyleSheet.create({
     lessonView: {
         flex: 6, 
     },
+    modalView: {
+		margin: 20,
+		backgroundColor: "white",
+		borderRadius: 20,
+		padding: 35,
+		alignItems: "center",
+		shadowColor: "#000",
+		shadowOffset: {
+		  width: 0,
+		  height: 2
+		},
+		shadowOpacity: 0.25,
+		shadowRadius: 3.84,
+		elevation: 5,
+	},
     practiceButton: {
         margin: 30,
     },
