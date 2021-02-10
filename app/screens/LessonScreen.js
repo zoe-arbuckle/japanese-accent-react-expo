@@ -1,9 +1,14 @@
-import React from 'react';
-import { SafeAreaView, View, Text, StyleSheet, Button, Modal } from 'react-native';
+import React, { useState } from 'react';
+import { SafeAreaView, View, Text, Button, Modal, StyleSheet } from 'react-native';
+
+import { Picker } from '@react-native-picker/picker'
 
 function LessonScreen({ route, navigation }) {
     const { data } = route.params;
     let buttons = [];
+    const [ modalVisible, setModalVisible ] = useState(false)
+    let options = [];
+    let selectedOption = 1;
 
     if(data.quiz != undefined && data.quiz.questions.length > 0){
         buttons.push(
@@ -17,6 +22,9 @@ function LessonScreen({ route, navigation }) {
     }
 
     if(data.chooseAmountQuiz != undefined && data.chooseAmountQuiz.questions.length > 0){
+        for (var i = 1; i <= data.chooseAmountQuiz.questions.length; i++){
+            options.push(i)
+        }
         buttons.push(
             <Button 
                 title="Multiple Choice Quiz 2"
@@ -24,7 +32,7 @@ function LessonScreen({ route, navigation }) {
                 // onPress={() => navigation.navigate('Practice', {
                 //     chooseAmountQuiz: data.chooseAmountQuiz,
                 // })}
-                onPress={() => modalVisible = modalVisible}
+                onPress={() => setModalVisible(!modalVisible)}
                 style={styles.practiceButton}/>)
     }
 
@@ -44,7 +52,14 @@ function LessonScreen({ route, navigation }) {
         <SafeAreaView style={styles.screen}>
             <Modal visible={modalVisible} animationType="slide" transparent={true}>
                 <View style={styles.modalView}>
-                    <Text>Hello Modal</Text>
+                    <Text>Please select the number of questions you would like to practice.</Text>
+                    <Picker selectedValue={selectedOption} mode="dropdown" onValueChange={() => {}} style={styles.picker}>
+                        {
+                            options.map((item, index) => {
+                                return (<Picker.Item label={String(item)} value={item} key={index}/>)
+                            })
+                        }
+                    </Picker>
                 </View>
             </Modal>
             <View style={styles.lessonView}>
@@ -85,10 +100,15 @@ const styles = StyleSheet.create({
 		},
 		shadowOpacity: 0.25,
 		shadowRadius: 3.84,
-		elevation: 5,
-	},
+        elevation: 5,
+        height: 250
+    },
     practiceButton: {
         margin: 30,
+    },
+    picker: {
+        height: 50,
+        width: 100,
     },
     screen: {
         flex: 1,
