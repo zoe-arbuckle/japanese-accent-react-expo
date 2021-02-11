@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { SafeAreaView, View, Text, Button, Modal, StyleSheet } from 'react-native';
+import { SafeAreaView, View, Text, Button, Modal, StyleSheet, TextInput } from 'react-native';
 
-import { Picker } from '@react-native-picker/picker'
+import colors from '../config/colors';
 
 function LessonScreen({ route, navigation }) {
     const { data } = route.params;
     let buttons = [];
     const [ modalVisible, setModalVisible ] = useState(false)
-    let options = [];
-    let selectedOption = 1;
+    const [selectedOption, setSelectedOption] = useState("1")
+    let max = 1
 
     if(data.quiz != undefined && data.quiz.questions.length > 0){
         buttons.push(
@@ -22,9 +22,11 @@ function LessonScreen({ route, navigation }) {
     }
 
     if(data.chooseAmountQuiz != undefined && data.chooseAmountQuiz.questions.length > 0){
-        for (var i = 1; i <= data.chooseAmountQuiz.questions.length; i++){
-            options.push(i)
+        max = data.chooseAmountQuiz.questions.length
+        if(max == undefined){
+            max = 1
         }
+
         buttons.push(
             <Button 
                 title="Multiple Choice Quiz 2"
@@ -52,14 +54,17 @@ function LessonScreen({ route, navigation }) {
         <SafeAreaView style={styles.screen}>
             <Modal visible={modalVisible} animationType="slide" transparent={true}>
                 <View style={styles.modalView}>
-                    <Text>Please select the number of questions you would like to practice.</Text>
-                    <Picker selectedValue={selectedOption} mode="dropdown" onValueChange={() => {}} style={styles.picker}>
-                        {
-                            options.map((item, index) => {
-                                return (<Picker.Item label={String(item)} value={item} key={index}/>)
-                            })
-                        }
-                    </Picker>
+                    <Text style={styles.text}>Please enter the number of questions you would like to practice.</Text>
+                    <TextInput style={styles.picker} value={selectedOption} onChangeText={(text) => {
+                        setSelectedOption(text)
+                    }}/>
+                    <Button style={styles.practiceButton} title="Practice!" onPress={() => {
+                        setModalVisible(false)
+                        navigation.navigate('Practice', {
+                            chooseAmountQuiz: data.chooseAmountQuiz,
+                            numQuestions: fitInputToRange(selectedOption, max),
+                        })
+                    }}/>
                 </View>
             </Modal>
             <View style={styles.lessonView}>
@@ -75,6 +80,16 @@ function LessonScreen({ route, navigation }) {
         </SafeAreaView>
     );
 };
+
+function fitInputToRange(value, max){
+    if (value < 1){
+        return 1;
+    } else if (value > max){
+        return max;
+    } else {
+        return value;
+    }
+}
 
 const styles = StyleSheet.create({
     buttonView: {
@@ -109,6 +124,10 @@ const styles = StyleSheet.create({
     picker: {
         height: 50,
         width: 100,
+        borderBottomColor: colors.primary,
+        borderStyle: 'solid',
+        borderBottomWidth: 1,
+        padding: 10,
     },
     screen: {
         flex: 1,
@@ -118,7 +137,7 @@ const styles = StyleSheet.create({
     text: {
         color: 'black',
         fontSize: 18,
-        marginTop: 20,
+        margin: 20,
     },
     title: {
         fontSize: 22,

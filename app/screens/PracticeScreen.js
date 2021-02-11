@@ -15,7 +15,8 @@ function PracticeScreen({
     const {
         quiz,
         chooseAmountQuiz,
-        scrambler
+        scrambler,
+        numQuestions,
     } = route.params;
     // console.log(quiz.questions);
     if (quiz != undefined) {
@@ -36,6 +37,8 @@ function PracticeScreen({
         return (
             <MultipleChoiceQuiz questions = {
                 questions
+            } chooseNumber={
+                numQuestions
             } navigation = {
                 navigation
             } />

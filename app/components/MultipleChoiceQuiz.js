@@ -23,7 +23,7 @@ export default class MultipleChoiceQuiz extends Component {
 	constructor(props){
 		super(props);
 
-		const array = props.questions
+		let array = props.questions
 		var len;
 
 		if (props.chooseNumber){
