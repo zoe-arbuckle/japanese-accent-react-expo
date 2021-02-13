@@ -52,7 +52,8 @@ function LessonScreen({ route, navigation }) {
 
     return (
         <SafeAreaView style={styles.screen}>
-            <Modal visible={modalVisible} animationType="slide" transparent={true} onRequestClose={() => setModalVisible(false)}>
+            <Modal visible={modalVisible} animationType="slide" transparent={true} 
+                onRequestClose={() => setModalVisible(false)} supportedOrientations={['landscape']}>
                 <View style={styles.modalView}>
                     <TouchableOpacity onPress={() => setModalVisible(false)} style={styles.closeModal}>
                         <Ionicons name='ios-close' size={32} color="black"/>
