@@ -22,7 +22,7 @@ export default class ExpandableLesson extends Component {
             <View>
                 <TouchableOpacity style={styles.buttonContainer} onPress={() => this.toggleExpand()}>
                     <Text style={styles.buttonText}>{this.state.title}</Text>
-                    <Ionicons name={this.state.expanded ? 'md-arrow-dropdown': 'md-arrow-dropright'} 
+                    <Ionicons name={this.state.expanded ? 'caret-down': 'caret-forward'} 
                         size={32} color="white" style={styles.arrow}/>
                 </TouchableOpacity>
                 {
