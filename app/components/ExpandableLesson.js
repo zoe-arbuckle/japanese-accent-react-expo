@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 import colors from '../config/colors';
 import LessonButton from './LessonButton';
-import { Ionicons } from '@expo/vector-icons'
+import { Ionicons } from '@expo/vector-icons';
 
 export default class ExpandableLesson extends Component {
     constructor(props) {

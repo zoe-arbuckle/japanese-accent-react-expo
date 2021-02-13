@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
-import { SafeAreaView, View, Text, Button, Modal, StyleSheet, TextInput } from 'react-native';
+import { SafeAreaView, View, Text, Button, Modal, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
 
 import colors from '../config/colors';
+import { Ionicons } from '@expo/vector-icons';
+
 
 function LessonScreen({ route, navigation }) {
     const { data } = route.params;
     let buttons = [];
     const [ modalVisible, setModalVisible ] = useState(false)
-    const [selectedOption, setSelectedOption] = useState("1")
+    const [ selectedOption, setSelectedOption ] = useState("1")
+    const [ validationVisible, setValidationVisible ] = useState(false)
     let max = 1
 
     if(data.quiz != undefined && data.quiz.questions.length > 0){
@@ -31,9 +34,6 @@ function LessonScreen({ route, navigation }) {
             <Button 
                 title="Multiple Choice Quiz 2"
                 key="Practice 2"
-                // onPress={() => navigation.navigate('Practice', {
-                //     chooseAmountQuiz: data.chooseAmountQuiz,
-                // })}
                 onPress={() => setModalVisible(!modalVisible)}
                 style={styles.practiceButton}/>)
     }
@@ -52,18 +52,28 @@ function LessonScreen({ route, navigation }) {
 
     return (
         <SafeAreaView style={styles.screen}>
-            <Modal visible={modalVisible} animationType="slide" transparent={true}>
+            <Modal visible={modalVisible} animationType="slide" transparent={true} onRequestClose={() => setModalVisible(false)}>
                 <View style={styles.modalView}>
-                    <Text style={styles.text}>Please enter the number of questions you would like to practice.</Text>
+                    <TouchableOpacity onPress={() => setModalVisible(false)} style={styles.closeModal}>
+                        <Ionicons name='ios-close' size={32} color="black"/>
+                    </TouchableOpacity>
+                    <Text style={styles.text}>Please enter the number of questions you would like to practice between 1 and {max}.</Text>
+                    { validationVisible && <Text style={styles.errorText}>Please enter a valid number.</Text>}
                     <TextInput style={styles.picker} value={selectedOption} onChangeText={(text) => {
                         setSelectedOption(text)
                     }}/>
                     <Button style={styles.practiceButton} title="Practice!" onPress={() => {
-                        setModalVisible(false)
-                        navigation.navigate('Practice', {
-                            chooseAmountQuiz: data.chooseAmountQuiz,
-                            numQuestions: fitInputToRange(selectedOption, max),
-                        })
+                        if(isNaN(parseInt(selectedOption))){
+                            setValidationVisible(true)
+                        } else {
+                            setModalVisible(false)
+                            navigation.navigate('Practice', {
+                                chooseAmountQuiz: data.chooseAmountQuiz,
+                                numQuestions: fitInputToRange(selectedOption, max),
+                            })
+                            setValidationVisible(false)
+                            setSelectedOption("1")
+                        }
                     }}/>
                 </View>
             </Modal>
@@ -82,12 +92,14 @@ function LessonScreen({ route, navigation }) {
 };
 
 function fitInputToRange(value, max){
-    if (value < 1){
+    const intValue = parseInt(value)
+
+    if (intValue < 1){
         return 1;
-    } else if (value > max){
+    } else if (intValue > max){
         return max;
     } else {
-        return value;
+        return intValue;
     }
 }
 
@@ -98,6 +110,14 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         marginBottom: 20,
+    },
+    closeModal: {
+        alignSelf: 'flex-start'
+    },
+    errorText: {
+        color: 'red',
+        fontSize: 18,
+        margin: 20,
     },
     lessonView: {
         flex: 6, 
@@ -116,7 +136,6 @@ const styles = StyleSheet.create({
 		shadowOpacity: 0.25,
 		shadowRadius: 3.84,
         elevation: 5,
-        height: 250
     },
     practiceButton: {
         margin: 30,
