@@ -17,7 +17,7 @@ function LessonScreen({ route, navigation }) {
         buttons.push(
             <Button 
                 title="Multiple Choice Quiz"
-                key="Practice"
+                key="MCQuiz"
                 onPress={() => navigation.navigate('Practice', {
                     quiz: data.quiz,
                 })}
@@ -32,8 +32,8 @@ function LessonScreen({ route, navigation }) {
 
         buttons.push(
             <Button 
-                title="Multiple Choice Quiz 2"
-                key="Practice 2"
+                title="Choose Amount Quiz"
+                key="CAQuiz"
                 onPress={() => setModalVisible(!modalVisible)}
                 style={styles.practiceButton}/>)
     }
@@ -42,9 +42,21 @@ function LessonScreen({ route, navigation }) {
         buttons.push(
             <Button 
                 title="Scrambler"
-                key="Scrambler Practice"
+                key="Scrambler"
                 onPress={() => navigation.navigate('Practice', {
                     scrambler: data.scrambler,
+                })}
+                style={styles.practiceButton}/>
+        )
+    }
+
+    if(data.conversationQuiz != undefined && data.conversationQuiz.questions.length  > 0){
+        buttons.push(
+            <Button
+                title="Conversation Quiz"
+                key="ConvoQuiz"
+                onPress={() => navigation.navigate('Practice', {
+                    conversation: data.conversationQuiz,
                 })}
                 style={styles.practiceButton}/>
         )

@@ -54,7 +54,8 @@ export default class MultipleChoiceQuiz extends Component {
 			questionListLen: array.length,
 			endQuiz: false,
 			score: 0,
-			navigation: props.navigation
+			navigation: props.navigation,
+			multiAudio: props.multiAudio
 		};
 	}
 
@@ -80,10 +81,9 @@ export default class MultipleChoiceQuiz extends Component {
 	async componentWillUnmount() {
 		await correctSound.unloadAsync()
 		await incorrectSound.unloadAsync()
-		for (const question in this.state.questionList){
-			const audioName = this.state.questionList[question].audioName
+		for(const obj in soundObjects){
 			try {
-				await soundObjects[audioName].unloadAsync();
+				soundObjects[obj].unloadAsync();
 			} catch (e){
 				console.log(e)
 			}
@@ -91,7 +91,6 @@ export default class MultipleChoiceQuiz extends Component {
 	}
 
 	// AUDIO
-
     async loadAudio() {
 		const { volume } = this.state;
 		try {
@@ -115,7 +114,13 @@ export default class MultipleChoiceQuiz extends Component {
 
 		// load the audio for the questions
 		for (const question in questionList){
-			const audioName = questionList[question].audioName
+			let audioName;
+			if(this.state.multiAudio){
+				const index = Math.floor(Math.random() * Math.floor(2))
+				audioName = questionList[question].audioName[index]
+			} else {
+				audioName = questionList[question].audioName
+			}
 			const source = sounds[audioName]
 			try{
 				soundObjects[audioName] = new Audio.Sound();

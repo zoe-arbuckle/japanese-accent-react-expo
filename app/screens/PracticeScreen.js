@@ -16,6 +16,7 @@ function PracticeScreen({
         quiz,
         chooseAmountQuiz,
         scrambler,
+        conversation,
         numQuestions,
     } = route.params;
     // console.log(quiz.questions);
@@ -39,6 +40,19 @@ function PracticeScreen({
                 questions
             } chooseNumber={
                 numQuestions
+            } navigation = {
+                navigation
+            } />
+        );
+    }
+
+    if(conversation != undefined){
+        const questions = conversation.questions;
+        return (
+            <MultipleChoiceQuiz questions = {
+                questions
+            } multiAudio = {
+                true
             } navigation = {
                 navigation
             } />

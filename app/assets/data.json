@@ -737,6 +737,178 @@
                                 "audioName": "18-kaikoku-F"
                             }
                         ]
+                    },
+                    "conversationQuiz": {
+                        "questions":[
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["けんきゅう", "げんきゅう"],
+                                "answer" : "げんきゅう",
+                                "audioName": ["15-genkyuu-FM", "15-genkyuu-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["けんきゅう", "げんきゅう"],
+                                "answer" : "けんきゅう",
+                                "audioName": ["15-kenkyuu-FM", "15-kenkyuu-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["こうどう", "ごうどう"],
+                                "answer" : "ごうどう",
+                                "audioName": ["16-goudou-FM", "16-goudou-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["こうどう", "ごうどう"],
+                                "answer" : "こうどう",
+                                "audioName": ["16-koudou-FM", "16-koudou-FM"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["かんたん", "がんたん"],
+                                "answer" : "がんたん",
+                                "audioName": ["17-gantan-FM", "17-gantan-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["かんたん", "がんたん"],
+                                "answer" : "かんたん",
+                                "audioName": ["17-kantan-FM", "17-kantan-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["ちょきん", "じょきん"],
+                                "answer" : "じょきん",
+                                "audioName": ["18-jokin-FM", "18-jokin-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["ちょきん", "じょきん"],
+                                "answer" : "ちょきん",
+                                "audioName": ["18-chokin-FM", "18-chokin-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["だいかくめい", "だいがくめい"],
+                                "answer" : "だいがくめい",
+                                "audioName": ["19-daigakumei-FM", "19-daigakumei-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["だいかくめい", "だいがくめい"],
+                                "answer" : "だいかくめい",
+                                "audioName": ["19-daikakumei-FM", "19-daikakumei-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["しょうかい", "しょうがい"],
+                                "answer" : "しょうがい",
+                                "audioName": ["20-syougai-FM", "20-syougai-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["しょうかい", "しょうがい"],
+                                "answer" : "しょうかい",
+                                "audioName": ["20-syoukai-FM", "20-syoukai-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["たいて", "だいて"],
+                                "answer" : "だいて",
+                                "audioName": ["21-daite-FM", "21-daite-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["たいて", "だいて"],
+                                "answer" : "たいて",
+                                "audioName": ["21-taite-FM", "21-taite-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["かんこく", "かんごく"],
+                                "answer" : "かんごく",
+                                "audioName": ["22-kangoku-FM", "22-kangoku-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["かんこく", "かんごく"],
+                                "answer" : "かんこく",
+                                "audioName": ["22-kankoku-FM", "22-kankoku-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["といて", "といで"],
+                                "answer" : "といで",
+                                "audioName": ["23-toide-FM", "23-toide-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["といて", "といで"],
+                                "answer" : "といて",
+                                "audioName": ["23-toite-FM", "23-toite-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["きかい", "ぎかい"],
+                                "answer" : "ぎかい",
+                                "audioName": ["24-gikai-FM", "24-gikai-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["きかい", "ぎかい"],
+                                "answer" : "きかい",
+                                "audioName": ["24-kikai-FM", "24-kikai-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["いと", "いど"],
+                                "answer" : "いど",
+                                "audioName": ["25-ido-FM", "25-ido-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["いと", "いど"],
+                                "answer" : "いと",
+                                "audioName": ["25-ito-FM", "25-ito-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["かち", "かじ"],
+                                "answer" : "かち",
+                                "audioName": ["26-kachi-FM", "26-kachi-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["かち", "かじ"],
+                                "answer" : "かじ",
+                                "audioName": ["26-kaji-FM", "26-kaji-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["くち", "ぐち"],
+                                "answer" : "ぐち",
+                                "audioName": ["27-guchi-FM", "27-guchi-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["くち", "ぐち"],
+                                "answer" : "くち",
+                                "audioName": ["27-kuchi-FM", "27-kuchi-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["かいこく", "がいこく"],
+                                "answer" : "がいこく",
+                                "audioName": ["28-gaikoku-FM", "28-gaikoku-MF"]
+                            },
+                            {
+                                "question" : "Identify the word you hear in the short conversation.",
+                                "answers" : ["かいこく", "がいこく"],
+                                "answer" : "かいこく",
+                                "audioName": ["28-kaikoku-FM", "28-kaikoku-MF"]
+                            }
+                        ]
                     }
                 },
                 {
