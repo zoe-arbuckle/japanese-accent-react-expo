@@ -55,7 +55,8 @@ export default class MultipleChoiceQuiz extends Component {
 			endQuiz: false,
 			score: 0,
 			navigation: props.navigation,
-			multiAudio: props.multiAudio
+			multiAudio: props.multiAudio,
+			modalVisible: false,
 		};
 	}
 
@@ -164,7 +165,8 @@ export default class MultipleChoiceQuiz extends Component {
 			if(this.state.gaveCorrectAnswer != false){
 				this.setState({score: (this.state.score + 1)})
 			}
-			this.getNextQuestion()
+			this.setState({modalVisible: true})
+			setTimeout(() => {this.getNextQuestion()}, 1500)
 		} else {
 			try{
 				await incorrectSound.replayAsync()
@@ -176,6 +178,7 @@ export default class MultipleChoiceQuiz extends Component {
 	}
 
 	getNextQuestion = async () => {
+		this.setState({modalVisible: false})
 		let index = this.state.currentIndex + 1
 		if(index == this.state.questionListLen){
 			// end the quiz - need to give a score and navigate back to lesson
@@ -217,6 +220,14 @@ export default class MultipleChoiceQuiz extends Component {
 
         return (
             <SafeAreaView style={styles.screen}>
+				<Modal visible={this.state.modalVisible} animationType="slide" transparent={true}
+					onRequestClose={() => this.setState({modalVisible: false})} supportedOrientations={['landscape']}>
+					<View style={styles.modalView}>
+						<Text style={styles.meaningText}>
+							{this.state.questionList[this.state.currentIndex].meaning}
+						</Text>
+					</View>
+				</Modal>
 				<View style={styles.questionInfoView}>
                 	<Text style={styles.questionText}>{this.state.question}</Text>
 					<Text style={styles.questionNumber}>{this.state.currentIndex + 1}/{this.state.questionListLen}</Text>
@@ -265,12 +276,17 @@ const styles = StyleSheet.create({
 		margin: 50,
 		alignItems: 'center',
 	},
+	meaningText: {
+		color: 'black',
+		fontSize: 24,
+	},
 	modalView: {
 		margin: 20,
-		backgroundColor: "white",
+		backgroundColor: colors.correct,
 		borderRadius: 20,
 		padding: 35,
 		alignItems: "center",
+		alignSelf: 'center',
 		shadowColor: "#000",
 		shadowOffset: {
 		  width: 0,
@@ -279,7 +295,10 @@ const styles = StyleSheet.create({
 		shadowOpacity: 0.25,
 		shadowRadius: 3.84,
 		elevation: 5,
-	},
+		position: 'absolute',
+		bottom: 0,
+		width: '95%'
+    },
     screen: {
         flex: 1,
         backgroundColor: 'white',
