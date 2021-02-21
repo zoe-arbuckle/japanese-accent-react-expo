@@ -18,8 +18,8 @@ export default ScrambleButton
 const styles = StyleSheet.create({
     answerButton: {
         margin: 5,
-        width: 50,
-        height: 50,
+        width: 80,
+        height: 80,
         backgroundColor: colors.background,
         justifyContent: 'center',
         alignItems: 'center',
@@ -27,8 +27,8 @@ const styles = StyleSheet.create({
     },
     scrambleButton: {
         margin: 5,
-        width: 50,
-        height: 50,
+        width: 80,
+        height: 80,
         backgroundColor: colors.background,
         justifyContent: 'center',
         alignItems: 'center',
