@@ -162,11 +162,15 @@ export default class MultipleChoiceQuiz extends Component {
 			} catch (e){
 				console.log(e)
 			}
-			if(this.state.gaveCorrectAnswer != false){
+			if(this.state.gaveCorrectAnswer != false ){
 				this.setState({score: (this.state.score + 1)})
 			}
-			this.setState({modalVisible: true})
-			setTimeout(() => {this.getNextQuestion()}, 1500)
+			if(this.state.questionList[this.state.currentIndex].meaning != undefined){
+				this.setState({modalVisible: true})
+				setTimeout(() => {this.getNextQuestion()}, 1500)
+			} else {
+				this.getNextQuestion()
+			}
 		} else {
 			try{
 				await incorrectSound.replayAsync()
@@ -220,7 +224,7 @@ export default class MultipleChoiceQuiz extends Component {
 
         return (
             <SafeAreaView style={styles.screen}>
-				<Modal visible={this.state.modalVisible} animationType="slide" transparent={true}
+				<Modal visible={this.state.modalVisible && this.state.questionList[this.state.currentIndex].meaning != undefined} animationType="slide" transparent={true}
 					onRequestClose={() => this.setState({modalVisible: false})} supportedOrientations={['landscape']}>
 					<View style={styles.modalView}>
 						<Text style={styles.meaningText}>

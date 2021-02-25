@@ -16,91 +16,106 @@
                                 "question" : "Which word do you hear?",
                                 "answers" : ["あ", "り", "が","と", "う", "か"],
                                 "answer" : "ありがとう",
-                                "audioName": "arigatou-ET"
+                                "audioName": "arigatou-ET",
+                                "meaning": "thank you"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["ちょ", "っ", "か", "く", "が"],
                                 "answer" : "ちょっかく",
-                                "audioName": "chokkaku-ET"
+                                "audioName": "chokkaku-ET",
+                                "meaning": "right angle"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["ど","しゃ","さ","い","が","い","と"],
                                 "answer" : "どしゃさいがい",
-                                "audioName": "doshasaigai-ET"
+                                "audioName": "doshasaigai-ET",
+                                "meaning": "landslide"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["ぎょぎょう"],
                                 "answer" : "ぎょぎょう",
-                                "audioName": "gyogyou-ET"
+                                "audioName": "gyogyou-ET",
+                                "meaning": "fishing industry"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["ぎゅ","う","にゅ","う","ぎゅ"],
                                 "answer" : "ぎゅうにゅう",
-                                "audioName": "gyuunyuu-ET"
+                                "audioName": "gyuunyuu-ET",
+                                "meaning": "milk"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["じょ","しゅ", "じゅ"],
                                 "answer" : "じょしゅ",
-                                "audioName": "joshu-ET"
+                                "audioName": "joshu-ET",
+                                "meaning": "assistant"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["じょ","う","りゅ","う","しゅ","じゅ"],
                                 "answer" : "じょうりゅうしゅ",
-                                "audioName": "jouryuushu-ET"
+                                "audioName": "jouryuushu-ET",
+                                "meaning": "distilled liquor"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["じょ","う","りゅ","う","す","い", "え"],
                                 "answer" : "じょうりゅうすい",
-                                "audioName": "jouryuusui-ET"
+                                "audioName": "jouryuusui-ET",
+                                "meaning": "distilled water"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["こ","と","ば","ご"],
                                 "answer" : "ことば",
-                                "audioName": "kotoba-ET"
+                                "audioName": "kotoba-ET",
+                                "meaning": "word"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["きょ","う","と","ど"],
                                 "answer" : "きょうと",
-                                "audioName": "kyouto-ET"
+                                "audioName": "kyouto-ET",
+                                "meaning": "Kyoto (city)"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["に","ほ","ん","ご","が"],
                                 "answer" : "にほんご",
-                                "audioName": "nihongo-ET"
+                                "audioName": "nihongo-ET",
+                                "meaning": "Japanese language"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["せ","ん","せ","い","え"],
                                 "answer" : "せんせい",
-                                "audioName": "sensei-ET"
+                                "audioName": "sensei-ET",
+                                "meaning": "teacher"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["しょ","う","じょ","ぞ","う","じょ"],
                                 "answer" : "しょうじょぞう",
-                                "audioName": "shoujozou-ET"
+                                "audioName": "shoujozou-ET",
+                                "meaning": "statue of a girl"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["て","い","りゅ","う","じょ","ぞ"],
                                 "answer" : "ていりゅうじょ",
-                                "audioName": "teiryuujo-ET"
+                                "audioName": "teiryuujo-ET",
+                                "meaning": "station"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["と","う","きょ","う","ど"],
                                 "answer" : "とうきょう",
-                                "audioName": "toukyou-ET"
+                                "audioName": "toukyou-ET",
+                                "meaning": "Tokyo (city)"
                             }
                         ]
                     }
@@ -123,109 +138,127 @@
                                 "question" : "Which word do you hear?",
                                 "answers" : ["けんきゅう", "げんきゅう"],
                                 "answer" : "けんきゅう",
-                                "audioName": "01-genkyu-M"
+                                "audioName": "01-genkyu-M",
+                                "meaning": "research"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["けんきゅう", "げんきゅう"],
                                 "answer" : "げんきゅう",
-                                "audioName": "02-kenkyu-M"
+                                "audioName": "02-kenkyu-M",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["こうどう", "ごうどう"],
                                 "answer" : "ごうどう",
-                                "audioName": "03-goudou-F"
+                                "audioName": "03-goudou-F",
+                                "meaning": "combination"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["こうどう", "ごうどう"],
                                 "answer" : "こうどう",
-                                "audioName": "04-koudou-F"
+                                "audioName": "04-koudou-F",
+                                "meaning": "action"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["かんたん", "がんたん"],
                                 "answer" : "がんたん",
-                                "audioName": "05-gantan-M"
+                                "audioName": "05-gantan-M",
+                                "meaning": "New Year's Day"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["かんたん", "がんたん"],
                                 "answer" : "かんたん",
-                                "audioName": "06-kantan-M"
+                                "audioName": "06-kantan-M",
+                                "meaning": "easy"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["だいかくめい", "だいがくめい"],
                                 "answer" : "だいがくめい",
-                                "audioName": "07-daigakumei-M"
+                                "audioName": "07-daigakumei-M",
+                                "meaning": "university name"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["だいかくめい", "だいがくめい"],
-                                "answer" : "だいがくめい",
-                                "audioName": "08-daikakumei-M"
+                                "answer" : "だいかくめい",
+                                "audioName": "08-daikakumei-M",
+                                "meaning": "large revolution"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["しょうかい", "しょうがい"],
                                 "answer" : "しょうがい",
-                                "audioName": "09-shougai-F"
+                                "audioName": "09-shougai-F",
+                                "meaning": "disability"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["しょうかい", "しょうがい"],
                                 "answer" : "しょうかい",
-                                "audioName": "10-shoukai-F"
+                                "audioName": "10-shoukai-F",
+                                "meaning": "introduction"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["かんこく", "かんごく"],
                                 "answer" : "かんごく",
-                                "audioName": "11-kangoku-F"
+                                "audioName": "11-kangoku-F",
+                                "meaning": "prison"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["かんこく", "かんごく"],
                                 "answer" : "かんこく",
-                                "audioName": "12-kankoku-F"
+                                "audioName": "12-kankoku-F",
+                                "meaning": "South Korea"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["きかい", "ぎかい"],
                                 "answer" : "ぎかい",
-                                "audioName": "13-gikai-F"
+                                "audioName": "13-gikai-F",
+                                "meaning": "congress"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["きかい", "ぎかい"],
                                 "answer" : "きかい",
-                                "audioName": "14-kikai-F"
+                                "audioName": "14-kikai-F",
+                                "meaning": "opportunity"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["くち", "ぐち"],
                                 "answer" : "ぐち",
-                                "audioName": "15-guchi-M"
+                                "audioName": "15-guchi-M",
+                                "meaning": "whining"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["くち", "ぐち"],
                                 "answer" : "くち",
-                                "audioName": "16-kuchi-M"
+                                "audioName": "16-kuchi-M",
+                                "meaning": "mouth"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["かいこく", "がいこく"],
                                 "answer" : "がいこく",
-                                "audioName": "17-gaikoku-F"
+                                "audioName": "17-gaikoku-F",
+                                "meaning": "foreign country"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["かいこく", "がいこく"],
                                 "answer" : "かいこく",
-                                "audioName": "18-kaikoku-F"
+                                "audioName": "18-kaikoku-F",
+                                "meaning": "opening country"
                             }
                         ]
                     },
@@ -433,14 +466,14 @@
                                 "answers" : ["けんきゅう", "げんきゅう"],
                                 "answer" : "けんきゅう",
                                 "audioName": "15-1-kenkyuu-F",
-                                "meaning": "resesarch"
+                                "meaning": "research"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["けんきゅう", "げんきゅう"],
                                 "answer" : "げんきゅう",
                                 "audioName": "15-2-genkyuu-F",
-                                "meaning": "salary reduction"
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
@@ -632,109 +665,127 @@
                                 "question" : "Which word do you hear?",
                                 "answers" : ["け", "ん", "きゅ","う", "げ"],
                                 "answer" : "げんきゅう",
-                                "audioName": "01-genkyu-M"
+                                "audioName": "01-genkyu-M",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["け", "ん", "きゅ","う", "げ"],
                                 "answer" : "けんきゅう",
-                                "audioName": "02-kenkyu-M"
+                                "audioName": "02-kenkyu-M",
+                                "meaning": "research"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["こ", "う", "ど", "ご"],
                                 "answer" : "ごうどう",
-                                "audioName": "03-goudou-F"
+                                "audioName": "03-goudou-F",
+                                "meaning": "combined"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["こ", "う", "ど", "ご"],
                                 "answer" : "こうどう",
-                                "audioName": "04-koudou-F"
+                                "audioName": "04-koudou-F",
+                                "meaning": "action"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["か","ん","た","が"],
                                 "answer" : "がんたん",
-                                "audioName": "05-gantan-M"
+                                "audioName": "05-gantan-M",
+                                "meaning": "New Year's Day"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["か","ん","た","が"],
                                 "answer" : "かんたん",
-                                "audioName": "06-kantan-M"
+                                "audioName": "06-kantan-M",
+                                "meaning": "easy"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["だ","い","か","が","く","め"],
                                 "answer" : "だいがくめい",
-                                "audioName": "07-daigakumei-M"
+                                "audioName": "07-daigakumei-M",
+                                "meaning": "university name"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["だ","い","か","が","く","め"],
                                 "answer" : "だいかくめい",
-                                "audioName": "08-daikakumei-M"
+                                "audioName": "08-daikakumei-M",
+                                "meaning": "large revolution"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["しょ","う","か","い", "が"],
                                 "answer" : "しょうかい",
-                                "audioName": "09-shougai-F"
+                                "audioName": "09-shougai-F",
+                                "meaning": "disability"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["しょ","う","か","い", "が"],
                                 "answer" : "しょうかい",
-                                "audioName": "10-shoukai-F"
+                                "audioName": "10-shoukai-F",
+                                "meaning": "introduction"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["か","ん","こ","く", "ご"],
                                 "answer" : "かんごく",
-                                "audioName": "11-kangoku-F"
+                                "audioName": "11-kangoku-F",
+                                "meaning": "prison"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["か","ん","こ","く", "ご"],
                                 "answer" : "かんこく",
-                                "audioName": "12-kankoku-F"
+                                "audioName": "12-kankoku-F",
+                                "meaning": "South Korea"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["き","か","い", "ぎ"],
                                 "answer" : "ぎかい",
-                                "audioName": "13-gikai-F"
+                                "audioName": "13-gikai-F",
+                                "meaning": "congress"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["き","か","い", "ぎ"],
                                 "answer" : "きかい",
-                                "audioName": "14-kikai-F"
+                                "audioName": "14-kikai-F",
+                                "meaning": "opportunity"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["く","ち", "ぐ"],
                                 "answer" : "ぐち",
-                                "audioName": "15-guchi-M"
+                                "audioName": "15-guchi-M",
+                                "meaning": "whining"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["く","ち", "ぐ"],
                                 "answer" : "くち",
-                                "audioName": "16-kuchi-M"
+                                "audioName": "16-kuchi-M",
+                                "meaning": "mouth"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["か","い","こ","く", "が"],
                                 "answer" : "がいこく",
-                                "audioName": "17-gaikoku-F"
+                                "audioName": "17-gaikoku-F",
+                                "meaning": "foreign country"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["か","い","こ","く", "が"],
                                 "answer" : "かいこく",
-                                "audioName": "18-kaikoku-F"
+                                "audioName": "18-kaikoku-F",
+                                "meaning": "opening country"
                             }
                         ]
                     },
@@ -744,169 +795,197 @@
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["けんきゅう", "げんきゅう"],
                                 "answer" : "げんきゅう",
-                                "audioName": ["15-genkyuu-FM", "15-genkyuu-MF"]
+                                "audioName": ["15-genkyuu-FM", "15-genkyuu-MF"],
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["けんきゅう", "げんきゅう"],
                                 "answer" : "けんきゅう",
-                                "audioName": ["15-kenkyuu-FM", "15-kenkyuu-MF"]
+                                "audioName": ["15-kenkyuu-FM", "15-kenkyuu-MF"],
+                                "meaning": "research"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["こうどう", "ごうどう"],
                                 "answer" : "ごうどう",
-                                "audioName": ["16-goudou-FM", "16-goudou-MF"]
+                                "audioName": ["16-goudou-FM", "16-goudou-MF"],
+                                "meaning": "combined"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["こうどう", "ごうどう"],
                                 "answer" : "こうどう",
-                                "audioName": ["16-koudou-FM", "16-koudou-FM"]
+                                "audioName": ["16-koudou-FM", "16-koudou-FM"],
+                                "meaning": "action"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["かんたん", "がんたん"],
                                 "answer" : "がんたん",
-                                "audioName": ["17-gantan-FM", "17-gantan-MF"]
+                                "audioName": ["17-gantan-FM", "17-gantan-MF"],
+                                "meaning": "New Year's Day"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["かんたん", "がんたん"],
                                 "answer" : "かんたん",
-                                "audioName": ["17-kantan-FM", "17-kantan-MF"]
+                                "audioName": ["17-kantan-FM", "17-kantan-MF"],
+                                "meaning": "easy"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["ちょきん", "じょきん"],
                                 "answer" : "じょきん",
-                                "audioName": ["18-jokin-FM", "18-jokin-MF"]
+                                "audioName": ["18-jokin-FM", "18-jokin-MF"],
+                                "meaning": "sterilization"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["ちょきん", "じょきん"],
                                 "answer" : "ちょきん",
-                                "audioName": ["18-chokin-FM", "18-chokin-MF"]
+                                "audioName": ["18-chokin-FM", "18-chokin-MF"],
+                                "meaning": "savings"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["だいかくめい", "だいがくめい"],
                                 "answer" : "だいがくめい",
-                                "audioName": ["19-daigakumei-FM", "19-daigakumei-MF"]
+                                "audioName": ["19-daigakumei-FM", "19-daigakumei-MF"],
+                                "meaning": "university name"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["だいかくめい", "だいがくめい"],
                                 "answer" : "だいかくめい",
-                                "audioName": ["19-daikakumei-FM", "19-daikakumei-MF"]
+                                "audioName": ["19-daikakumei-FM", "19-daikakumei-MF"],
+                                "meaning": "large revolution"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["しょうかい", "しょうがい"],
                                 "answer" : "しょうがい",
-                                "audioName": ["20-syougai-FM", "20-syougai-MF"]
+                                "audioName": ["20-syougai-FM", "20-syougai-MF"],
+                                "meaning": "disability"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["しょうかい", "しょうがい"],
                                 "answer" : "しょうかい",
-                                "audioName": ["20-syoukai-FM", "20-syoukai-MF"]
+                                "audioName": ["20-syoukai-FM", "20-syoukai-MF"],
+                                "meaning": "introduction"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["たいて", "だいて"],
                                 "answer" : "だいて",
-                                "audioName": ["21-daite-FM", "21-daite-MF"]
+                                "audioName": ["21-daite-FM", "21-daite-MF"],
+                                "meaning": "holding"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["たいて", "だいて"],
                                 "answer" : "たいて",
-                                "audioName": ["21-taite-FM", "21-taite-MF"]
+                                "audioName": ["21-taite-FM", "21-taite-MF"],
+                                "meaning": "cooking rice"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["かんこく", "かんごく"],
                                 "answer" : "かんごく",
-                                "audioName": ["22-kangoku-FM", "22-kangoku-MF"]
+                                "audioName": ["22-kangoku-FM", "22-kangoku-MF"],
+                                "meaning": "prison"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["かんこく", "かんごく"],
                                 "answer" : "かんこく",
-                                "audioName": ["22-kankoku-FM", "22-kankoku-MF"]
+                                "audioName": ["22-kankoku-FM", "22-kankoku-MF"],
+                                "meaning": "South Korea"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["といて", "といで"],
                                 "answer" : "といで",
-                                "audioName": ["23-toide-FM", "23-toide-MF"]
+                                "audioName": ["23-toide-FM", "23-toide-MF"],
+                                "meaning": "sharpen"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["といて", "といで"],
                                 "answer" : "といて",
-                                "audioName": ["23-toite-FM", "23-toite-MF"]
+                                "audioName": ["23-toite-FM", "23-toite-MF"],
+                                "meaning": "solve"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["きかい", "ぎかい"],
                                 "answer" : "ぎかい",
-                                "audioName": ["24-gikai-FM", "24-gikai-MF"]
+                                "audioName": ["24-gikai-FM", "24-gikai-MF"],
+                                "meaning": "congress"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["きかい", "ぎかい"],
                                 "answer" : "きかい",
-                                "audioName": ["24-kikai-FM", "24-kikai-MF"]
+                                "audioName": ["24-kikai-FM", "24-kikai-MF"],
+                                "meaning": "opportunity"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["いと", "いど"],
                                 "answer" : "いど",
-                                "audioName": ["25-ido-FM", "25-ido-MF"]
+                                "audioName": ["25-ido-FM", "25-ido-MF"],
+                                "meaning": "well"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["いと", "いど"],
                                 "answer" : "いと",
-                                "audioName": ["25-ito-FM", "25-ito-MF"]
+                                "audioName": ["25-ito-FM", "25-ito-MF"],
+                                "meaning": "thread"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["かち", "かじ"],
                                 "answer" : "かち",
-                                "audioName": ["26-kachi-FM", "26-kachi-MF"]
+                                "audioName": ["26-kachi-FM", "26-kachi-MF"],
+                                "meaning": "value"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["かち", "かじ"],
                                 "answer" : "かじ",
-                                "audioName": ["26-kaji-FM", "26-kaji-MF"]
+                                "audioName": ["26-kaji-FM", "26-kaji-MF"],
+                                "meaning": "household"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["くち", "ぐち"],
                                 "answer" : "ぐち",
-                                "audioName": ["27-guchi-FM", "27-guchi-MF"]
+                                "audioName": ["27-guchi-FM", "27-guchi-MF"],
+                                "meaning": "whining"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["くち", "ぐち"],
                                 "answer" : "くち",
-                                "audioName": ["27-kuchi-FM", "27-kuchi-MF"]
+                                "audioName": ["27-kuchi-FM", "27-kuchi-MF"],
+                                "meaning": "mouth"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["かいこく", "がいこく"],
                                 "answer" : "がいこく",
-                                "audioName": ["28-gaikoku-FM", "28-gaikoku-MF"]
+                                "audioName": ["28-gaikoku-FM", "28-gaikoku-MF"],
+                                "meaning": "opening country"
                             },
                             {
                                 "question" : "Identify the word you hear in the short conversation.",
                                 "answers" : ["かいこく", "がいこく"],
                                 "answer" : "かいこく",
-                                "audioName": ["28-kaikoku-FM", "28-kaikoku-MF"]
+                                "audioName": ["28-kaikoku-FM", "28-kaikoku-MF"],
+                                "meaning": "foreign country"
                             }
                         ]
                     }
@@ -922,121 +1001,141 @@
                                 "question" : "Which word do you hear?",
                                 "answers" : ["ビル", "ビール"],
                                 "answer" : "ビル",
-                                "audioName": "01-biru-F"
+                                "audioName": "01-biru-F",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["ビル", "ビール"],
                                 "answer" : "ビール",
-                                "audioName": "02-biiru-F"
+                                "audioName": "02-biiru-F",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["しゅじん", "しゅうじん"],
                                 "answer" : "しゅじん",
-                                "audioName": "03-syujin-F"
+                                "audioName": "03-syujin-F",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["しゅじん", "しゅうじん"],
                                 "answer" : "しゅうじん",
-                                "audioName": "04-syuujin-F"
+                                "audioName": "04-syuujin-F",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["そこ", "そうこ"],
                                 "answer" : "そこ",
-                                "audioName": "05-soko-F"
+                                "audioName": "05-soko-F",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["そこ", "そうこ"],
                                 "answer" : "そうこ",
-                                "audioName": "06-sooko-F"
+                                "audioName": "06-sooko-F",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["おじさん", "おじいさん"],
                                 "answer" : "おじさん",
-                                "audioName": "07-ojisan-F"
+                                "audioName": "07-ojisan-F",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["おじさん", "おじいさん"],
                                 "answer" : "おじいさん",
-                                "audioName": "08-ojiisan-F"
+                                "audioName": "08-ojiisan-F",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["さっか", "サッカー"],
                                 "answer" : "さっか",
-                                "audioName": "09-sakka-M"
+                                "audioName": "09-sakka-M",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["さっか", "サッカー"],
                                 "answer" : "サッカー",
-                                "audioName": "10-sakkaa-M"
+                                "audioName": "10-sakkaa-M",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["かれ", "カレー"],
                                 "answer" : "かれ",
-                                "audioName": "11-kare-M"
+                                "audioName": "11-kare-M",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["かれ", "カレー"],
                                 "answer" : "カレー",
-                                "audioName": "12-karee-M"
+                                "audioName": "12-karee-M",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["きぼ", "きぼう"],
                                 "answer" : "きぼ",
-                                "audioName": "13-kibo-M"
+                                "audioName": "13-kibo-M",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["きぼ", "きぼう"],
                                 "answer" : "きぼう",
-                                "audioName": "14-kiboo-M"
+                                "audioName": "14-kiboo-M",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["くつ", "くつう"],
                                 "answer" : "くつ",
-                                "audioName": "15-kutsu-F"
+                                "audioName": "15-kutsu-F",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["くつ", "くつう"],
                                 "answer" : "くつう",
-                                "audioName": "16-kutsuu-F"
+                                "audioName": "16-kutsuu-F",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["さと", "さとう"],
                                 "answer" : "さと",
-                                "audioName": "17-sato-M"
+                                "audioName": "17-sato-M",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["さと", "さとう"],
                                 "answer" : "さとう",
-                                "audioName": "18-satoo-M"
+                                "audioName": "18-satoo-M",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["こんど", "こんどう"],
                                 "answer" : "こんど",
-                                "audioName": "19-kondo-M"
+                                "audioName": "19-kondo-M",
+                                "meaning": "pay cut"
                             },
                             {
                                 "question" : "Which word do you hear?",
                                 "answers" : ["こんど", "こんどう"],
                                 "answer" : "こんどう",
-                                "audioName": "20-kondoo-M"
+                                "audioName": "20-kondoo-M",
+                                "meaning": "pay cut"
                             }
                         ]
                     }
