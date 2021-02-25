@@ -142,9 +142,17 @@ export default class MultipleChoiceQuiz extends Component {
 	}
 
     playAudio = async () => {
-		try { 
-			if(soundObjects[this.state.audioName]){
-				await soundObjects[this.state.audioName].replayAsync();
+		try {
+			if(this.state.multiAudio){
+				if(soundObjects[this.state.audioName[0]]){
+					await soundObjects[this.state.audioName[0]].replayAsync();
+				} else if(await soundObjects[this.state.audioName[1]]) {
+					await soundObjects[this.state.audioName[1]].replayAsync();
+				}
+			} else {
+				if(soundObjects[this.state.audioName]){
+					await soundObjects[this.state.audioName].replayAsync();
+				}
 			}
 		} catch(e) {
 			console.log(e)

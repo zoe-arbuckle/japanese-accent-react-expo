@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, View, StyleSheet, TouchableOpacity, Image, SafeAreaView } from "react-native";
+import { Text, View, StyleSheet, TouchableOpacity, Image, SafeAreaView, Modal } from "react-native";
 import { Component } from "react";
 
 import { Audio } from "expo-av";
@@ -57,6 +57,7 @@ export default class Scrambler extends Component {
 			score: 0,
             navigation: props.navigation,
             currentAnswer: [],
+            modalVisible: false,
         };
     };
 
@@ -187,7 +188,12 @@ export default class Scrambler extends Component {
                 this.setState({score: (this.state.score + 1)})
                 await correctSound.replayAsync()
             }
-            this.getNextQuestion()
+            if(this.state.questionList[this.state.currentIndex].meaning != undefined){
+				this.setState({modalVisible: true})
+				setTimeout(() => {this.getNextQuestion()}, 1500)
+			} else {
+				this.getNextQuestion()
+			}
         } else {
             this.setState({gaveCorrectAnswer: false})
             await incorrectSound.replayAsync()
@@ -195,6 +201,7 @@ export default class Scrambler extends Component {
     }
 
     getNextQuestion = async () => {
+        this.setState({modalVisible: false})
         let index = this.state.currentIndex + 1
         if (index == this.state.questionListLen) {
             this.setState({endQuiz: true})
@@ -230,6 +237,14 @@ export default class Scrambler extends Component {
 
         return (
             <SafeAreaView style={styles.screen}>
+                <Modal visible={this.state.modalVisible && this.state.questionList[this.state.currentIndex].meaning != undefined} animationType="slide" transparent={true}
+					onRequestClose={() => this.setState({modalVisible: false})} supportedOrientations={['landscape']}>
+					<View style={styles.modalView}>
+						<Text style={styles.meaningText}>
+							{this.state.questionList[this.state.currentIndex].meaning}
+						</Text>
+					</View>
+				</Modal>
                 <View style={styles.questionInfoView}>
                     <Text style={styles.questionText}>{this.state.question}</Text>
                     <Text style={styles.questionNumber}>{this.state.currentIndex + 1}/{this.state.questionListLen}</Text>
@@ -335,6 +350,29 @@ const styles = StyleSheet.create({
         flex: 1,
         margin: 20,
         height: 50
+    },
+    meaningText: {
+		color: 'black',
+		fontSize: 24,
+	},
+	modalView: {
+		margin: 20,
+		backgroundColor: colors.correct,
+		borderRadius: 20,
+		padding: 35,
+		alignItems: "center",
+		alignSelf: 'center',
+		shadowColor: "#000",
+		shadowOffset: {
+		  width: 0,
+		  height: 2
+		},
+		shadowOpacity: 0.25,
+		shadowRadius: 3.84,
+		elevation: 5,
+		position: 'absolute',
+		bottom: 0,
+		width: '95%'
     },
     scrambleButtonView: {
         flexDirection: 'row',
