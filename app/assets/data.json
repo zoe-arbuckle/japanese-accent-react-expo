@@ -87,7 +87,7 @@
                                 "answers" : ["に","ほ","ん","ご","が"],
                                 "answer" : "にほんご",
                                 "audioName": "nihongo-ET",
-                                "meaning": "Japanese language"
+                                "meaning": "Japanese"
                             },
                             {
                                 "question" : "Which word do you hear?",
@@ -134,6 +134,97 @@
                                 "answer": 5,
                                 "audioName": "arigatou-ET",
                                 "meaning": "thank you"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "answer": 4,
+                                "word" : "ちょっかく",
+                                "audioName": "chokkaku-ET",
+                                "meaning": "right angle"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "answer": 6,
+                                "word" : "どしゃさいがい",
+                                "audioName": "doshasaigai-ET",
+                                "meaning": "landslide"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "answer": 3,
+                                "word" : "ぎょぎょう",
+                                "audioName": "gyogyou-ET",
+                                "meaning": "fishing industry"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "answer": 4,
+                                "word" : "ぎゅうにゅう",
+                                "audioName": "gyuunyuu-ET",
+                                "meaning": "milk"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "answer": 2,
+                                "word" : "じょしゅ",
+                                "audioName": "joshu-ET",
+                                "meaning": "assistant"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "answer": 3,
+                                "word" : "ことば",
+                                "audioName": "kotoba-ET",
+                                "meaning": "word"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "answer": 5,
+                                "word" : "じょうりゅうしゅ",
+                                "audioName": "jouryuushu-ET",
+                                "meaning": "distilled liquor"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "answer": 6,
+                                "word" : "じょうりゅうすい",
+                                "audioName": "jouryuusui-ET",
+                                "meaning": "distilled water"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "answer": 3,
+                                "word" : "きょうと",
+                                "audioName": "kyouto-ET",
+                                "meaning": "Kyoto (city)"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "answer": 5,
+                                "word" : "しょうじょぞう",
+                                "audioName": "shoujozou-ET",
+                                "meaning": "statue of a girl"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "answer": 4,
+                                "word" : "せんせい",
+                                "audioName": "sensei-ET",
+                                "meaning": "teacher"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "answer": 5,
+                                "word" : "ていりゅうじょ",
+                                "audioName": "teiryuujo-ET",
+                                "meaning": "station"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "answer": 4,
+                                "word" : "とうきょう",
+                                "audioName": "toukyou-ET",
+                                "meaning": "Tokyo (city)"
                             }
                         ]
                     }
