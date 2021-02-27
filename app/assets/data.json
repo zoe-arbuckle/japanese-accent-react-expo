@@ -118,6 +118,24 @@
                                 "meaning": "Tokyo (city)"
                             }
                         ]
+                    }, 
+                    "letterSoundQuiz": {
+                        "questions": [
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "word" : "にほんご",
+                                "answer": 4,
+                                "audioName": "nihongo-ET",
+                                "meaning": "Japanese"
+                            },
+                            {
+                                "question" : "Identify the number of mora in the word.",
+                                "word" : "ありがとう",
+                                "answer": 5,
+                                "audioName": "arigatou-ET",
+                                "meaning": "thank you"
+                            }
+                        ]
                     }
                 }
             ]

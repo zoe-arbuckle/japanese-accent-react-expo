@@ -62,6 +62,19 @@ function LessonScreen({ route, navigation }) {
         )
     }
 
+    if(data.letterSoundQuiz != undefined && data.letterSoundQuiz.questions.length > 0){
+        buttons.push(
+            <Button 
+                title="Mora Basics 2"
+                key="letterSoundQuiz"
+                onPress={() => navigation.navigate('Practice',{
+                    letterSoundQuiz: data.letterSoundQuiz,
+                })}
+                style={styles.practiceButton}
+            />
+        )
+    }
+
     return (
         <SafeAreaView style={styles.screen}>
             <Modal visible={modalVisible} animationType="slide" transparent={true} 

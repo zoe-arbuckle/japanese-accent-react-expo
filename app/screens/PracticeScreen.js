@@ -3,6 +3,7 @@ import { Text } from 'react-native'
 
 import MultipleChoiceQuiz from '../components/MultipleChoiceQuiz'
 import Scrambler from '../components/Scrambler';
+import LetterSoundQuiz from '../components/LetterSoundQuiz';
 
 // function for playing audio when audio button pressed
 
@@ -17,6 +18,7 @@ function PracticeScreen({
         chooseAmountQuiz,
         scrambler,
         conversation,
+        letterSoundQuiz,
         numQuestions,
     } = route.params;
     // console.log(quiz.questions);
@@ -66,6 +68,15 @@ function PracticeScreen({
         } navigation = {
             navigation
         } /> )
+    }
+
+    if (letterSoundQuiz != undefined) {
+        const questions = letterSoundQuiz.questions
+        return ( <LetterSoundQuiz questions = {
+            questions
+        } navigation = {
+            navigation
+        }/>)
     }
 }
 

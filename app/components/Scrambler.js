@@ -293,7 +293,6 @@ export default class Scrambler extends Component {
 }
 
 // STYLES
-// TODO: make fonts bigger
 
 const styles = StyleSheet.create({
     answerView: {
