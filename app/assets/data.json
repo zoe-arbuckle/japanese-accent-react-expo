@@ -2,7 +2,7 @@
     "lessons": [
         {
             "lessonid": 1,
-            "lessonName": "Basics of Japanese Sound Unit",
+            "lessonName": "Mora",
             "lessonDescription": "Lesson 1",
             "subsections": [
                 {
@@ -233,7 +233,7 @@
         },
         {
             "lessonid": 2,
-            "lessonName": "Voicing, Vowels, and Consonants",
+            "lessonName": "Consonants and Vowels",
             "lessonDescription": "Lesson 2",
             "subsections": [
                 {
@@ -1123,17 +1123,17 @@
         },
         {
             "lessonid": 3,
-            "lessonName": "Rhythm of Japanese",
+            "lessonName": "Rhythm",
             "lessonDescription": "Lesson 3"
         },
         {
             "lessonid": 4,
-            "lessonName": "Pitch Accent of Japanese",
+            "lessonName": "Basics of Pitch Accent",
             "lessonDescription": "Lesson 4"
         },
         {
             "lessonid": 5,
-            "lessonName": "Pitch Pattern of Words",
+            "lessonName": "Accents in Words",
             "lessonDescription": "Lesson 5"
         }
     ]
