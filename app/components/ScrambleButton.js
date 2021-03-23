@@ -17,18 +17,19 @@ export default ScrambleButton
 
 const styles = StyleSheet.create({
     answerButton: {
-        margin: 5,
-        width: 80,
-        height: 80,
+        margin: '1%',
+        width: '10%',
+        marginBottom: '10%',
+        aspectRatio: 2/1,
         backgroundColor: colors.background,
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 10,
     },
     scrambleButton: {
-        margin: 5,
-        width: 80,
-        height: 80,
+        margin: '1%',
+        width: '10%',
+        aspectRatio: 2/1,
         backgroundColor: colors.background,
         justifyContent: 'center',
         alignItems: 'center',

@@ -297,7 +297,7 @@ export default class Scrambler extends Component {
 const styles = StyleSheet.create({
     answerView: {
         flexDirection: 'column',
-        flex: 1,
+        flex: 2,
         justifyContent: 'flex-end',
         alignContent: 'flex-end',
     },
@@ -313,7 +313,7 @@ const styles = StyleSheet.create({
     },
     buttonView:{
         flexDirection: "row",
-        flex: 1,
+        flex: 2,
         margin: 10,
         justifyContent: 'center'
     },
@@ -402,6 +402,6 @@ const styles = StyleSheet.create({
 		backgroundColor: colors.primary,
 		padding: 10,
         alignSelf: 'flex-start',
-		borderRadius: 10,
+		borderRadius: 5,
 	},
 })
