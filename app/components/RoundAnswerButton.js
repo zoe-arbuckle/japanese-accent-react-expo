@@ -15,9 +15,9 @@ const RoundAnswerButton = ( {title, onPress} ) => {
 
 const styles = StyleSheet.create({
     answerButton: {
-		margin: 30,
-        height: 150,
-        width: 150,
+		margin: 10,
+        width: "15%",
+        aspectRatio: 1 / 1,
 		justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 100,

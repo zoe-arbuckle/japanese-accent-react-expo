@@ -290,8 +290,8 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
 		alignItems: 'flex-end',
 		justifyContent: 'flex-end',
-        flex: 1,
-        marginBottom: 100,
+		flex: 1,
+		marginBottom: '5%',
 	},
 	audioButton: {
 		width: 100,
@@ -307,7 +307,8 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         flex: 1,
 		width: '100%',
-		margin: 100,
+		height: '50%',
+		marginTop: '5%',
 		justifyContent: 'center',
 	},
 	meaningText: {
@@ -362,6 +363,6 @@ const styles = StyleSheet.create({
     },
     word:{
         fontSize: 50,
-        fontWeight: 'bold',
+		fontWeight: 'bold'
     }
 });
