@@ -67,7 +67,7 @@ function LessonScreen({ route, navigation }) {
             <Button 
                 title="Mora Basics 2"
                 key="letterSoundQuiz"
-                onPress={() => navigation.navigate('Practice',{
+                onPress={() => navigation.navigate('Mode',{
                     letterSoundQuiz: data.letterSoundQuiz,
                 })}
                 style={styles.practiceButton}

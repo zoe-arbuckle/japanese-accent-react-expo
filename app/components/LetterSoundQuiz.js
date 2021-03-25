@@ -8,6 +8,7 @@ import colors from '../config/colors.js'
 import sounds from '../config/sounds.js'
 import ScoreScreen from '../screens/ScoreScreen.js';
 import RoundAnswerButton from './RoundAnswerButton.js';
+import SetModeScreen from '../screens/SetModeScreen';
 
 // constant values
 const soundObjects = {}
@@ -24,7 +25,7 @@ export default class LetterSoundQuiz extends Component {
 		super(props);
 
         let array = props.questions
-        let mode = 0
+        let mode = props.mode
         var len;
 
 		if (props.chooseNumber){
@@ -41,7 +42,8 @@ export default class LetterSoundQuiz extends Component {
 			array[i] = array[j]
 			array[j] = temp
         }
-        
+		
+		// possible answers for this quiz are 2, 3, 4, 5, and 6
         const answers = [];
         for (var i = 2; i < 7; i ++) {
             answers.push(i)
@@ -66,6 +68,8 @@ export default class LetterSoundQuiz extends Component {
 			multiAudio: props.multiAudio,
 			modalVisible: false,
 		};
+
+		console.log(this.state.mode)
 	}
 
 	// COMPONENT MOUNTING

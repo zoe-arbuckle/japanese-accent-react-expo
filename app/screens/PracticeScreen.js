@@ -20,6 +20,7 @@ function PracticeScreen({
         conversation,
         letterSoundQuiz,
         numQuestions,
+        mode,
     } = route.params;
     // console.log(quiz.questions);
     if (quiz != undefined) {
@@ -76,7 +77,9 @@ function PracticeScreen({
             questions
         } navigation = {
             navigation
-        }/>)
+        } mode ={
+            mode
+        } />)
     }
 }
 

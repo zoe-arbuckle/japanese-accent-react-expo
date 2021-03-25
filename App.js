@@ -10,6 +10,7 @@ import HomeScreen from './app/screens/HomeScreen';
 import LessonScreen from './app/screens/LessonScreen';
 import PracticeScreen from './app/screens/PracticeScreen';
 import ScoreScreen from './app/screens/ScoreScreen';
+import SetModeScreen from './app/screens/SetModeScreen';
 
 const Stack = createStackNavigator();
 
@@ -21,6 +22,7 @@ function App() {
         <Stack.Screen name="Lesson" component={LessonScreen} />
         <Stack.Screen name="Practice" component={PracticeScreen} />
         <Stack.Screen name="Score" component={ScoreScreen} />
+        <Stack.Screen name="Mode" component={SetModeScreen}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
