@@ -68,8 +68,6 @@ export default class LetterSoundQuiz extends Component {
 			multiAudio: props.multiAudio,
 			modalVisible: false,
 		};
-
-		console.log(this.state.mode)
 	}
 
 	// COMPONENT MOUNTING
