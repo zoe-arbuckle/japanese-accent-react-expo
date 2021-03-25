@@ -16,6 +16,7 @@ function HomeScreen({ navigation }) {
                lessons.map((item, index) => (
                    <ExpandableLesson 
                         key={item.lessonid}
+                        self={item}
                         title={item.lessonName}
                         navigation={navigation}
                         data={item.subsections}

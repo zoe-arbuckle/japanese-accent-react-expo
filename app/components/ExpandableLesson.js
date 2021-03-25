@@ -14,6 +14,7 @@ export default class ExpandableLesson extends Component {
             expanded: false,
             title: props.title,
             navigation: props.navigation,
+            self: props.self,
         }
     }
 
@@ -43,6 +44,10 @@ export default class ExpandableLesson extends Component {
     toggleExpand = () => {
         if(this.state.subsections != undefined){
             this.setState({expanded: !this.state.expanded})
+        } else {
+            this.state.navigation.navigate('Lesson', {
+                data: this.state.self,
+            })
         }
     }
 }
