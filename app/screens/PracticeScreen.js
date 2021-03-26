@@ -4,6 +4,7 @@ import { Text } from 'react-native'
 import MultipleChoiceQuiz from '../components/MultipleChoiceQuiz'
 import Scrambler from '../components/Scrambler';
 import LetterSoundQuiz from '../components/LetterSoundQuiz';
+import { getNativeSourceFromSource } from 'expo-av/build/AV';
 
 // function for playing audio when audio button pressed
 
@@ -14,30 +15,16 @@ function PracticeScreen({
     navigation
 }) {
     const {
-        quiz,
-        chooseAmountQuiz,
+        multipleChoice,
         scrambler,
         conversation,
-        letterSoundQuiz,
+        letterSound,
         numQuestions,
         mode,
     } = route.params;
-    // console.log(quiz.questions);
-    if (quiz != undefined) {
-        const questions = quiz.questions;
-        if (questions.length == 0) {
-            return ( <Text> There are no questions: ) </Text>)
-        } else {
-            return ( <MultipleChoiceQuiz questions = {
-                questions
-            } navigation = {
-                navigation
-            } />);
-        }
-    }
 
-    if(chooseAmountQuiz != undefined){
-        const questions = chooseAmountQuiz.questions;
+    if(multipleChoice != undefined){
+        const questions = multipleChoice.questions;
         return (
             <MultipleChoiceQuiz questions = {
                 questions
@@ -54,6 +41,8 @@ function PracticeScreen({
         return (
             <MultipleChoiceQuiz questions = {
                 questions
+            } chooseNumber = {
+                numQuestions
             } multiAudio = {
                 true
             } navigation = {
@@ -66,15 +55,20 @@ function PracticeScreen({
         const questions = scrambler.questions
         return ( <Scrambler questions = {
             questions
+        } chooseNumber = {
+            numQuestions
         } navigation = {
             navigation
         } /> )
     }
 
-    if (letterSoundQuiz != undefined) {
-        const questions = letterSoundQuiz.questions
+    console.log(letterSound)
+    if (letterSound != undefined) {
+        const questions = letterSound.questions
         return ( <LetterSoundQuiz questions = {
             questions
+        } chooseNumber ={
+            numQuestions
         } navigation = {
             navigation
         } mode ={

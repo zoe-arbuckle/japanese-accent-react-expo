@@ -11,41 +11,39 @@ function LessonScreen({ route, navigation }) {
     const [ modalVisible, setModalVisible ] = useState(false)
     const [ selectedOption, setSelectedOption ] = useState("1")
     const [ validationVisible, setValidationVisible ] = useState(false)
+    const [ quizType, setQuizType ] = useState('')
     let max = 1
 
-    if(data.quiz != undefined && data.quiz.questions.length > 0){
-        buttons.push(
-            <Button 
-                title="Multiple Choice Quiz"
-                key="MCQuiz"
-                onPress={() => navigation.navigate('Practice', {
-                    quiz: data.quiz,
-                })}
-                style={styles.practiceButton}/>)
-    }
-
-    if(data.chooseAmountQuiz != undefined && data.chooseAmountQuiz.questions.length > 0){
-        max = data.chooseAmountQuiz.questions.length
+    if(data.multipleChoiceQuiz != undefined && data.multipleChoiceQuiz.questions.length > 0){
+        max = data.multipleChoiceQuiz.questions.length
         if(max == undefined){
             max = 1
         }
 
         buttons.push(
             <Button 
-                title="Choose Amount Quiz"
-                key="CAQuiz"
-                onPress={() => setModalVisible(!modalVisible)}
+                title="Multiple Choice"
+                key="multipleChoice"
+                onPress={() => {
+                    setModalVisible(true)
+                    setQuizType('multipleChoiceQuiz')
+                }}
                 style={styles.practiceButton}/>)
     }
 
     if(data.scrambler != undefined && data.scrambler.questions.length > 0){
+        max = data.scrambler.questions.length
+        if(max == undefined){
+            max = 1
+        }
         buttons.push(
             <Button 
                 title="Scrambler"
-                key="Scrambler"
-                onPress={() => navigation.navigate('Practice', {
-                    scrambler: data.scrambler,
-                })}
+                key="scrambler"
+                onPress={() => {
+                    setModalVisible(true)
+                    setQuizType('scrambler')
+                }}
                 style={styles.practiceButton}/>
         )
     }
@@ -54,10 +52,11 @@ function LessonScreen({ route, navigation }) {
         buttons.push(
             <Button
                 title="Conversation Quiz"
-                key="ConvoQuiz"
-                onPress={() => navigation.navigate('Practice', {
-                    conversation: data.conversationQuiz,
-                })}
+                key="conversation"
+                onPress={() => {
+                    setModalVisible(true)
+                    setQuizType('conversation')
+                }}
                 style={styles.practiceButton}/>
         )
     }
@@ -65,11 +64,12 @@ function LessonScreen({ route, navigation }) {
     if(data.letterSoundQuiz != undefined && data.letterSoundQuiz.questions.length > 0){
         buttons.push(
             <Button 
-                title="Mora Basics 2"
-                key="letterSoundQuiz"
-                onPress={() => navigation.navigate('Mode',{
-                    letterSoundQuiz: data.letterSoundQuiz,
-                })}
+                title="Mora Basics"
+                key="letterSound"
+                onPress={() => {
+                    setModalVisible(true)
+                    setQuizType('letterSound')
+                }}
                 style={styles.practiceButton}
             />
         )
@@ -93,10 +93,7 @@ function LessonScreen({ route, navigation }) {
                             setValidationVisible(true)
                         } else {
                             setModalVisible(false)
-                            navigation.navigate('Practice', {
-                                chooseAmountQuiz: data.chooseAmountQuiz,
-                                numQuestions: fitInputToRange(selectedOption, max),
-                            })
+                            navigateTo(navigation, data, selectedOption, max, quizType)
                             setValidationVisible(false)
                             setSelectedOption("1")
                         }
@@ -127,6 +124,39 @@ function fitInputToRange(value, max){
     } else {
         return intValue;
     }
+}
+
+function navigateTo(navigation, data, selectedOption, max, quizType){
+    console.log(`quiz type: ${quizType}\n`)
+    switch (quizType) {
+        case 'multipleChoiceQuiz':
+            navigation.navigate('Practice', {
+                multipleChoiceQuiz: data.multipleChoiceQuiz,
+                numQuestions: fitInputToRange(selectedOption, max),
+            })
+            return;
+        case 'scrambler':
+            navigation.navigate('Practice', {
+                scrambler: data.scrambler,
+                numQuestions: fitInputToRange(selectedOption, max),
+            })
+            return;
+        case 'conversation':
+            navigation.navigate('Practice', {
+                conversation: data.conversationQuiz,
+                numQuestions: fitInputToRange(selectedOption, max),
+            })
+            return;
+        case 'letterSound':
+            navigation.navigate('Mode',{
+                letterSound: data.letterSoundQuiz,
+                numQuestions: fitInputToRange(selectedOption, max)
+            })
+            return;
+        default:
+            console.log("Unknown Quiz Type")
+    }
+
 }
 
 const styles = StyleSheet.create({

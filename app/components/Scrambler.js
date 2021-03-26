@@ -22,6 +22,13 @@ export default class Scrambler extends Component {
         super(props)
 
         let questionArray = props.questions
+        var len;
+
+        if(props.chooseNumber){
+            len = props.chooseNumber;
+        } else {
+            len = questionArray.length;
+        }
 
         for(let i = questionArray.length - 1; i > 0; i--){
             const j = Math.floor(Math.random() * i)
@@ -31,6 +38,10 @@ export default class Scrambler extends Component {
             questionArray[j] = temp
             
         }
+
+        questionArray = questionArray.slice(0, len)
+        console.log(len)
+        console.log(questionArray)
 
         //shuffles answers too
         for(let i = 0; i < questionArray.length; i++){
@@ -46,18 +57,19 @@ export default class Scrambler extends Component {
         
         this.state = {
             volume: 1,
-			questionList: props.questions,
-			question: props.questions[0].question,
-			answers: props.questions[0].answers,
-			answer: props.questions[0].answer,
-			audioName: props.questions[0].audioName,
+			questionList: questionArray,
+			question: questionArray[0].question,
+			answers: questionArray[0].answers,
+			answer: questionArray[0].answer,
+			audioName: questionArray[0].audioName,
 			currentIndex: 0,
-			questionListLen: props.questions.length,
+			questionListLen: questionArray.length,
 			endQuiz: false,
 			score: 0,
             navigation: props.navigation,
             currentAnswer: [],
             modalVisible: false,
+            multiAudio: props.multiAudio,
         };
     };
 

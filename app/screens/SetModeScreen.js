@@ -4,8 +4,9 @@ import { SafeAreaView, View, Text, StyleSheet, TouchableOpacity } from 'react-na
 import colors from '../config/colors'
 
 function SetModeScreen({ route, navigation }) {
-    const {letterSoundQuiz} = route.params
+    const {letterSound, numQuestions} = route.params
 
+    console.log(`${letterSound} and ${numQuestions}`)
     return (
         <SafeAreaView style={styles.scoreView}>
             <View style={styles.textView}>
@@ -14,16 +15,18 @@ function SetModeScreen({ route, navigation }) {
             <TouchableOpacity 
                 style={styles.modeButton}
                 onPress={() => navigation.navigate('Practice',{
-                    letterSoundQuiz: letterSoundQuiz,
+                    letterSound: letterSound,
                     mode: 1,
+                    numQuestions: numQuestions,
                 })}>
                 <Text style={styles.modeButtonText}>Sound Only Mode</Text>
             </TouchableOpacity>
             <TouchableOpacity 
                 style={styles.modeButton}
                 onPress={() =>navigation.navigate('Practice',{
-                    letterSoundQuiz: letterSoundQuiz,
+                    letterSound: letterSound,
                     mode: 0,
+                    numQuestions: numQuestions,
                 })}>
                 <Text style={styles.modeButtonText}>Letters Only Mode</Text>
             </TouchableOpacity>
