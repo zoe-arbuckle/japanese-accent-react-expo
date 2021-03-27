@@ -1488,6 +1488,2182 @@
                     }
                 },
                 {
+                    "lessonid": 2.2,
+                    "lessonName": "Glides",
+                    "lessonDescription": "Lesson 2.2",
+                    "multipleChoiceQuiz":{
+                        "questions": [
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "けいざい",
+                                    "けいじゃい"
+                                ],
+                                "answer": "けいざい",
+                                "audioName": "gl1-keizai.mp3",
+                                "meaning": "economy"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "けいざい",
+                                    "けいじゃい"
+                                ],
+                                "answer": "けいじゃい",
+                                "audioName": "gl1-keijai.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぜったい",
+                                    "じぇったい"
+                                ],
+                                "answer": "ぜったい",
+                                "audioName": "gl2-zettai.mp3",
+                                "meaning": "economy"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぜったい",
+                                    "じぇったい"
+                                ],
+                                "answer": "じぇったい",
+                                "audioName": "gl2-jettai.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "みっつ",
+                                    "みっちゅ"
+                                ],
+                                "answer": "みっつ",
+                                "audioName": "gl3-mittsu.mp3",
+                                "meaning": "three"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "みっつ",
+                                    "みっちゅ"
+                                ],
+                                "answer": "みっちゅ",
+                                "audioName": "gl3-mittyu.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つくります",
+                                    "ちゅくります"
+                                ],
+                                "answer": "つくります",
+                                "audioName": "gl4-tsukurimasu.mp3",
+                                "meaning": "to make"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つくります",
+                                    "ちゅくります"
+                                ],
+                                "answer": "ちゅくります",
+                                "audioName": "gl4-tyukurimasu.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞう",
+                                    "じょう"
+                                ],
+                                "answer": "ぞう",
+                                "audioName": "gl5-zou.mp3",
+                                "meaning": "elephant"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞう",
+                                    "じょう"
+                                ],
+                                "answer": "じょう",
+                                "audioName": "gl5-jou.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つくえ",
+                                    "ちゅくえ"
+                                ],
+                                "answer": "つくえ",
+                                "audioName": "gl6-tsukue.mp3",
+                                "meaning": "desk"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つくえ",
+                                    "ちゅくえ"
+                                ],
+                                "answer": "ちゅくえ",
+                                "audioName": "gl6-tyukue.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おまつり",
+                                    "おまちゅり"
+                                ],
+                                "answer": "おまつり",
+                                "audioName": "gl7-omatsuri.mp3",
+                                "meaning": "festival"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おまつり",
+                                    "おまちゅり"
+                                ],
+                                "answer": "おまちゅり",
+                                "audioName": "gl7-omatyuri.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つうこう",
+                                    "ちゅうこう"
+                                ],
+                                "answer": "つうこう",
+                                "audioName": "gl8-tsuukou.mp3",
+                                "meaning": "go through"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つうこう",
+                                    "ちゅうこう"
+                                ],
+                                "answer": "ちゅうこう",
+                                "audioName": "gl8-tyuukou.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ずっと",
+                                    "じゅっと"
+                                ],
+                                "answer": "ずっと",
+                                "audioName": "gl9-zutto.mp3",
+                                "meaning": "all the way"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ずっと",
+                                    "じゅっと"
+                                ],
+                                "answer": "じゅっと",
+                                "audioName": "gl9-jutto.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かず",
+                                    "かじゅ"
+                                ],
+                                "answer": "かず",
+                                "audioName": "gl10-kazu.mp3",
+                                "meaning": "number"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かず",
+                                    "かじゅ"
+                                ],
+                                "answer": "かじゅ",
+                                "audioName": "gl10-kaju.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょうず",
+                                    "じょうじゅ"
+                                ],
+                                "answer": "じょうず",
+                                "audioName": "gl11-jouzu.mp3",
+                                "meaning": "good at"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょうず",
+                                    "じょうじゅ"
+                                ],
+                                "answer": "じょうじゅ",
+                                "audioName": "gl11-jouju.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かぞく",
+                                    "かじょく"
+                                ],
+                                "answer": "かぞく",
+                                "audioName": "gl12-kazoku.mp3",
+                                "meaning": "family"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かぞく",
+                                    "かじょく"
+                                ],
+                                "answer": "かじょく",
+                                "audioName": "gl12-kajoku.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かぜ",
+                                    "かじぇ"
+                                ],
+                                "answer": "かぜ",
+                                "audioName": "gl13-kaze.mp3",
+                                "meaning": "wind"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かぜ",
+                                    "かじぇ"
+                                ],
+                                "answer": "かじぇ",
+                                "audioName": "gl13-kaje.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞうか",
+                                    "じょうか"
+                                ],
+                                "answer": "ぞうか",
+                                "audioName": "gl14-zouka.mp3",
+                                "meaning": "increase"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞうか",
+                                    "じょうか"
+                                ],
+                                "answer": "じょうか",
+                                "audioName": "gl14-jouka.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ひざ",
+                                    "ひじゃ"
+                                ],
+                                "answer": "ひざ",
+                                "audioName": "gl15-hiza.mp3",
+                                "meaning": "knee"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ひざ",
+                                    "ひじゃ"
+                                ],
+                                "answer": "ひじゃ",
+                                "audioName": "gl15-hija.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ざっし",
+                                    "じゃっし"
+                                ],
+                                "answer": "ざっし",
+                                "audioName": "gl16-zassi.mp3",
+                                "meaning": "magazine"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ざっし",
+                                    "じゃっし"
+                                ],
+                                "answer": "じゃっし",
+                                "audioName": "gl16-jassi.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ございます",
+                                    "ごじゃいます"
+                                ],
+                                "answer": "ございます",
+                                "audioName": "gl17-gozaimasu.mp3",
+                                "meaning": "thank you"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ございます",
+                                    "ごじゃいます"
+                                ],
+                                "answer": "ごじゃいます",
+                                "audioName": "gl17-gojaimasu.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つうしん",
+                                    "ちゅうしん"
+                                ],
+                                "answer": "つうしん",
+                                "audioName": "gl18-tsuusin.mp3",
+                                "meaning": "communication"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つうしん",
+                                    "ちゅうしん"
+                                ],
+                                "answer": "ちゅうしん",
+                                "audioName": "gl18-tyuusin.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つうこく",
+                                    "ちゅうこく"
+                                ],
+                                "answer": "つうこく",
+                                "audioName": "gl19-tsuukoku.mp3",
+                                "meaning": "inform"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つうこく",
+                                    "ちゅうこく"
+                                ],
+                                "answer": "ちゅうこく",
+                                "audioName": "gl19-tyuukoku.mp3",
+                                "meaning": "warn"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞうき",
+                                    "じょうき"
+                                ],
+                                "answer": "ぞうき",
+                                "audioName": "gl20-zouki.mp3",
+                                "meaning": "organ"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞうき",
+                                    "じょうき"
+                                ],
+                                "answer": "じょうき",
+                                "audioName": "gl20-jouki.mp3",
+                                "meaning": "steam"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "どうぞう",
+                                    "どうじょう"
+                                ],
+                                "answer": "どうぞう",
+                                "audioName": "gl21-douzou.mp3",
+                                "meaning": "bronze statue"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞうき",
+                                    "どうじょう"
+                                ],
+                                "answer": "どうじょう",
+                                "audioName": "gl21-doujou.mp3",
+                                "meaning": "sympathy"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "れいぞう",
+                                    "れいじょう"
+                                ],
+                                "answer": "れいぞう",
+                                "audioName": "gl22-reizou.mp3",
+                                "meaning": "refrigerator"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "れいぞう",
+                                    "れいじょう"
+                                ],
+                                "answer": "れいじょう",
+                                "audioName": "gl22-reijou.mp3",
+                                "meaning": "thank you note"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょうし",
+                                    "ぞうし"
+                                ],
+                                "answer": "じょうし",
+                                "audioName": "gl23-joushi.mp3",
+                                "meaning": "boss"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょうし",
+                                    "ぞうし"
+                                ],
+                                "answer": "ぞうし",
+                                "audioName": "gl23-zoushi.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こうぞう",
+                                    "こうじょう"
+                                ],
+                                "answer": "こうぞう",
+                                "audioName": "gl24-kouzou.mp3",
+                                "meaning": "structure"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こうぞう",
+                                    "こうじょう"
+                                ],
+                                "answer": "こうじょう",
+                                "audioName": "gl24-koujou.mp3",
+                                "meaning": "factory"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅうぶん",
+                                    "ずうぶん"
+                                ],
+                                "answer": "じゅうぶん",
+                                "audioName": "gl25-juubun.mp3",
+                                "meaning": "sufficient"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅうぶん",
+                                    "ずうぶん"
+                                ],
+                                "answer": "ずうぶん",
+                                "audioName": "gl25-zuubun.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅぎょう",
+                                    "ずぎょう"
+                                ],
+                                "answer": "じゅぎょう",
+                                "audioName": "gl26-jugyou.mp3",
+                                "meaning": "class"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅぎょう",
+                                    "ずぎょう"
+                                ],
+                                "answer": "ずぎょう",
+                                "audioName": "gl26-zugyou.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きょうじゅ",
+                                    "きょうず"
+                                ],
+                                "answer": "きょうじゅ",
+                                "audioName": "gl27-kyouju.mp3",
+                                "meaning": "professor"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きょうじゅ",
+                                    "きょうず"
+                                ],
+                                "answer": "きょうず",
+                                "audioName": "gl27-kyouzu.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょうほう",
+                                    "ぞうほう"
+                                ],
+                                "answer": "じょうほう",
+                                "audioName": "gl28-jouhou.mp3",
+                                "meaning": "information"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょうほう",
+                                    "ぞうほう"
+                                ],
+                                "answer": "ぞうほう",
+                                "audioName": "gl28-zouhou.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅんび",
+                                    "ずんび"
+                                ],
+                                "answer": "じゅんび",
+                                "audioName": "gl29-junbi.mp3",
+                                "meaning": "preparation"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅんび",
+                                    "ずんび"
+                                ],
+                                "answer": "ずんび",
+                                "audioName": "gl29-zunbi.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちゅうい",
+                                    "つうい"
+                                ],
+                                "answer": "ちゅうい",
+                                "audioName": "gl30-cyuui.mp3",
+                                "meaning": "warning"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちゅうい",
+                                    "つうい"
+                                ],
+                                "answer": "つうい",
+                                "audioName": "gl30-tsuui.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かのじょ",
+                                    "かのぞ"
+                                ],
+                                "answer": "かのじょ",
+                                "audioName": "gl31-kanojo.mp3",
+                                "meaning": "warning"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かのじょ",
+                                    "かのぞ"
+                                ],
+                                "answer": "かのぞ",
+                                "audioName": "gl31-kanozo.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅっぷん",
+                                    "ずっぷん"
+                                ],
+                                "answer": "じゅっぷん",
+                                "audioName": "gl32-juppun.mp3",
+                                "meaning": "ten minutes"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅっぷん",
+                                    "ずっぷん"
+                                ],
+                                "answer": "ずっぷん",
+                                "audioName": "gl32-zuppun.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅうしょ",
+                                    "ずうじょ"
+                                ],
+                                "answer": "じゅうしょ",
+                                "audioName": "gl33-juusyo.mp3",
+                                "meaning": "address"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅうしょ",
+                                    "ずうじょ"
+                                ],
+                                "answer": "ずうじょ",
+                                "audioName": "gl33-zuusyo.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "だいじょうぶ",
+                                    "だいぞうぶ"
+                                ],
+                                "answer": "だいじょうぶ",
+                                "audioName": "gl34-daijoubu.mp3",
+                                "meaning": "all right"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "だいじょうぶ",
+                                    "だいぞうぶ"
+                                ],
+                                "answer": "だいぞうぶ",
+                                "audioName": "gl34-daizoubu.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "たんじょうび",
+                                    "たんぞうび"
+                                ],
+                                "answer": "たんじょうび",
+                                "audioName": "gl35-tanjoubi.mp3",
+                                "meaning": "birthday"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "たんじょうび",
+                                    "たんぞうび"
+                                ],
+                                "answer": "たんぞうび",
+                                "audioName": "gl35-tanzoubi.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かいぎちゅう",
+                                    "かいぎつう"
+                                ],
+                                "answer": "かいぎちゅう",
+                                "audioName": "gl36-kaigityuu.mp3",
+                                "meaning": "middle of meeting"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かいぎちゅう",
+                                    "かいぎつう"
+                                ],
+                                "answer": "かいぎつう",
+                                "audioName": "gl36-kaigitsuu.mp3",
+                                "meaning": "non-word"
+                            }
+                        ]
+                    },
+                    "scrambler":{
+                        "questions": [
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "け","い","ざ","い","じゃ"
+                                ],
+                                "answer": "けいざい",
+                                "audioName": "gl1-keizai.mp3",
+                                "meaning": "economy"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ざ","け","い","じゃ","い"
+                                ],
+                                "answer": "けいじゃい",
+                                "audioName": "gl1-keijai.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぜ","っ","た","い",
+                                    "じぇ"
+                                ],
+                                "answer": "ぜったい",
+                                "audioName": "gl2-zettai.mp3",
+                                "meaning": "economy"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぜ",
+                                    "じぇ","っ","た","い"
+                                ],
+                                "answer": "じぇったい",
+                                "audioName": "gl2-jettai.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "み","っ","つ",
+                                    "ちゅ"
+                                ],
+                                "answer": "みっつ",
+                                "audioName": "gl3-mittsu.mp3",
+                                "meaning": "three"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "み","っ","つ",
+                                    "ちゅ"
+                                ],
+                                "answer": "みっちゅ",
+                                "audioName": "gl3-mittyu.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つ","く","り","ま","す",
+                                    "ちゅ"
+                                ],
+                                "answer": "つくります",
+                                "audioName": "gl4-tsukurimasu.mp3",
+                                "meaning": "to make"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つ","く","り","ま","す",
+                                    "ちゅ"
+                                ],
+                                "answer": "ちゅくります",
+                                "audioName": "gl4-tyukurimasu.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞ","う",
+                                    "じょ"
+                                ],
+                                "answer": "ぞう",
+                                "audioName": "gl5-zou.mp3",
+                                "meaning": "elephant"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞ","う",
+                                    "じょ"
+                                ],
+                                "answer": "じょう",
+                                "audioName": "gl5-jou.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つ","く","え",
+                                    "ちゅ"
+                                ],
+                                "answer": "つくえ",
+                                "audioName": "gl6-tsukue.mp3",
+                                "meaning": "desk"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つ","く","え",
+                                    "ちゅ"
+                                ],
+                                "answer": "ちゅくえ",
+                                "audioName": "gl6-tyukue.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "お","ま","つ","り",
+                                    "ちゅ"
+                                ],
+                                "answer": "おまつり",
+                                "audioName": "gl7-omatsuri.mp3",
+                                "meaning": "festival"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "お","ま","つ","り",
+                                    "ちゅ"
+                                ],
+                                "answer": "おまちゅり",
+                                "audioName": "gl7-omatyuri.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つ","う","こ",
+                                    "ちゅ"
+                                ],
+                                "answer": "つうこう",
+                                "audioName": "gl8-tsuukou.mp3",
+                                "meaning": "go through"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つ","う","こ",
+                                    "ちゅ"
+                                ],
+                                "answer": "ちゅうこう",
+                                "audioName": "gl8-tyuukou.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ず","っ","と",
+                                    "じゅ"
+                                ],
+                                "answer": "ずっと",
+                                "audioName": "gl9-zutto.mp3",
+                                "meaning": "all the way"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ず","っ","と",
+                                    "じゅ"
+                                ],
+                                "answer": "じゅっと",
+                                "audioName": "gl9-jutto.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","ず",
+                                    "じゅ"
+                                ],
+                                "answer": "かず",
+                                "audioName": "gl10-kazu.mp3",
+                                "meaning": "number"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","ず",
+                                    "じゅ"
+                                ],
+                                "answer": "かじゅ",
+                                "audioName": "gl10-kaju.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょ","う","ず",
+                                    "じゅ"
+                                ],
+                                "answer": "じょうず",
+                                "audioName": "gl11-jouzu.mp3",
+                                "meaning": "good at"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょ","う","ず",
+                                    "じゅ"
+                                ],
+                                "answer": "じょうじゅ",
+                                "audioName": "gl11-jouju.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","ぞ","く",
+                                    "じょ"
+                                ],
+                                "answer": "かぞく",
+                                "audioName": "gl12-kazoku.mp3",
+                                "meaning": "family"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","ぞ","く",
+                                    "じょ"
+                                ],
+                                "answer": "かじょく",
+                                "audioName": "gl12-kajoku.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","ぜ",
+                                    "じぇ"
+                                ],
+                                "answer": "かぜ",
+                                "audioName": "gl13-kaze.mp3",
+                                "meaning": "wind"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","ぜ",
+                                    "じぇ"
+                                ],
+                                "answer": "かじぇ",
+                                "audioName": "gl13-kaje.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞ","う","か",
+                                    "じょ"
+                                ],
+                                "answer": "ぞうか",
+                                "audioName": "gl14-zouka.mp3",
+                                "meaning": "increase"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞ","う","か",
+                                    "じょ"
+                                ],
+                                "answer": "じょうか",
+                                "audioName": "gl14-jouka.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ひ","ざ",
+                                    "じゃ"
+                                ],
+                                "answer": "ひざ",
+                                "audioName": "gl15-hiza.mp3",
+                                "meaning": "knee"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ひ","ざ",
+                                    "じゃ"
+                                ],
+                                "answer": "ひじゃ",
+                                "audioName": "gl15-hija.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ざ","っ","し",
+                                    "じゃ"
+                                ],
+                                "answer": "ざっし",
+                                "audioName": "gl16-zassi.mp3",
+                                "meaning": "magazine"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ざ","っ","し",
+                                    "じゃ"
+                                ],
+                                "answer": "じゃっし",
+                                "audioName": "gl16-jassi.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ご","ざ","い","ま","す",
+                                    "じゃ"
+                                ],
+                                "answer": "ございます",
+                                "audioName": "gl17-gozaimasu.mp3",
+                                "meaning": "thank you"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ご","ざ","い","ま","す",
+                                    "じゃ"
+                                ],
+                                "answer": "ごじゃいます",
+                                "audioName": "gl17-gojaimasu.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つ","う","し","ん",
+                                    "ちゅ"
+                                ],
+                                "answer": "つうしん",
+                                "audioName": "gl18-tsuusin.mp3",
+                                "meaning": "communication"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つ","う","し","ん",
+                                    "ちゅ"
+                                ],
+                                "answer": "ちゅうしん",
+                                "audioName": "gl18-tyuusin.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つ","う","こ","く",
+                                    "ちゅ"
+                                ],
+                                "answer": "つうこく",
+                                "audioName": "gl19-tsuukoku.mp3",
+                                "meaning": "inform"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つ","う","こ","く",
+                                    "ちゅ"
+                                ],
+                                "answer": "ちゅうこく",
+                                "audioName": "gl19-tyuukoku.mp3",
+                                "meaning": "warn"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞ","う","き",
+                                    "じょ"
+                                ],
+                                "answer": "ぞうき",
+                                "audioName": "gl20-zouki.mp3",
+                                "meaning": "organ"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞ","う","き",
+                                    "じょ"
+                                ],
+                                "answer": "じょうき",
+                                "audioName": "gl20-jouki.mp3",
+                                "meaning": "steam"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ど","う","ぞ",
+                                    "じょ"
+                                ],
+                                "answer": "どうぞう",
+                                "audioName": "gl21-douzou.mp3",
+                                "meaning": "bronze statue"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ど","う","ぞ",
+                                    "じょ"
+                                ],
+                                "answer": "どうじょう",
+                                "audioName": "gl21-doujou.mp3",
+                                "meaning": "sympathy"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "れ","い","ぞ","う",
+                                    "じょ"
+                                ],
+                                "answer": "れいぞう",
+                                "audioName": "gl22-reizou.mp3",
+                                "meaning": "refrigerator"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "れ","い","ぞ","う",
+                                    "じょ"
+                                ],
+                                "answer": "れいじょう",
+                                "audioName": "gl22-reijou.mp3",
+                                "meaning": "thank you note"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょ","う","し",
+                                    "ぞ"
+                                ],
+                                "answer": "じょうし",
+                                "audioName": "gl23-joushi.mp3",
+                                "meaning": "boss"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょ","う","し",
+                                    "ぞ"
+                                ],
+                                "answer": "ぞうし",
+                                "audioName": "gl23-zoushi.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こ","う","ぞ",
+                                    "じょ"
+                                ],
+                                "answer": "こうぞう",
+                                "audioName": "gl24-kouzou.mp3",
+                                "meaning": "structure"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こ","う","ぞ",
+                                    "じょ"
+                                ],
+                                "answer": "こうじょう",
+                                "audioName": "gl24-koujou.mp3",
+                                "meaning": "factory"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅ","う","ぶ","ん",
+                                    "ず"
+                                ],
+                                "answer": "じゅうぶん",
+                                "audioName": "gl25-juubun.mp3",
+                                "meaning": "sufficient"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅ","う","ぶ","ん",
+                                    "ず"
+                                ],
+                                "answer": "ずうぶん",
+                                "audioName": "gl25-zuubun.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅ","ぎょ","う",
+                                    "ず"
+                                ],
+                                "answer": "じゅぎょう",
+                                "audioName": "gl26-jugyou.mp3",
+                                "meaning": "class"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅ","ぎょ","う",
+                                    "ず"
+                                ],
+                                "answer": "ずぎょう",
+                                "audioName": "gl26-zugyou.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きょ","う","じゅ",
+                                    "ず"
+                                ],
+                                "answer": "きょうじゅ",
+                                "audioName": "gl27-kyouju.mp3",
+                                "meaning": "professor"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きょ","う","じゅ",
+                                    "ず"
+                                ],
+                                "answer": "きょうず",
+                                "audioName": "gl27-kyouzu.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょ","う","ほ",
+                                    "ぞ"
+                                ],
+                                "answer": "じょうほう",
+                                "audioName": "gl28-jouhou.mp3",
+                                "meaning": "information"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょ","う","ほ",
+                                    "ぞ"
+                                ],
+                                "answer": "ぞうほう",
+                                "audioName": "gl28-zouhou.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅ","ん","び",
+                                    "ず"
+                                ],
+                                "answer": "じゅんび",
+                                "audioName": "gl29-junbi.mp3",
+                                "meaning": "preparation"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅ","ん","び",
+                                    "ず"
+                                ],
+                                "answer": "ずんび",
+                                "audioName": "gl29-zunbi.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちゅ","う","い",
+                                    "つ"
+                                ],
+                                "answer": "ちゅうい",
+                                "audioName": "gl30-cyuui.mp3",
+                                "meaning": "warning"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちゅ","う","い",
+                                    "つ"
+                                ],
+                                "answer": "つうい",
+                                "audioName": "gl30-tsuui.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","の","じょ",
+                                    "ぞ"
+                                ],
+                                "answer": "かのじょ",
+                                "audioName": "gl31-kanojo.mp3",
+                                "meaning": "warning"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","の","じょ",
+                                    "ぞ"
+                                ],
+                                "answer": "かのぞ",
+                                "audioName": "gl31-kanozo.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅ","っ","ぷ","ん",
+                                    "ず"
+                                ],
+                                "answer": "じゅっぷん",
+                                "audioName": "gl32-juppun.mp3",
+                                "meaning": "ten minutes"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅ","っ","ぷ","ん",
+                                    "ず"
+                                ],
+                                "answer": "ずっぷん",
+                                "audioName": "gl32-zuppun.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅ","う","しょ",
+                                    "ず"
+                                ],
+                                "answer": "じゅうしょ",
+                                "audioName": "gl33-juusyo.mp3",
+                                "meaning": "address"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅ","う","しょ",
+                                    "ず"
+                                ],
+                                "answer": "ずうじょ",
+                                "audioName": "gl33-zuusyo.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "だ","い","じょ","う","ぶ",
+                                    "ぞ"
+                                ],
+                                "answer": "だいじょうぶ",
+                                "audioName": "gl34-daijoubu.mp3",
+                                "meaning": "all right"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "だ","い","じょ","う","ぶ",
+                                    "ぞ"
+                                ],
+                                "answer": "だいぞうぶ",
+                                "audioName": "gl34-daizoubu.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "た","ん","じょ","う","び",
+                                    "ぞ"
+                                ],
+                                "answer": "たんじょうび",
+                                "audioName": "gl35-tanjoubi.mp3",
+                                "meaning": "birthday"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "た","ん","じょ","う","び",
+                                    "ぞ"
+                                ],
+                                "answer": "たんぞうび",
+                                "audioName": "gl35-tanzoubi.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","い","ぎ","ちゅ","う",
+                                    "つ"
+                                ],
+                                "answer": "かいぎちゅう",
+                                "audioName": "gl36-kaigityuu.mp3",
+                                "meaning": "middle of meeting"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","い","ぎ","ちゅ","う",
+                                    "つ"
+                                ],
+                                "answer": "かいぎつう",
+                                "audioName": "gl36-kaigitsuu.mp3",
+                                "meaning": "non-word"
+                            }
+                        ]
+                    },
+                    "conversationQuiz":{
+                        "questions": [
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "けいざい",
+                                    "けいじゃい"
+                                ],
+                                "answer": "けいざい",
+                                "audioName": ["MF-gl1-keizai.mp3","FM-gl1-keizai2.mp3"],
+                                "meaning": "economy"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "けいざい",
+                                    "けいじゃい"
+                                ],
+                                "answer": "けいじゃい",
+                                "audioName": ["MF-gl1-keijai.mp3","FM-gl1-keijai2.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぜったい",
+                                    "じぇったい"
+                                ],
+                                "answer": "ぜったい",
+                                "audioName": ["MF-gl2-zettai.mp3", "FM-gl2-zettai2.mp3"],
+                                "meaning": "economy"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぜったい",
+                                    "じぇったい"
+                                ],
+                                "answer": "じぇったい",
+                                "audioName": ["MF-gl2-jettai.mp3", "FM-gl2-jettai2.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "みっつ",
+                                    "みっちゅ"
+                                ],
+                                "answer": "みっつ",
+                                "audioName": ["MF-gl3-mittsu.mp3","FM-gl3-mittsu.mp3"],
+                                "meaning": "three"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "みっつ",
+                                    "みっちゅ"
+                                ],
+                                "answer": "みっちゅ",
+                                "audioName": ["MF-gl3-mittyu.mp3","FM-gl3-mittyu.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つくります",
+                                    "ちゅくります"
+                                ],
+                                "answer": "つくります",
+                                "audioName": ["MF-gl4-tsukurimasu.mp3","FM-gl4-tsukurimasu.mp3"],
+                                "meaning": "to make"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つくります",
+                                    "ちゅくります"
+                                ],
+                                "answer": "ちゅくります",
+                                "audioName": ["MF-gl4-tyukurimasu.mp3", "FM-gl4-tyukurimasu.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞう",
+                                    "じょう"
+                                ],
+                                "answer": "ぞう",
+                                "audioName": ["MF-gl5-zou.mp3","FM-gl5-zou.mp3"],
+                                "meaning": "elephant"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞう",
+                                    "じょう"
+                                ],
+                                "answer": "じょう",
+                                "audioName": ["MF-gl5-jou.mp3","FM-gl5-jou.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つくえ",
+                                    "ちゅくえ"
+                                ],
+                                "answer": "つくえ",
+                                "audioName": ["MF-gl6-tsukue.mp3","FM-gl6-tsukue.mp3"],
+                                "meaning": "desk"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つくえ",
+                                    "ちゅくえ"
+                                ],
+                                "answer": "ちゅくえ",
+                                "audioName": ["MF-gl6-tyukue.mp3","FM-gl6-tyukue.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おまつり",
+                                    "おまちゅり"
+                                ],
+                                "answer": "おまつり",
+                                "audioName": ["MF-gl7-omatsuri.mp3","FM-gl7-omatsuri.mp3"],
+                                "meaning": "festival"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おまつり",
+                                    "おまちゅり"
+                                ],
+                                "answer": "おまちゅり",
+                                "audioName": ["MF-gl7-omatyuri.mp3","FM-gl7-omatyuri.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つうこう",
+                                    "ちゅうこう"
+                                ],
+                                "answer": "つうこう",
+                                "audioName": ["MF-gl8-tsuukou.mp3","FM-gl8-tsuukou.mp3"],
+                                "meaning": "go through"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つうこう",
+                                    "ちゅうこう"
+                                ],
+                                "answer": "ちゅうこう",
+                                "audioName": ["MF-gl8-tyuukou.mp3","FM-gl8-tyuukou.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ずっと",
+                                    "じゅっと"
+                                ],
+                                "answer": "ずっと",
+                                "audioName": ["MF-gl9-zutto.mp3","FM-gl9-zutto.mp3"],
+                                "meaning": "all the way"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ずっと",
+                                    "じゅっと"
+                                ],
+                                "answer": "じゅっと",
+                                "audioName": ["MF-gl9-jutto.mp3","FM-gl9-jutto.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かず",
+                                    "かじゅ"
+                                ],
+                                "answer": "かず",
+                                "audioName": ["MF-gl10-kazu.mp3","FM-gl10-kazu.mp3"],
+                                "meaning": "number"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かず",
+                                    "かじゅ"
+                                ],
+                                "answer": "かじゅ",
+                                "audioName": ["MF-gl10-kaju.mp3","FM-gl10-kaju.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょうず",
+                                    "じょうじゅ"
+                                ],
+                                "answer": "じょうず",
+                                "audioName": ["MF-gl11-jouzu.mp3","FM-gl11-jouzu.mp3"],
+                                "meaning": "good at"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょうず",
+                                    "じょうじゅ"
+                                ],
+                                "answer": "じょうじゅ",
+                                "audioName": ["MF-gl11-jouju.mp3","FM-gl11-jouju.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かぞく",
+                                    "かじょく"
+                                ],
+                                "answer": "かぞく",
+                                "audioName": ["MF-gl12-kazoku.mp3","FM-gl12-kazoku.mp3"],
+                                "meaning": "family"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かぞく",
+                                    "かじょく"
+                                ],
+                                "answer": "かじょく",
+                                "audioName": ["MF-gl12-kajoku.mp3","FM-gl12-kajoku.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かぜ",
+                                    "かじぇ"
+                                ],
+                                "answer": "かぜ",
+                                "audioName": ["MF-gl13-kaze.mp3","FM-gl13-kaze.mp3"],
+                                "meaning": "wind"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かぜ",
+                                    "かじぇ"
+                                ],
+                                "answer": "かじぇ",
+                                "audioName": ["MF-gl13-kaje.mp3","FM-gl13-kaje.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞうか",
+                                    "じょうか"
+                                ],
+                                "answer": "ぞうか",
+                                "audioName": ["MF-gl14-zouka.mp3","FM-gl14-zouka.mp3"],
+                                "meaning": "increase"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞうか",
+                                    "じょうか"
+                                ],
+                                "answer": "じょうか",
+                                "audioName": ["MF-gl14-jouka.mp3","FM-gl14-jouka.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ひざ",
+                                    "ひじゃ"
+                                ],
+                                "answer": "ひざ",
+                                "audioName": ["MF-gl15-hiza.mp3","FM-gl15-hiza.mp3"],
+                                "meaning": "knee"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ひざ",
+                                    "ひじゃ"
+                                ],
+                                "answer": "ひじゃ",
+                                "audioName": ["MF-gl15-hija.mp3","FM-gl15-hija.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ざっし",
+                                    "じゃっし"
+                                ],
+                                "answer": "ざっし",
+                                "audioName": ["MF-gl16-zassi.mp3","FM-gl16-zassi.mp3"],
+                                "meaning": "magazine"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ざっし",
+                                    "じゃっし"
+                                ],
+                                "answer": "じゃっし",
+                                "audioName": ["MF-gl16-jassi.mp3","FM-gl16-jassi.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ございます",
+                                    "ごじゃいます"
+                                ],
+                                "answer": "ございます",
+                                "audioName": ["MF-gl17-gozaimasu.mp3","FM-gl17-gozaimasu.mp3"],
+                                "meaning": "thank you"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ございます",
+                                    "ごじゃいます"
+                                ],
+                                "answer": "ごじゃいます",
+                                "audioName": ["MF-gl17-gojaimasu.mp3","FM-gl17-gojaimasu.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つうしん",
+                                    "ちゅうしん"
+                                ],
+                                "answer": "つうしん",
+                                "audioName": ["MF-gl18-tsuusin.mp3","FM-gl18-tsuusin.mp3"],
+                                "meaning": "communication"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つうしん",
+                                    "ちゅうしん"
+                                ],
+                                "answer": "ちゅうしん",
+                                "audioName": ["MF-gl18-tyuusin.mp3","FM-gl18-tyuusin.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つうこく",
+                                    "ちゅうこく"
+                                ],
+                                "answer": "つうこく",
+                                "audioName": ["MF-gl19-tsuukoku.mp3", "FM-gl19-tsuukoku.mp3"],
+                                "meaning": "inform"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つうこく",
+                                    "ちゅうこく"
+                                ],
+                                "answer": "ちゅうこく",
+                                "audioName": ["MF-gl19-tyuukoku.mp3","FM-gl19-tyuukoku.mp3"],
+                                "meaning": "warn"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞうき",
+                                    "じょうき"
+                                ],
+                                "answer": "ぞうき",
+                                "audioName": ["MF-gl20-zouki.mp3","FM-gl20-zouki.mp3"],
+                                "meaning": "organ"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞうき",
+                                    "じょうき"
+                                ],
+                                "answer": "じょうき",
+                                "audioName": ["MF-gl20-jouki.mp3","FM-gl20-jouki.mp3"],
+                                "meaning": "steam"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "どうぞう",
+                                    "どうじょう"
+                                ],
+                                "answer": "どうぞう",
+                                "audioName": ["MF-gl21-douzou.mp3","FM-gl21-douzou.mp3"],
+                                "meaning": "bronze statue"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ぞうき",
+                                    "どうじょう"
+                                ],
+                                "answer": "どうじょう",
+                                "audioName": ["MF-gl21-doujou.mp3","FM-gl21-doujou.mp3"],
+                                "meaning": "sympathy"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "れいぞう",
+                                    "れいじょう"
+                                ],
+                                "answer": "れいぞう",
+                                "audioName": ["MF-gl22-reizou.mp3","FM-gl22-reizou.mp3"],
+                                "meaning": "refrigerator"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "れいぞう",
+                                    "れいじょう"
+                                ],
+                                "answer": "れいじょう",
+                                "audioName": ["MF-gl22-reijou.mp3","FM-gl22-reijou.mp3"],
+                                "meaning": "thank you note"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょうし",
+                                    "ぞうし"
+                                ],
+                                "answer": "じょうし",
+                                "audioName": ["MF-gl23-joushi.mp3","FM-gl23-joushi.mp3"],
+                                "meaning": "boss"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょうし",
+                                    "ぞうし"
+                                ],
+                                "answer": "ぞうし",
+                                "audioName": ["MF-gl23-zoushi.mp3","FM-gl23-zoushi.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こうぞう",
+                                    "こうじょう"
+                                ],
+                                "answer": "こうぞう",
+                                "audioName": ["MF-gl24-kouzou.mp3","FM-gl24-kouzou.mp3"],
+                                "meaning": "structure"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こうぞう",
+                                    "こうじょう"
+                                ],
+                                "answer": "こうじょう",
+                                "audioName": ["MF-gl24-koujou.mp3","FM-gl24-koujou.mp3"],
+                                "meaning": "factory"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅうぶん",
+                                    "ずうぶん"
+                                ],
+                                "answer": "じゅうぶん",
+                                "audioName": ["MF-gl25-juubun.mp3","FM-gl25-juubun.mp3"],
+                                "meaning": "sufficient"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅうぶん",
+                                    "ずうぶん"
+                                ],
+                                "answer": ["MF-gl25-zuubun.mp3","FM-gl25-zuubun.mp3"],
+                                "audioName": "gl25-zuubun.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅぎょう",
+                                    "ずぎょう"
+                                ],
+                                "answer": ["MF-gl26-jugyou.mp3","FM-gl26-jugyou.mp3"],
+                                "audioName": "gl26-jugyou.mp3",
+                                "meaning": "class"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅぎょう",
+                                    "ずぎょう"
+                                ],
+                                "answer": "ずぎょう",
+                                "audioName": ["MF-gl26-zugyou.mp3","FM-gl26-zugyou.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きょうじゅ",
+                                    "きょうず"
+                                ],
+                                "answer": "きょうじゅ",
+                                "audioName": ["MF-gl27-kyouju.mp3","FM-gl27-kyouju.mp3"],
+                                "meaning": "professor"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きょうじゅ",
+                                    "きょうず"
+                                ],
+                                "answer": "きょうず",
+                                "audioName": ["MF-gl27-kyouzu.mp3","FM-gl27-kyouzu.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょうほう",
+                                    "ぞうほう"
+                                ],
+                                "answer": "じょうほう",
+                                "audioName": ["MF-gl28-jouhou.mp3","FM-gl28-jouhou.mp3"],
+                                "meaning": "information"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じょうほう",
+                                    "ぞうほう"
+                                ],
+                                "answer": "ぞうほう",
+                                "audioName": ["MF-gl28-zouhou.mp3","FM-gl28-zouhou.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅんび",
+                                    "ずんび"
+                                ],
+                                "answer": "じゅんび",
+                                "audioName": ["MF-gl29-junbi.mp3","FM-gl29-junbi.mp3"],
+                                "meaning": "preparation"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅんび",
+                                    "ずんび"
+                                ],
+                                "answer": "ずんび",
+                                "audioName": ["MF-gl29-zunbi.mp3","FM-gl29-zunbi.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちゅうい",
+                                    "つうい"
+                                ],
+                                "answer": "ちゅうい",
+                                "audioName": ["MF-gl30-cyuui.mp3","FM-gl30-cyuui.mp3"],
+                                "meaning": "warning"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちゅうい",
+                                    "つうい"
+                                ],
+                                "answer": "つうい",
+                                "audioName": ["MF-gl30-tsuui.mp3","FM-gl30-tsuui.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かのじょ",
+                                    "かのぞ"
+                                ],
+                                "answer": "かのじょ",
+                                "audioName": ["MF-gl31-kanojo.mp3","FM-gl31-kanojo.mp3"],
+                                "meaning": "warning"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かのじょ",
+                                    "かのぞ"
+                                ],
+                                "answer": "かのぞ",
+                                "audioName": ["MF-gl31-kanozo.mp3","FM-gl31-kanozo.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅっぷん",
+                                    "ずっぷん"
+                                ],
+                                "answer": "じゅっぷん",
+                                "audioName": ["MF-gl32-juppun.mp3","FM-gl32-juppun.mp3"],
+                                "meaning": "ten minutes"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅっぷん",
+                                    "ずっぷん"
+                                ],
+                                "answer": "ずっぷん",
+                                "audioName": ["MF-gl32-zuppun.mp3","FM-gl32-zuppun.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅうしょ",
+                                    "ずうじょ"
+                                ],
+                                "answer": "じゅうしょ",
+                                "audioName": ["MF-gl33-juusyo.mp3","FM-gl33-juusyo.mp3"],
+                                "meaning": "address"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じゅうしょ",
+                                    "ずうじょ"
+                                ],
+                                "answer": "ずうじょ",
+                                "audioName": ["MF-gl33-zuusyo.mp3","FM-gl33-zuusyo.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "だいじょうぶ",
+                                    "だいぞうぶ"
+                                ],
+                                "answer": "だいじょうぶ",
+                                "audioName": ["MF-gl34-daijoubu.mp3","FM-gl34-daijoubu.mp3"],
+                                "meaning": "all right"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "だいじょうぶ",
+                                    "だいぞうぶ"
+                                ],
+                                "answer": "だいぞうぶ",
+                                "audioName": ["MF-gl34-daizoubu.mp3","FM-gl34-daizoubu.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "たんじょうび",
+                                    "たんぞうび"
+                                ],
+                                "answer": "たんじょうび",
+                                "audioName": ["MF-gl35-tanjoubi.mp3","FM-gl35-tanjoubi.mp3"],
+                                "meaning": "birthday"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "たんじょうび",
+                                    "たんぞうび"
+                                ],
+                                "answer": "たんぞうび",
+                                "audioName": ["MF-gl35-tanzoubi.mp3","FM-gl35-tanzoubi.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かいぎちゅう",
+                                    "かいぎつう"
+                                ],
+                                "answer": "かいぎちゅう",
+                                "audioName": ["MF-gl36-kaigityuu.mp3","FM-gl36-kaigityuu.mp3"],
+                                "meaning": "middle of meeting"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かいぎちゅう",
+                                    "かいぎつう"
+                                ],
+                                "answer": "かいぎつう",
+                                "audioName": ["MF-gl36-kaigitsuu.mp3","FM-gl36-kaigitsuu.mp3"],
+                                "meaning": "non-word"
+                            }
+                        ]
+                    }
+
+                },
+                {
                     "lessonid": 2.4,
                     "lessonName": "Long Vowels",
                     "lessonDescription": "Lesson 2.4",

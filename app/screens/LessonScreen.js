@@ -127,7 +127,6 @@ function fitInputToRange(value, max){
 }
 
 function navigateTo(navigation, data, selectedOption, max, quizType){
-    console.log(`quiz type: ${quizType}\n`)
     switch (quizType) {
         case 'multipleChoiceQuiz':
             navigation.navigate('Practice', {
