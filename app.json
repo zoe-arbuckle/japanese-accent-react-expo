@@ -3,7 +3,7 @@
     "name": "JapanesePronunciation",
     "slug": "JapanesePronunciation",
     "privacy": "unlisted",
-    "version": "1.7",
+    "version": "1.7.1",
     "orientation": "landscape",
     "icon": "./assets/icon.png",
     "platforms": [
@@ -28,7 +28,7 @@
     "android": {
       "permissions": [],
       "package": "com.kazumihatasa.JapanesePronunciation",
-      "versionCode": 7
+      "versionCode": 8
     },
     "web": {
       "favicon": "./assets/icon.png"
