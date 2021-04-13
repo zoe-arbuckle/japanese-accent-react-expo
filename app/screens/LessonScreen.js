@@ -3,7 +3,7 @@ import { SafeAreaView, View, Text, Button, Modal, StyleSheet, TextInput, Touchab
 
 import colors from '../config/colors';
 import { Ionicons } from '@expo/vector-icons';
-
+import PracticeButton from '../components/PracticeButton';
 
 function LessonScreen({ route, navigation }) {
     const { data } = route.params;
@@ -12,19 +12,16 @@ function LessonScreen({ route, navigation }) {
     const [ selectedOption, setSelectedOption ] = useState("1")
     const [ validationVisible, setValidationVisible ] = useState(false)
     const [ quizType, setQuizType ] = useState('')
-    let max = 1
+    const [ max, setMax ] = useState(1)
 
     if(data.multipleChoiceQuiz != undefined && data.multipleChoiceQuiz.questions.length > 0){
-        max = data.multipleChoiceQuiz.questions.length
-        if(max == undefined){
-            max = 1
-        }
-
         buttons.push(
-            <Button 
+            <PracticeButton 
                 title="Multiple Choice"
                 key="multipleChoice"
                 onPress={() => {
+                    setMax(data.multipleChoiceQuiz.questions.length)
+                    setSelectedOption(data.multipleChoiceQuiz.questions.length.toString())
                     setModalVisible(true)
                     setQuizType('multipleChoiceQuiz')
                 }}
@@ -32,15 +29,13 @@ function LessonScreen({ route, navigation }) {
     }
 
     if(data.scrambler != undefined && data.scrambler.questions.length > 0){
-        max = data.scrambler.questions.length
-        if(max == undefined){
-            max = 1
-        }
         buttons.push(
-            <Button 
+            <PracticeButton 
                 title="Scrambler"
                 key="scrambler"
                 onPress={() => {
+                    setMax(data.scrambler.questions.length)
+                    setSelectedOption(data.scrambler.questions.length.toString())
                     setModalVisible(true)
                     setQuizType('scrambler')
                 }}
@@ -50,10 +45,12 @@ function LessonScreen({ route, navigation }) {
 
     if(data.conversationQuiz != undefined && data.conversationQuiz.questions.length  > 0){
         buttons.push(
-            <Button
+            <PracticeButton
                 title="Conversation Quiz"
                 key="conversation"
                 onPress={() => {
+                    setMax(data.conversationQuiz.questions.length)
+                    setSelectedOption(data.conversationQuiz.questions.length.toString())
                     setModalVisible(true)
                     setQuizType('conversation')
                 }}
@@ -63,10 +60,12 @@ function LessonScreen({ route, navigation }) {
 
     if(data.letterSoundQuiz != undefined && data.letterSoundQuiz.questions.length > 0){
         buttons.push(
-            <Button 
+            <PracticeButton 
                 title="Mora Basics"
                 key="letterSound"
                 onPress={() => {
+                    setMax(data.letterSoundQuiz.questions.length)
+                    setSelectedOption(data.letterSoundQuiz.questions.length.toString())
                     setModalVisible(true)
                     setQuizType('letterSound')
                 }}
@@ -102,9 +101,6 @@ function LessonScreen({ route, navigation }) {
             </Modal>
             <View style={styles.lessonView}>
                 <Text style={styles.title}>{data.lessonName}</Text>
-                <View>
-                    <Text style={styles.text}>{data.lessonText}</Text>
-                </View>
             </View>
             <View style={styles.buttonView}>
                 {buttons}
@@ -161,10 +157,9 @@ function navigateTo(navigation, data, selectedOption, max, quizType){
 const styles = StyleSheet.create({
     buttonView: {
         flexDirection: 'row',
-        alignItems: 'flex-end',
-        flex: 1,
+        flex: 4,
         justifyContent: 'center',
-        marginBottom: 20,
+        alignItems:'flex-start',
     },
     closeModal: {
         alignSelf: 'flex-start'
@@ -175,7 +170,7 @@ const styles = StyleSheet.create({
         margin: 20,
     },
     lessonView: {
-        flex: 6, 
+        flex: 1,
     },
     modalView: {
 		margin: 20,
@@ -193,7 +188,13 @@ const styles = StyleSheet.create({
         elevation: 5,
     },
     practiceButton: {
-        margin: 30,
+        width: '80%',
+        elevation: 8,
+        backgroundColor: colors.primary,
+        borderRadius: 10,
+        paddingVertical: 10,
+        marginVertical: 10,
+        alignSelf: 'center'
     },
     picker: {
         height: 50,
@@ -218,6 +219,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         alignSelf: 'center',
         color: 'darkblue',
+        marginTop: 20,
     }
 });
 
