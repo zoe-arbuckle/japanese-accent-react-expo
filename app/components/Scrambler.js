@@ -128,7 +128,13 @@ export default class Scrambler extends Component {
 
 		// load the audio for the questions
 		for (const question in questionList){
-			const audioName = questionList[question].audioName
+            let audioName;
+            if(this.state.multiAudio){
+				const index = Math.floor(Math.random() * Math.floor(2))
+				audioName = questionList[question].audioName[index]
+			} else {
+				audioName = questionList[question].audioName
+			}
 			const source = sounds[audioName]
 			try{
 				soundObjects[audioName] = new Audio.Sound();
@@ -151,7 +157,11 @@ export default class Scrambler extends Component {
     playAudio = async () => {
 		try { 
 			if(soundObjects[this.state.audioName]){
-				await soundObjects[this.state.audioName].replayAsync();
+				if(soundObjects[this.state.audioName[0]]){
+					await soundObjects[this.state.audioName[0]].replayAsync();
+				} else if(await soundObjects[this.state.audioName[1]]) {
+					await soundObjects[this.state.audioName[1]].replayAsync();
+				}
 			}
 		} catch(e) {
 			console.log(e)
