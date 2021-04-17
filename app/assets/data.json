@@ -3355,7 +3355,1121 @@
                 {
                     "lessonid": 2.3,
                     "lessonName": "Double Consonants",
-                    "lessonDescription": "Lesson 2.3"
+                    "lessonDescription": "Lesson 2.3",
+                    "multipleChoiceQuiz": {
+                        "questions":[
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さか",
+                                    "さっか"
+                                ],
+                                "answer": "さか",
+                                "audioName": "dc1-saka.mp3",
+                                "meaning": "slope"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さか",
+                                    "さっか"
+                                ],
+                                "answer": "さっか",
+                                "audioName": "dc1-sakka.mp3",
+                                "meaning": "writer"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かこ",
+                                    "かっこ"
+                                ],
+                                "answer": "かこ",
+                                "audioName": "dc2-kako.mp3",
+                                "meaning": "past"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かこ",
+                                    "かっこ"
+                                ],
+                                "answer": "かっこ",
+                                "audioName": "dc2-kakko.mp3",
+                                "meaning": "parenthesis"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おと",
+                                    "おっと"
+                                ],
+                                "answer": "おと",
+                                "audioName": "dc3-oto.mp3",
+                                "meaning": "sound"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おと",
+                                    "おっと"
+                                ],
+                                "answer": "おっと",
+                                "audioName": "dc3-otto.mp3",
+                                "meaning": "husband"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "がか",
+                                    "がっか"
+                                ],
+                                "answer": "がか",
+                                "audioName": "dc4-gaka.mp3",
+                                "meaning": "painter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おと",
+                                    "がっか"
+                                ],
+                                "answer": "がっか",
+                                "audioName": "dc4-gakka.mp3",
+                                "meaning": "department"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "そと",
+                                    "そっと"
+                                ],
+                                "answer": "そと",
+                                "audioName": "dc5-soto.mp3",
+                                "meaning": "outside"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "そと",
+                                    "そっと"
+                                ],
+                                "answer": "そっと",
+                                "audioName": "dc5-sotto.mp3",
+                                "meaning": "gently"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅちょう",
+                                    "しゅっちょう"
+                                ],
+                                "answer": "しゅちょう",
+                                "audioName": "dc6-styutyou.mp3",
+                                "meaning": "insistance"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅちょう",
+                                    "しゅっちょう"
+                                ],
+                                "answer": "しゅっちょう",
+                                "audioName": "dc6-syuttyou.mp3",
+                                "meaning": "business trip"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "バター",
+                                    "バッター"
+                                ],
+                                "answer": "バター",
+                                "audioName": "dc7-bataa.mp3",
+                                "meaning": "butter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "バター",
+                                    "バッター"
+                                ],
+                                "answer": "バッター",
+                                "audioName": "dc7-battaa.mp3",
+                                "meaning": "batter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きてください",
+                                    "きってください"
+                                ],
+                                "answer": "きてください",
+                                "audioName": "dc8-kite.mp3",
+                                "meaning": "please come"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きてください",
+                                    "きってください"
+                                ],
+                                "answer": "きってください",
+                                "audioName": "dc8-kitte.mp3",
+                                "meaning": "please cut"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じけん",
+                                    "じっけん"
+                                ],
+                                "answer": "じけん",
+                                "audioName": "dc9-jiken.mp3",
+                                "meaning": "incident"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じけん",
+                                    "じっけん"
+                                ],
+                                "answer": "じっけん",
+                                "audioName": "dc9-jikken.mp3",
+                                "meaning": "experiment"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "あさり",
+                                    "あっさり"
+                                ],
+                                "answer": "あさり",
+                                "audioName": "dc10-asari.mp3",
+                                "meaning": "cram"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "あさり",
+                                    "あっさり"
+                                ],
+                                "answer": "あっさり",
+                                "audioName": "dc10-assari.mp3",
+                                "meaning": "simple"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ひと",
+                                    "ヒット"
+                                ],
+                                "answer": "ひと",
+                                "audioName": "dc11-hito.mp3",
+                                "meaning": "hit"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ひと",
+                                    "ヒット"
+                                ],
+                                "answer": "ヒット",
+                                "audioName": "dc11-hitto.mp3",
+                                "meaning": "painful"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "いたい",
+                                    "いったい"
+                                ],
+                                "answer": "いたい",
+                                "audioName": "dc12-itai.mp3",
+                                "meaning": "painful"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "いたい",
+                                    "いったい"
+                                ],
+                                "answer": "いったい",
+                                "audioName": "dc12-ittai.mp3",
+                                "meaning": "what on earth"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じかん",
+                                    "じっかん"
+                                ],
+                                "answer": "じかん",
+                                "audioName": "dc13-jikan.mp3",
+                                "meaning": "time"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じかん",
+                                    "じっかん"
+                                ],
+                                "answer": "じっかん",
+                                "audioName": "dc13-jikkan.mp3",
+                                "meaning": "real feeling"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "まち",
+                                    "マッチ"
+                                ],
+                                "answer": "まち",
+                                "audioName": "dc14-machi.mp3",
+                                "meaning": "town"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "まち",
+                                    "マッチ"
+                                ],
+                                "answer": "マッチ",
+                                "audioName": "dc14-macchi.mp3",
+                                "meaning": "matches"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しかく",
+                                    "しっかく"
+                                ],
+                                "answer": "しかく",
+                                "audioName": "dc15-sikaku.mp3",
+                                "meaning": "rectangle"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しかく",
+                                    "しっかく"
+                                ],
+                                "answer": "しっかく",
+                                "audioName": "dc15-sikkaku.mp3",
+                                "meaning": "disqualified"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "もと",
+                                    "もっと"
+                                ],
+                                "answer": "もと",
+                                "audioName": "dc16-moto.mp3",
+                                "meaning": "former"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "もと",
+                                    "もっと"
+                                ],
+                                "answer": "もっと",
+                                "audioName": "dc16-motto.mp3",
+                                "meaning": "more"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ことう",
+                                    "こっとう"
+                                ],
+                                "answer": "ことう",
+                                "audioName": "dc18-kotou.mp3",
+                                "meaning": "isolated island"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ことう",
+                                    "こっとう"
+                                ],
+                                "answer": "こっとう",
+                                "audioName": "dc18-kottou.mp3",
+                                "meaning": "antique"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じこう",
+                                    "じっこう"
+                                ],
+                                "answer": "じこう",
+                                "audioName": "dc19-jikou.mp3",
+                                "meaning": "statute of limitiation"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じこう",
+                                    "じっこう"
+                                ],
+                                "answer": "じっこう",
+                                "audioName": "dc19-jikkou.mp3",
+                                "meaning": "execution"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きた",
+                                    "きった"
+                                ],
+                                "answer": "きた",
+                                "audioName": "dc20-kita.mp3",
+                                "meaning": "came"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きた",
+                                    "きった"
+                                ],
+                                "answer": "きった",
+                                "audioName": "dc20-kitta.mp3",
+                                "meaning": "cut"
+                            }
+                        ]
+                    },
+                    "scrambler": {
+                        "questions":[
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さ","か","さっ"
+                                ],
+                                "answer": "さか",
+                                "audioName": "dc1-saka.mp3",
+                                "meaning": "slope"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さ","か","さっ"
+                                ],
+                                "answer": "さっか",
+                                "audioName": "dc1-sakka.mp3",
+                                "meaning": "writer"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","こ","かっ"
+                                ],
+                                "answer": "かこ",
+                                "audioName": "dc2-kako.mp3",
+                                "meaning": "past"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","こ","かっ"
+                                ],
+                                "answer": "かっこ",
+                                "audioName": "dc2-kakko.mp3",
+                                "meaning": "parenthesis"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "お","と","おっ"
+                                ],
+                                "answer": "おと",
+                                "audioName": "dc3-oto.mp3",
+                                "meaning": "sound"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "お","と","おっ"
+                                ],
+                                "answer": "おっと",
+                                "audioName": "dc3-otto.mp3",
+                                "meaning": "husband"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "が","か","がっ"
+                                ],
+                                "answer": "がか",
+                                "audioName": "dc4-gaka.mp3",
+                                "meaning": "painter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "が","か","がっ"
+                                ],
+                                "answer": "がっか",
+                                "audioName": "dc4-gakka.mp3",
+                                "meaning": "department"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "そ","と","そっ"
+                                ],
+                                "answer": "そと",
+                                "audioName": "dc5-soto.mp3",
+                                "meaning": "outside"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "そ","と","そっ"
+                                ],
+                                "answer": "そっと",
+                                "audioName": "dc5-sotto.mp3",
+                                "meaning": "gently"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅ","ちょ","う","っ"
+                                ],
+                                "answer": "しゅちょう",
+                                "audioName": "dc6-styutyou.mp3",
+                                "meaning": "insistance"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅ","ちょ","う","っ"
+                                ],
+                                "answer": "しゅっちょう",
+                                "audioName": "dc6-syuttyou.mp3",
+                                "meaning": "business trip"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "バ","ター","バッ"
+                                ],
+                                "answer": "バター",
+                                "audioName": "dc7-bataa.mp3",
+                                "meaning": "butter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "バ","ター","バッ"
+                                ],
+                                "answer": "バッター",
+                                "audioName": "dc7-battaa.mp3",
+                                "meaning": "batter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "き","て","く","だ","さ","い","きっ"
+                                ],
+                                "answer": "きてください",
+                                "audioName": "dc8-kite.mp3",
+                                "meaning": "please come"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "き","て","く","だ","さ","い","きっ"
+                                ],
+                                "answer": "きってください",
+                                "audioName": "dc8-kitte.mp3",
+                                "meaning": "please cut"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じ","け","ん","じっ"
+                                ],
+                                "answer": "じけん",
+                                "audioName": "dc9-jiken.mp3",
+                                "meaning": "incident"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じ","け","ん","じっ"
+                                ],
+                                "answer": "じっけん",
+                                "audioName": "dc9-jikken.mp3",
+                                "meaning": "experiment"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "あ","さ","り","あっ"
+                                ],
+                                "answer": "あさり",
+                                "audioName": "dc10-asari.mp3",
+                                "meaning": "cram"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "あ","さ","り","あっ"
+                                ],
+                                "answer": "あっさり",
+                                "audioName": "dc10-assari.mp3",
+                                "meaning": "simple"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ひ","と","ひっ"
+                                ],
+                                "answer": "ひと",
+                                "audioName": "dc11-hito.mp3",
+                                "meaning": "hit"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ヒ","ト","ヒッ"
+                                ],
+                                "answer": "ヒット",
+                                "audioName": "dc11-hitto.mp3",
+                                "meaning": "painful"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "い","た","い","いっ"
+                                ],
+                                "answer": "いたい",
+                                "audioName": "dc12-itai.mp3",
+                                "meaning": "painful"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "い","た","い","いっ"
+                                ],
+                                "answer": "いったい",
+                                "audioName": "dc12-ittai.mp3",
+                                "meaning": "what on earth"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じ","か","ん","じっ"
+                                ],
+                                "answer": "じかん",
+                                "audioName": "dc13-jikan.mp3",
+                                "meaning": "time"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じ","か","ん","じっ"
+                                ],
+                                "answer": "じっかん",
+                                "audioName": "dc13-jikkan.mp3",
+                                "meaning": "real feeling"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ま","ち","まっ"
+                                ],
+                                "answer": "まち",
+                                "audioName": "dc14-machi.mp3",
+                                "meaning": "town"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "マ","チ","マッ"
+                                ],
+                                "answer": "マッチ",
+                                "audioName": "dc14-macchi.mp3",
+                                "meaning": "matches"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "し","か","く","しっ"
+                                ],
+                                "answer": "しかく",
+                                "audioName": "dc15-sikaku.mp3",
+                                "meaning": "rectangle"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "し","か","く","しっ"
+                                ],
+                                "answer": "しっかく",
+                                "audioName": "dc15-sikkaku.mp3",
+                                "meaning": "disqualified"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "も","と","もっ"
+                                ],
+                                "answer": "もと",
+                                "audioName": "dc16-moto.mp3",
+                                "meaning": "former"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "も","と","もっ"
+                                ],
+                                "answer": "もっと",
+                                "audioName": "dc16-motto.mp3",
+                                "meaning": "more"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こ","と","う","こっ"
+                                ],
+                                "answer": "ことう",
+                                "audioName": "dc18-kotou.mp3",
+                                "meaning": "isolated island"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こ","と","う","こっ"
+                                ],
+                                "answer": "こっとう",
+                                "audioName": "dc18-kottou.mp3",
+                                "meaning": "antique"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じ","こ","う","じっ"
+                                ],
+                                "answer": "じこう",
+                                "audioName": "dc19-jikou.mp3",
+                                "meaning": "statute of limitiation"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じ","こ","う","じっ"
+                                ],
+                                "answer": "じっこう",
+                                "audioName": "dc19-jikkou.mp3",
+                                "meaning": "execution"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "き","た","きっ"
+                                ],
+                                "answer": "きた",
+                                "audioName": "dc20-kita.mp3",
+                                "meaning": "came"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "き","た","きっ"
+                                ],
+                                "answer": "きった",
+                                "audioName": "dc20-kitta.mp3",
+                                "meaning": "cut"
+                            }
+                        ]
+                    },
+                    "conversationQuiz": {
+                        "questions":[
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さか",
+                                    "さっか"
+                                ],
+                                "answer": "さか",
+                                "audioName": ["MF-dc1-saka.mp3", "FM-dc1-saka.mp3"],
+                                "meaning": "slope"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さか",
+                                    "さっか"
+                                ],
+                                "answer": "さっか",
+                                "audioName": ["MF-dc1-sakka.mp3", "FM-dc1-sakka.mp3"],
+                                "meaning": "writer"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かこ",
+                                    "かっこ"
+                                ],
+                                "answer": "かこ",
+                                "audioName": ["MF-dc2-kako.mp3", "FM-dc2-kako.mp3"],
+                                "meaning": "past"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かこ",
+                                    "かっこ"
+                                ],
+                                "answer": "かっこ",
+                                "audioName": ["MF-dc2-kakko.mp3", "FM-dc2-kakko.mp3"],
+                                "meaning": "parenthesis"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おと",
+                                    "おっと"
+                                ],
+                                "answer": "おと",
+                                "audioName": ["MF-dc3-oto.mp3", "FM-dc3-oto.mp3"],
+                                "meaning": "sound"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おと",
+                                    "おっと"
+                                ],
+                                "answer": "おっと",
+                                "audioName": ["MF-dc3-otto.mp3", "FM-dc3-otto.mp3"],
+                                "meaning": "husband"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "がか",
+                                    "がっか"
+                                ],
+                                "answer": "がか",
+                                "audioName": ["MF-dc4-gaka.mp3", "FM-dc4-gaka.mp3"],
+                                "meaning": "painter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おと",
+                                    "がっか"
+                                ],
+                                "answer": "がっか",
+                                "audioName": ["MF-dc4-gakka.mp3", "FM-dc4-gakka.mp3"],
+                                "meaning": "department"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "そと",
+                                    "そっと"
+                                ],
+                                "answer": "そと",
+                                "audioName": ["MF-dc5-soto.mp3", "FM-dc5-soto.mp3"],
+                                "meaning": "outside"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "そと",
+                                    "そっと"
+                                ],
+                                "answer": "そっと",
+                                "audioName": ["MF-dc5-sotto.mp3", "FM-dc5-sotto.mp3"],
+                                "meaning": "gently"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅちょう",
+                                    "しゅっちょう"
+                                ],
+                                "answer": "しゅちょう",
+                                "audioName": ["MF-dc6-styutyou.mp3", "FM-dc6-styutyou.mp3"],
+                                "meaning": "insistance"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅちょう",
+                                    "しゅっちょう"
+                                ],
+                                "answer": "しゅっちょう",
+                                "audioName": ["MF-dc6-syuttyou.mp3", "FM-dc6-syuttyou.mp3"],
+                                "meaning": "business trip"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "バター",
+                                    "バッター"
+                                ],
+                                "answer": "バター",
+                                "audioName": ["MF-dc7-bataa.mp3", "FM-dc7-bataa.mp3"],
+                                "meaning": "butter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "バター",
+                                    "バッター"
+                                ],
+                                "answer": "バッター",
+                                "audioName": ["MF-dc7-battaa.mp3", "FM-dc7-battaa.mp3"],
+                                "meaning": "batter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きてください",
+                                    "きってください"
+                                ],
+                                "answer": "きてください",
+                                "audioName": ["MF-dc8-kite.mp3", "FM-dc8-kite.mp3"],
+                                "meaning": "please come"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きてください",
+                                    "きってください"
+                                ],
+                                "answer": "きってください",
+                                "audioName": ["MF-dc8-kitte.mp3", "FM-dc8-kitte.mp3"],
+                                "meaning": "please cut"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じけん",
+                                    "じっけん"
+                                ],
+                                "answer": "じけん",
+                                "audioName": ["MF-dc9-jiken.mp3", "FM-dc9-jiken.mp3"],
+                                "meaning": "incident"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じけん",
+                                    "じっけん"
+                                ],
+                                "answer": "じっけん",
+                                "audioName": ["MF-dc9-jikken.mp3", "FM-dc9-jikken.mp3"],
+                                "meaning": "experiment"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "あさり",
+                                    "あっさり"
+                                ],
+                                "answer": "あさり",
+                                "audioName": ["MF-dc10-asari.mp3", "FM-dc10-asari.mp3"],
+                                "meaning": "cram"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "あさり",
+                                    "あっさり"
+                                ],
+                                "answer": "あっさり",
+                                "audioName": ["MF-dc10-assari.mp3", "FM-dc10-assari.mp3"],
+                                "meaning": "simple"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ひと",
+                                    "ヒット"
+                                ],
+                                "answer": "ひと",
+                                "audioName": ["MF-dc11-hito.mp3", "FM-dc11-hito.mp3"],
+                                "meaning": "hit"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ひと",
+                                    "ヒット"
+                                ],
+                                "answer": "ヒット",
+                                "audioName": ["MF-dc11-hitto.mp3", "FM-dc11-hitto.mp3"],
+                                "meaning": "painful"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "いたい",
+                                    "いったい"
+                                ],
+                                "answer": "いたい",
+                                "audioName": ["MF-dc12-itai.mp3", "FM-dc12-itai.mp3"],
+                                "meaning": "painful"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "いたい",
+                                    "いったい"
+                                ],
+                                "answer": "いったい",
+                                "audioName": ["MF-dc12-ittai.mp3", "FM-dc12-ittai.mp3"],
+                                "meaning": "what on earth"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じかん",
+                                    "じっかん"
+                                ],
+                                "answer": "じかん",
+                                "audioName": ["MF-dc13-jikan.mp3", "FM-dc13-jikan.mp3"],
+                                "meaning": "time"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じかん",
+                                    "じっかん"
+                                ],
+                                "answer": "じっかん",
+                                "audioName": ["MF-dc13-jikkan.mp3", "FM-dc13-jikkan.mp3"],
+                                "meaning": "real feeling"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "まち",
+                                    "マッチ"
+                                ],
+                                "answer": "まち",
+                                "audioName": ["MF-dc14-machi.mp3", "FM-dc14-machi.mp3"],
+                                "meaning": "town"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "まち",
+                                    "マッチ"
+                                ],
+                                "answer": "マッチ",
+                                "audioName": ["MF-dc14-macchi.mp3", "FM-dc14-macchi.mp3"],
+                                "meaning": "matches"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しかく",
+                                    "しっかく"
+                                ],
+                                "answer": "しかく",
+                                "audioName": ["MF-dc15-sikaku.mp3", "FM-dc15-sikaku.mp3"],
+                                "meaning": "rectangle"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しかく",
+                                    "しっかく"
+                                ],
+                                "answer": "しっかく",
+                                "audioName": ["MF-dc15-sikkaku.mp3", "FM-dc15-sikkaku.mp3"],
+                                "meaning": "disqualified"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "もと",
+                                    "もっと"
+                                ],
+                                "answer": "もと",
+                                "audioName": ["MF-dc16-moto.mp3", "FM-dc16-moto.mp3"],
+                                "meaning": "former"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "もと",
+                                    "もっと"
+                                ],
+                                "answer": "もっと",
+                                "audioName": ["MF-dc16-motto.mp3", "FM-dc16-motto.mp3"],
+                                "meaning": "more"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ことう",
+                                    "こっとう"
+                                ],
+                                "answer": "ことう",
+                                "audioName": ["MF-dc18-kotou.mp3", "FM-dc18-kotou.mp3"],
+                                "meaning": "isolated island"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ことう",
+                                    "こっとう"
+                                ],
+                                "answer": "こっとう",
+                                "audioName": ["MF-dc18-kottou.mp3", "FM-dc18-kottou.mp3"],
+                                "meaning": "antique"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じこう",
+                                    "じっこう"
+                                ],
+                                "answer": "じこう",
+                                "audioName": ["MF-dc19-jikou.mp3", "FM-dc19-jikou.mp3"],
+                                "meaning": "statute of limitiation"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じこう",
+                                    "じっこう"
+                                ],
+                                "answer": "じっこう",
+                                "audioName": ["MF-dc19-jikkou.mp3", "FM-dc19-jikkou.mp3"],
+                                "meaning": "execution"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きた",
+                                    "きった"
+                                ],
+                                "answer": "きた",
+                                "audioName": ["MF-dc20-kita.mp3", "FM-dc20-kita.mp3"],
+                                "meaning": "came"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きた",
+                                    "きった"
+                                ],
+                                "answer": "きった",
+                                "audioName": ["MF-dc20-kitta.mp3", "FM-dc20-kitta.mp3"],
+                                "meaning": "cut"
+                            }
+                        ]
+                    }
                 },
                 {
                     "lessonid": 2.4,
@@ -3370,8 +4484,8 @@
                                     "ビール"
                                 ],
                                 "answer": "ビル",
-                                "audioName": "01-biru-F",
-                                "meaning": "pay cut"
+                                "audioName": "01-01-biru-F.mp3",
+                                "meaning": "building"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3380,8 +4494,8 @@
                                     "ビール"
                                 ],
                                 "answer": "ビール",
-                                "audioName": "02-biiru-F",
-                                "meaning": "pay cut"
+                                "audioName": "01-02-biiru-F.mp3",
+                                "meaning": "beer"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3390,8 +4504,8 @@
                                     "しゅうじん"
                                 ],
                                 "answer": "しゅじん",
-                                "audioName": "03-syujin-F",
-                                "meaning": "pay cut"
+                                "audioName": "02-01-syujin-F.mp3",
+                                "meaning": "husband"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3400,8 +4514,88 @@
                                     "しゅうじん"
                                 ],
                                 "answer": "しゅうじん",
-                                "audioName": "04-syuujin-F",
-                                "meaning": "pay cut"
+                                "audioName": "02-02-syuujin-F.mp3",
+                                "meaning": "prisoner"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こと",
+                                    "コート"
+                                ],
+                                "answer": "こと",
+                                "audioName": "03-01-koto-F.mp3",
+                                "meaning": "matter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こと",
+                                    "コート"
+                                ],
+                                "answer": "コート",
+                                "audioName": "03-02-kooto-F.mp3",
+                                "meaning": "coat"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちず",
+                                    "チーズ"
+                                ],
+                                "answer": "ちず",
+                                "audioName": "04-01-chizu-F.mp3",
+                                "meaning": "map"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちず",
+                                    "チーズ"
+                                ],
+                                "answer": "チーズ",
+                                "audioName": "04-02-chiizu-F.mp3",
+                                "meaning": "cheese"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "とり",
+                                    "とおり"
+                                ],
+                                "answer": "とり",
+                                "audioName": "05-01-tori-F.mp3",
+                                "meaning": "bird"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "とり",
+                                    "とおり"
+                                ],
+                                "answer": "とおり",
+                                "audioName": "05-02-toori-F.mp3",
+                                "meaning": "street"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "にゅうよく",
+                                    "ニューヨーク"
+                                ],
+                                "answer": "にゅうよく",
+                                "audioName": "06-01-nyuuyoku-F.mp3",
+                                "meaning": "taking a bath"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "にゅうよく",
+                                    "ニューヨーク"
+                                ],
+                                "answer": "ニューヨーク",
+                                "audioName": "06-02-nyuuyooku-F.mp3",
+                                "meaning": "New York"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3410,8 +4604,8 @@
                                     "そうこ"
                                 ],
                                 "answer": "そこ",
-                                "audioName": "05-soko-F",
-                                "meaning": "pay cut"
+                                "audioName": "07-01-soko-F.mp3",
+                                "meaning": "there"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3420,8 +4614,28 @@
                                     "そうこ"
                                 ],
                                 "answer": "そうこ",
-                                "audioName": "06-sooko-F",
-                                "meaning": "pay cut"
+                                "audioName": "07-02-sooko-F.mp3",
+                                "meaning": "storage"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おばさん",
+                                    "おばあさん"
+                                ],
+                                "answer": "おばさん",
+                                "audioName": "08-01-obasan-F.mp3",
+                                "meaning": "aunt"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おばさん",
+                                    "おばあさん"
+                                ],
+                                "answer": "おばあさん",
+                                "audioName": "08-02-obaasan-F.mp3",
+                                "meaning": "grandmother"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3430,8 +4644,8 @@
                                     "おじいさん"
                                 ],
                                 "answer": "おじさん",
-                                "audioName": "07-ojisan-F",
-                                "meaning": "pay cut"
+                                "audioName": "09-01-ojisan-F.mp3",
+                                "meaning": "uncle"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3440,8 +4654,108 @@
                                     "おじいさん"
                                 ],
                                 "answer": "おじいさん",
-                                "audioName": "08-ojiisan-F",
-                                "meaning": "pay cut"
+                                "audioName": "09-02-ojiisan-F.mp3",
+                                "meaning": "grandfather"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "いえ",
+                                    "いいえ"
+                                ],
+                                "answer": "いえ",
+                                "audioName": "10-01-ie-F.mp3",
+                                "meaning": "house"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "いえ",
+                                    "いいえ"
+                                ],
+                                "answer": "いいえ",
+                                "audioName": "10-02-iie-F.mp3",
+                                "meaning": "no"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かった",
+                                    "カッター"
+                                ],
+                                "answer": "かった",
+                                "audioName": "11-01-katta-F.mp3",
+                                "meaning": "won"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かった",
+                                    "カッター"
+                                ],
+                                "answer": "カッター",
+                                "audioName": "11-02-kattaa-F.mp3",
+                                "meaning": "box cutter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つり",
+                                    "ツリー"
+                                ],
+                                "answer": "つり",
+                                "audioName": "12-01-tsuri-F.mp3",
+                                "meaning": "fishing"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つり",
+                                    "ツリー"
+                                ],
+                                "answer": "ツリー",
+                                "audioName": "12-02-tsurii-F.mp3",
+                                "meaning": "tree"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "せ",
+                                    "せい"
+                                ],
+                                "answer": "せ",
+                                "audioName": "13-01-se-F.mp3",
+                                "meaning": "height"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "せ",
+                                    "せい"
+                                ],
+                                "answer": "せい",
+                                "audioName": "13-02-see-F.mp3",
+                                "meaning": "last name"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "すき",
+                                    "スキー"
+                                ],
+                                "answer": "すき",
+                                "audioName": "14-01-suki-F.mp3",
+                                "meaning": "like"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "すき",
+                                    "スキー"
+                                ],
+                                "answer": "スキー",
+                                "audioName": "14-02-sukii-F.mp3",
+                                "meaning": "skiing"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3450,8 +4764,8 @@
                                     "サッカー"
                                 ],
                                 "answer": "さっか",
-                                "audioName": "09-sakka-M",
-                                "meaning": "pay cut"
+                                "audioName": "15-01-sakka-F.mp3",
+                                "meaning": "writer"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3460,8 +4774,8 @@
                                     "サッカー"
                                 ],
                                 "answer": "サッカー",
-                                "audioName": "10-sakkaa-M",
-                                "meaning": "pay cut"
+                                "audioName": "15-02-sakkaa-F.mp3",
+                                "meaning": "soccer"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3470,8 +4784,8 @@
                                     "カレー"
                                 ],
                                 "answer": "かれ",
-                                "audioName": "11-kare-M",
-                                "meaning": "pay cut"
+                                "audioName": "16-01-kare-F.mp3",
+                                "meaning": "boyfriend"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3480,8 +4794,8 @@
                                     "カレー"
                                 ],
                                 "answer": "カレー",
-                                "audioName": "12-karee-M",
-                                "meaning": "pay cut"
+                                "audioName": "16-02-karee-F.mp3",
+                                "meaning": "curry"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3490,8 +4804,8 @@
                                     "きぼう"
                                 ],
                                 "answer": "きぼ",
-                                "audioName": "13-kibo-M",
-                                "meaning": "pay cut"
+                                "audioName": "17-01-kibo-F.mp3",
+                                "meaning": "size"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3500,8 +4814,108 @@
                                     "きぼう"
                                 ],
                                 "answer": "きぼう",
-                                "audioName": "14-kiboo-M",
-                                "meaning": "pay cut"
+                                "audioName": "17-02-kiboo-F.mp3",
+                                "meaning": "hope"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ようじ",
+                                    "よじ"
+                                ],
+                                "answer": "ようじ",
+                                "audioName": "18-02-yooji-F.mp3",
+                                "meaning": "4 o'clock"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ようじ",
+                                    "よじ"
+                                ],
+                                "answer": "よじ",
+                                "audioName": "18-01-yoji-F.mp3",
+                                "meaning": "errand"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "す",
+                                    "すう"
+                                ],
+                                "answer": "す",
+                                "audioName": "19-01-su-F.mp3",
+                                "meaning": "vinegar"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "す",
+                                    "すう"
+                                ],
+                                "answer": "すう",
+                                "audioName": "19-02-suu-F.mp3",
+                                "meaning": "inhale"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "いし",
+                                    "いしい"
+                                ],
+                                "answer": "いし",
+                                "audioName": "20-01-ishi-F.mp3",
+                                "meaning": "stone"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "いし",
+                                    "いしい"
+                                ],
+                                "answer": "いしい",
+                                "audioName": "20-02-ishii-F.mp3",
+                                "meaning": "Ishii (name)"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おねえさん",
+                                    "おねさん"
+                                ],
+                                "answer": "おねえさん",
+                                "audioName": "21-01-onesan-F.mp3",
+                                "meaning": "big sister"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おねえさん",
+                                    "おねさん"
+                                ],
+                                "answer": "おねさん",
+                                "audioName": "21-02-oneesan-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さとう",
+                                    "さと"
+                                ],
+                                "answer": "さとう",
+                                "audioName": "22-02-satou-F.mp3",
+                                "meaning": "sugar"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さとう",
+                                    "さと"
+                                ],
+                                "answer": "さと",
+                                "audioName": "22-01-sato-F.mp3",
+                                "meaning": "non-word"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3510,8 +4924,8 @@
                                     "くつう"
                                 ],
                                 "answer": "くつ",
-                                "audioName": "15-kutsu-F",
-                                "meaning": "pay cut"
+                                "audioName": "23-01-kutsu-F.mp3",
+                                "meaning": "shoes"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3520,28 +4934,248 @@
                                     "くつう"
                                 ],
                                 "answer": "くつう",
-                                "audioName": "16-kutsuu-F",
-                                "meaning": "pay cut"
+                                "audioName": "23-02-kutsuu-F.mp3",
+                                "meaning": "non-word"
                             },
                             {
                                 "question": "Which word do you hear?",
                                 "answers": [
-                                    "さと",
-                                    "さとう"
+                                    "りょかん",
+                                    "りょうかん"
                                 ],
-                                "answer": "さと",
-                                "audioName": "17-sato-M",
-                                "meaning": "pay cut"
+                                "answer": "りょかん",
+                                "audioName": "24-01-ryokan-F.mp3",
+                                "meaning": "inn"
                             },
                             {
                                 "question": "Which word do you hear?",
                                 "answers": [
-                                    "さと",
-                                    "さとう"
+                                    "りょかん",
+                                    "りょうかん"
+                                ],
+                                "answer": "りょうかん",
+                                "audioName": "24-02-ryookan-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちゅうごく",
+                                    "ちゅごく"
+                                ],
+                                "answer": "ちゅうごく",
+                                "audioName": "25-02-chuugoku-F.mp3",
+                                "meaning": "China"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちゅうごく",
+                                    "ちゅごく"
+                                ],
+                                "answer": "ちゅごく",
+                                "audioName": "25-01-chugoku-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ゆうびんきょく",
+                                    "ゆびんきょく"
+                                ],
+                                "answer": "ゆうびんきょく",
+                                "audioName": "26-02-yuubinkyoku-F.mp3",
+                                "meaning": "post office"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ゆうびんきょく",
+                                    "ゆびんきょく"
+                                ],
+                                "answer": "ゆびんきょく",
+                                "audioName": "26-01-yubinkyoku-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "だいじょうぶ",
+                                    "だいじょぶ"
+                                ],
+                                "answer": "だいじょうぶ",
+                                "audioName": "27-02-daijoobu-F.mp3",
+                                "meaning": "all right"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "だいじょうぶ",
+                                    "だいじょぶ"
+                                ],
+                                "answer": "だいじょぶ",
+                                "audioName": "27-01-daijobu-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おにいさん",
+                                    "おにさん"
+                                ],
+                                "answer": "おにいさん",
+                                "audioName": "28-02-oniisan-F.mp3",
+                                "meaning": "big brother"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おにいさん",
+                                    "おにさん"
+                                ],
+                                "answer": "おにさん",
+                                "audioName": "28-01-onisan-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ゆうめい",
+                                    "ゆめい"
+                                ],
+                                "answer": "ゆうめい",
+                                "audioName": "29-02-yuumee-F.mp3",
+                                "meaning": "famous"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ゆうめい",
+                                    "ゆめい"
+                                ],
+                                "answer": "ゆめい",
+                                "audioName": "29-01-yumee-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こおり",
+                                    "こり"
+                                ],
+                                "answer": "こおり",
+                                "audioName": "30-02-koori-F.mp3",
+                                "meaning": "ice"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こおり",
+                                    "こり"
+                                ],
+                                "answer": "ゆめい",
+                                "audioName": "30-01-kori-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さとう",
+                                    "さと"
                                 ],
                                 "answer": "さとう",
-                                "audioName": "18-satoo-M",
-                                "meaning": "pay cut"
+                                "audioName": "31-02-satou-F.mp3",
+                                "meaning": "sugar"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さとう",
+                                    "さと"
+                                ],
+                                "answer": "さと",
+                                "audioName": "31-01-sato-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "としょかん",
+                                    "としょうかん"
+                                ],
+                                "answer": "としょかん",
+                                "audioName": "32-01-tosyokani-F.mp3",
+                                "meaning": "library"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "としょかん",
+                                    "としょうかん"
+                                ],
+                                "answer": "としょうかん",
+                                "audioName": "32-02-tosyookani-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ふとん",
+                                    "ふうとん"
+                                ],
+                                "answer": "ふとん",
+                                "audioName": "33-01-futon-F.mp3",
+                                "meaning": "futon"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ふとん",
+                                    "ふうとん"
+                                ],
+                                "answer": "ふうとん",
+                                "audioName": "33-02-fuuton-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅくだい",
+                                    "しゅうくだい"
+                                ],
+                                "answer": "しゅくだい",
+                                "audioName": "34-01-syukudai-F.mp3",
+                                "meaning": "homework"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅくだい",
+                                    "しゅうくだい"
+                                ],
+                                "answer": "しゅうくだい",
+                                "audioName": "34-02-syuukudai-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じしょ",
+                                    "じしょう"
+                                ],
+                                "answer": "じしょ",
+                                "audioName": "35-01-jisyo-F2.mp3",
+                                "meaning": "dictionary"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じしょ",
+                                    "じしょう"
+                                ],
+                                "answer": "じしょう",
+                                "audioName": "35-02-jisyoo-F.mp3",
+                                "meaning": "non-word"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3550,8 +5184,8 @@
                                     "こんどう"
                                 ],
                                 "answer": "こんど",
-                                "audioName": "19-kondo-M",
-                                "meaning": "pay cut"
+                                "audioName": "36-01-kondo-F.mp3",
+                                "meaning": "next time"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -3560,8 +5194,1436 @@
                                     "こんどう"
                                 ],
                                 "answer": "こんどう",
-                                "audioName": "20-kondoo-M",
-                                "meaning": "pay cut"
+                                "audioName": "36-02-kondoo-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かこ",
+                                    "かこう"
+                                ],
+                                "answer": "かこ",
+                                "audioName": "37-01-kako-F.mp3",
+                                "meaning": "past"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かこ",
+                                    "かこう"
+                                ],
+                                "answer": "かこう",
+                                "audioName": "37-02-kakoo-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ち",
+                                    "ちい"
+                                ],
+                                "answer": "ち",
+                                "audioName": "38-01-chi-F.mp3",
+                                "meaning": "blood"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ち",
+                                    "ちい"
+                                ],
+                                "answer": "ちい",
+                                "audioName": "38-02-chii-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "き",
+                                    "きい"
+                                ],
+                                "answer": "き",
+                                "audioName": "39-01-ki-F.mp3",
+                                "meaning": "blood"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "き",
+                                    "きい"
+                                ],
+                                "answer": "きい",
+                                "audioName": "39-02-kii-F.mp3",
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じこ",
+                                    "じこう"
+                                ],
+                                "answer": "じこ",
+                                "audioName": "40-01-jiko-F.mp3",
+                                "meaning": "accident"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じこ",
+                                    "じこう"
+                                ],
+                                "answer": "じこう",
+                                "audioName": "40-02-jikoo-F.mp3",
+                                "meaning": "non-word"
+                            }
+                        ]
+                    },
+                    "scrambler": {
+                        "questions": [
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ビ","ル","ビー"
+                                ],
+                                "answer": "ビル",
+                                "audioName": "01-01-biru-F.mp3",
+                                "meaning": "building"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ビ","ル","ビー"
+                                ],
+                                "answer": "ビール",
+                                "audioName": "01-02-biiru-F.mp3",
+                                "meaning": "beer"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅ","じ","ん","う"
+                                ],
+                                "answer": "しゅじん",
+                                "audioName": "02-01-syujin-F.mp3",
+                                "meaning": "husband"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅ","じ","ん","う"
+                                ],
+                                "answer": "しゅうじん",
+                                "audioName": "02-02-syuujin-F.mp3",
+                                "meaning": "prisoner"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こ","と","う"
+                                ],
+                                "answer": "こと",
+                                "audioName": "03-01-koto-F.mp3",
+                                "meaning": "matter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "コ","ト","ー"
+                                ],
+                                "answer": "コート",
+                                "audioName": "03-02-kooto-F.mp3",
+                                "meaning": "coat"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ち","ず","う"
+                                ],
+                                "answer": "ちず",
+                                "audioName": "04-01-chizu-F.mp3",
+                                "meaning": "map"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "チ","ズ","ー"
+                                ],
+                                "answer": "チーズ",
+                                "audioName": "04-02-chiizu-F.mp3",
+                                "meaning": "cheese"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "と","り","お"
+                                ],
+                                "answer": "とり",
+                                "audioName": "05-01-tori-F.mp3",
+                                "meaning": "bird"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "と","り","お"
+                                ],
+                                "answer": "とおり",
+                                "audioName": "05-02-toori-F.mp3",
+                                "meaning": "street"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "にゅ","う","よ","く"
+                                ],
+                                "answer": "にゅうよく",
+                                "audioName": "06-01-nyuuyoku-F.mp3",
+                                "meaning": "taking a bath"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ニュ","ー","ヨ","ク"
+                                ],
+                                "answer": "ニューヨーク",
+                                "audioName": "06-02-nyuuyooku-F.mp3",
+                                "meaning": "New York"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "そ","こ","う"
+                                ],
+                                "answer": "そこ",
+                                "audioName": "07-01-soko-F.mp3",
+                                "meaning": "there"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "そ","こ","う"
+                                ],
+                                "answer": "そうこ",
+                                "audioName": "07-02-sooko-F.mp3",
+                                "meaning": "storage"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "お","ば","さ","ん","あ"
+                                ],
+                                "answer": "おばさん",
+                                "audioName": "08-01-obasan-F.mp3",
+                                "meaning": "aunt"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "お","ば","さ","ん","あ"
+                                ],
+                                "answer": "おばあさん",
+                                "audioName": "08-02-obaasan-F.mp3",
+                                "meaning": "grandmother"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "お","じ","さ","ん","い"
+                                ],
+                                "answer": "おじさん",
+                                "audioName": "09-01-ojisan-F.mp3",
+                                "meaning": "uncle"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "お","じ","さ","ん","い"
+                                ],
+                                "answer": "おじいさん",
+                                "audioName": "09-02-ojiisan-F.mp3",
+                                "meaning": "grandfather"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "い","え"
+                                ],
+                                "answer": "いえ",
+                                "audioName": "10-01-ie-F.mp3",
+                                "meaning": "house"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "い","え"
+                                ],
+                                "answer": "いいえ",
+                                "audioName": "10-02-iie-F.mp3",
+                                "meaning": "no"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かっ","た","あ"
+                                ],
+                                "answer": "かった",
+                                "audioName": "11-01-katta-F.mp3",
+                                "meaning": "won"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "カッ","タ","ー"
+                                ],
+                                "answer": "カッター",
+                                "audioName": "11-02-kattaa-F.mp3",
+                                "meaning": "box cutter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つ","り","い"
+                                ],
+                                "answer": "つり",
+                                "audioName": "12-01-tsuri-F.mp3",
+                                "meaning": "fishing"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ツ","リ","ー"
+                                ],
+                                "answer": "ツリー",
+                                "audioName": "12-02-tsurii-F.mp3",
+                                "meaning": "tree"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "せ","い"
+                                ],
+                                "answer": "せ",
+                                "audioName": "13-01-se-F.mp3",
+                                "meaning": "height"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "せ","い"
+                                ],
+                                "answer": "せい",
+                                "audioName": "13-02-see-F.mp3",
+                                "meaning": "last name"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "す","き","い"
+                                ],
+                                "answer": "すき",
+                                "audioName": "14-01-suki-F.mp3",
+                                "meaning": "like"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ス","キ","ー"
+                                ],
+                                "answer": "スキー",
+                                "audioName": "14-02-sukii-F.mp3",
+                                "meaning": "skiing"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さっ","か", "あ"
+                                ],
+                                "answer": "さっか",
+                                "audioName": "15-01-sakka-F.mp3",
+                                "meaning": "writer"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "サッ","カ","ー"
+                                ],
+                                "answer": "サッカー",
+                                "audioName": "15-02-sakkaa-F.mp3",
+                                "meaning": "soccer"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","れ","え"
+                                ],
+                                "answer": "かれ",
+                                "audioName": "16-01-kare-F.mp3",
+                                "meaning": "boyfriend"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "カ","レ","ー"
+                                ],
+                                "answer": "カレー",
+                                "audioName": "16-02-karee-F.mp3",
+                                "meaning": "curry"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "き","ぼ","う"
+                                ],
+                                "answer": "きぼ",
+                                "audioName": "17-01-kibo-F.mp3",
+                                "meaning": "size"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "き","ぼ","う"
+                                ],
+                                "answer": "きぼう",
+                                "audioName": "17-02-kiboo-F.mp3",
+                                "meaning": "hope"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "よ","う","じ"
+                                ],
+                                "answer": "ようじ",
+                                "audioName": "18-02-yooji-F.mp3",
+                                "meaning": "4 o'clock"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "よ","う","じ"
+                                ],
+                                "answer": "よじ",
+                                "audioName": "18-01-yoji-F.mp3",
+                                "meaning": "errand"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "す","う"
+                                ],
+                                "answer": "す",
+                                "audioName": "19-01-su-F.mp3",
+                                "meaning": "vinegar"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "す","う"
+                                ],
+                                "answer": "すう",
+                                "audioName": "19-02-suu-F.mp3",
+                                "meaning": "inhale"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "い","し"
+                                ],
+                                "answer": "いし",
+                                "audioName": "20-01-ishi-F.mp3",
+                                "meaning": "stone"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "い","し"
+                                ],
+                                "answer": "いしい",
+                                "audioName": "20-02-ishii-F.mp3",
+                                "meaning": "Ishii (name)"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "お","ね","え","さ","ん"
+                                ],
+                                "answer": "おねえさん",
+                                "audioName": "21-01-onesan-F.mp3",
+                                "meaning": "big sister"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さ","と","う"
+                                ],
+                                "answer": "さとう",
+                                "audioName": "22-02-satou-F.mp3",
+                                "meaning": "sugar"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "く","つ","う"
+                                ],
+                                "answer": "くつ",
+                                "audioName": "23-01-kutsu-F.mp3",
+                                "meaning": "shoes"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "りょ","う","か","ん"
+                                ],
+                                "answer": "りょかん",
+                                "audioName": "24-01-ryokan-F.mp3",
+                                "meaning": "inn"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちゅ","う","ご","く"
+                                ],
+                                "answer": "ちゅうごく",
+                                "audioName": "25-02-chuugoku-F.mp3",
+                                "meaning": "China"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ゆ","う","び","ん","きょ","く"
+                                ],
+                                "answer": "ゆうびんきょく",
+                                "audioName": "26-02-yuubinkyoku-F.mp3",
+                                "meaning": "post office"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "だ","い","じょ","う","ぶ"
+                                ],
+                                "answer": "だいじょうぶ",
+                                "audioName": "27-02-daijoobu-F.mp3",
+                                "meaning": "all right"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "お","に","い","さ","ん"
+                                ],
+                                "answer": "おにいさん",
+                                "audioName": "28-02-oniisan-F.mp3",
+                                "meaning": "big brother"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ゆ","う","め","い"
+                                ],
+                                "answer": "ゆうめい",
+                                "audioName": "29-02-yuumee-F.mp3",
+                                "meaning": "famous"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こ","お","り"
+                                ],
+                                "answer": "こおり",
+                                "audioName": "30-02-koori-F.mp3",
+                                "meaning": "ice"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さ","と","う"
+                                ],
+                                "answer": "さとう",
+                                "audioName": "31-02-satou-F.mp3",
+                                "meaning": "sugar"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "と","しょ","う","か","ん"
+                                ],
+                                "answer": "としょかん",
+                                "audioName": "32-01-tosyokani-F.mp3",
+                                "meaning": "library"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ふ","う","と","ん"
+                                ],
+                                "answer": "ふとん",
+                                "audioName": "33-01-futon-F.mp3",
+                                "meaning": "futon"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅ","う","く","だ","い"
+                                ],
+                                "answer": "しゅくだい",
+                                "audioName": "34-01-syukudai-F.mp3",
+                                "meaning": "homework"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じ","しょ","う"
+                                ],
+                                "answer": "じしょ",
+                                "audioName": "35-01-jisyo-F2.mp3",
+                                "meaning": "dictionary"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こ","ん","ど","う"
+                                ],
+                                "answer": "こんど",
+                                "audioName": "36-01-kondo-F.mp3",
+                                "meaning": "next time"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "か","こ","う"
+                                ],
+                                "answer": "かこ",
+                                "audioName": "37-01-kako-F.mp3",
+                                "meaning": "past"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ち","い"
+                                ],
+                                "answer": "ち",
+                                "audioName": "38-01-chi-F.mp3",
+                                "meaning": "blood"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "き","い"
+                                ],
+                                "answer": "き",
+                                "audioName": "39-01-ki-F.mp3",
+                                "meaning": "blood"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じ","こ","う"
+                                ],
+                                "answer": "じこ",
+                                "audioName": "40-01-jiko-F.mp3",
+                                "meaning": "accident"
+                            }
+                        ]
+                    },
+                    "conversationQuiz": {
+                        "questions": [
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ビル",
+                                    "ビール"
+                                ],
+                                "answer": "ビル",
+                                "audioName": ["1-lv1-biru.mp3", "2-lv1-biru.mp3"],
+                                "meaning": "building"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ビル",
+                                    "ビール"
+                                ],
+                                "answer": "ビール",
+                                "audioName": ["1-lv1-biiru.mp3", "2-lv1-biiru.mp3"],
+                                "meaning": "beer"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅじん",
+                                    "しゅうじん"
+                                ],
+                                "answer": "しゅじん",
+                                "audioName": ["1-lv2-syujin.mp3", "2-lv2-syujin.mp3"],
+                                "meaning": "husband"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅじん",
+                                    "しゅうじん"
+                                ],
+                                "answer": "しゅうじん",
+                                "audioName": ["1-lv2-syuujinn.mp3", "2-lv2-syuujinn.mp3"],
+                                "meaning": "prisoner"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こと",
+                                    "コート"
+                                ],
+                                "answer": "こと",
+                                "audioName": ["1-lv3-koto.mp3", "2-lv3-koto.mp3"],
+                                "meaning": "matter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こと",
+                                    "コート"
+                                ],
+                                "answer": "コート",
+                                "audioName": ["1-lv3-kooto.mp3", "2-lv3-kooto.mp3"],
+                                "meaning": "coat"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちず",
+                                    "チーズ"
+                                ],
+                                "answer": "ちず",
+                                "audioName": ["1-lv4-chizu.mp3", "2-lv4-chizu.mp3"],
+                                "meaning": "map"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちず",
+                                    "チーズ"
+                                ],
+                                "answer": "チーズ",
+                                "audioName": ["1-lv4-cheezu.mp3", "2-lv4-cheezu.mp3"],
+                                "meaning": "cheese"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "とり",
+                                    "とおり"
+                                ],
+                                "answer": "とり",
+                                "audioName": ["1-lv5-tori.mp3", "2-lv5-tori.mp3"],
+                                "meaning": "bird"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "とり",
+                                    "とおり"
+                                ],
+                                "answer": "とおり",
+                                "audioName": ["1-lv5-toori.mp3", "2-lv5-toori.mp3"],
+                                "meaning": "street"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "にゅうよく",
+                                    "ニューヨーク"
+                                ],
+                                "answer": "にゅうよく",
+                                "audioName": ["1-lv6-nyuuyoku.mp3", "2-lv6-nyuuyoku.mp3"],
+                                "meaning": "taking a bath"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "にゅうよく",
+                                    "ニューヨーク"
+                                ],
+                                "answer": "ニューヨーク",
+                                "audioName": ["1-lv6-nyuuyooku.mp3", "2-lv6-nyuuyooku.mp3"],
+                                "meaning": "New York"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "そこ",
+                                    "そうこ"
+                                ],
+                                "answer": "そこ",
+                                "audioName": ["1-lv7-soko.mp3", "2-lv7-soko.mp3"],
+                                "meaning": "there"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "そこ",
+                                    "そうこ"
+                                ],
+                                "answer": "そうこ",
+                                "audioName": ["1-lv7-souko.mp3", "2-lv7-souko.mp3"],
+                                "meaning": "storage"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おばさん",
+                                    "おばあさん"
+                                ],
+                                "answer": "おばさん",
+                                "audioName": ["1-lv8-obasann.mp3", "2-lv8-obasann.mp3"],
+                                "meaning": "aunt"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おばさん",
+                                    "おばあさん"
+                                ],
+                                "answer": "おばあさん",
+                                "audioName": ["1-lv8-obaasan.mp3", "2-lv8-obaasan.mp3"],
+                                "meaning": "grandmother"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おじさん",
+                                    "おじいさん"
+                                ],
+                                "answer": "おじさん",
+                                "audioName": ["1-lv9-ojisan.mp3", "2-lv9-ojisan.mp3"],
+                                "meaning": "uncle"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おじさん",
+                                    "おじいさん"
+                                ],
+                                "answer": "おじいさん",
+                                "audioName": ["1-lv9-ojiisan.mp3", "2-lv9-ojiisan.mp3"],
+                                "meaning": "grandfather"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "いえ",
+                                    "いいえ"
+                                ],
+                                "answer": "いえ",
+                                "audioName": ["1-lv10-ie.mp3", "2-lv10-ie.mp3"],
+                                "meaning": "house"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "いえ",
+                                    "いいえ"
+                                ],
+                                "answer": "いいえ",
+                                "audioName": ["1-lv10-iie.mp3", "2-lv10-iie.mp3"],
+                                "meaning": "no"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かった",
+                                    "カッター"
+                                ],
+                                "answer": "かった",
+                                "audioName": ["1-lv11-katta.mp3", "2-lv11-katta.mp3"],
+                                "meaning": "won"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かった",
+                                    "カッター"
+                                ],
+                                "answer": "カッター",
+                                "audioName": ["1-lv11-kattaa.mp3", "2-lv11-kattaa.mp3"],
+                                "meaning": "box cutter"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つり",
+                                    "ツリー"
+                                ],
+                                "answer": "つり",
+                                "audioName": ["1-lv12-tsuri.mp3", "2-lv12-tsuri.mp3"],
+                                "meaning": "fishing"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "つり",
+                                    "ツリー"
+                                ],
+                                "answer": "ツリー",
+                                "audioName": ["1-lv12-tsurii.mp3", "2-lv12-tsurii.mp3"],
+                                "meaning": "tree"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "せ",
+                                    "せい"
+                                ],
+                                "answer": "せ",
+                                "audioName": ["1-lv13-se.mp3", "2-lv13-se.mp3"],
+                                "meaning": "height"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "せ",
+                                    "せい"
+                                ],
+                                "answer": "せい",
+                                "audioName": ["1-lv13-sei.mp3", "2-lv13-sei.mp3"],
+                                "meaning": "last name"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "すき",
+                                    "スキー"
+                                ],
+                                "answer": "すき",
+                                "audioName": ["1-lv14-suki.mp3", "2-lv14-suki.mp3"],
+                                "meaning": "like"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "すき",
+                                    "スキー"
+                                ],
+                                "answer": "スキー",
+                                "audioName": ["1-lv14-sukii.mp3", "2-lv14-sukii.mp3"],
+                                "meaning": "skiing"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さっか",
+                                    "サッカー"
+                                ],
+                                "answer": "さっか",
+                                "audioName": ["1-lv15-sakka.mp3", "2-lv15-sakka.mp3"],
+                                "meaning": "writer"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さっか",
+                                    "サッカー"
+                                ],
+                                "answer": "サッカー",
+                                "audioName": ["1-lv15-sakkaa.mp3", "2-lv15-sakkaa.mp3"],
+                                "meaning": "soccer"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かれ",
+                                    "カレー"
+                                ],
+                                "answer": "かれ",
+                                "audioName": ["1-lv16-kare.mp3", "2-lv16-kare.mp3"],
+                                "meaning": "boyfriend"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かれ",
+                                    "カレー"
+                                ],
+                                "answer": "カレー",
+                                "audioName": ["1-lv16-karee.mp3", "2-lv16-karee.mp3"],
+                                "meaning": "curry"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きぼ",
+                                    "きぼう"
+                                ],
+                                "answer": "きぼ",
+                                "audioName": ["1-lv17-kibo.mp3", "2-lv17-kibo.mp3"],
+                                "meaning": "size"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "きぼ",
+                                    "きぼう"
+                                ],
+                                "answer": "きぼう",
+                                "audioName": ["1-lv17-kibou.mp3", "2-lv17-kibou.mp3"],
+                                "meaning": "hope"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ようじ",
+                                    "よじ"
+                                ],
+                                "answer": "ようじ",
+                                "audioName": ["1-lv18-youji.mp3", "2-lv18-youji.mp3"],
+                                "meaning": "4 o'clock"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ようじ",
+                                    "よじ"
+                                ],
+                                "answer": "よじ",
+                                "audioName": ["1-lv18-yoji.mp3", "2-lv18-yoji.mp3"],
+                                "meaning": "errand"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "す",
+                                    "すう"
+                                ],
+                                "answer": "す",
+                                "audioName": ["1-lv19-su.mp3", "2-lv19-su.mp3"],
+                                "meaning": "vinegar"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "す",
+                                    "すう"
+                                ],
+                                "answer": "すう",
+                                "audioName": ["1-lv19-suu.mp3", "2-lv19-suu.mp3"],
+                                "meaning": "inhale"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "いし",
+                                    "いしい"
+                                ],
+                                "answer": "いし",
+                                "audioName": ["1-lv20-ishi.mp3", "2-lv20-ishi.mp3"],
+                                "meaning": "stone"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "いし",
+                                    "いしい"
+                                ],
+                                "answer": "いしい",
+                                "audioName": ["1-lv20-ishii.mp3", "2-lv20-ishii.mp3"],
+                                "meaning": "Ishii (name)"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おねえさん",
+                                    "おねさん"
+                                ],
+                                "answer": "おねえさん",
+                                "audioName": ["1-lv21-oneesann.mp3", "2-lv21-oneesann.mp3"],
+                                "meaning": "big sister"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おねえさん",
+                                    "おねさん"
+                                ],
+                                "answer": "おねさん",
+                                "audioName": ["1-lv21-onesann.mp3", "2-lv21-onesann.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さとう",
+                                    "さと"
+                                ],
+                                "answer": "さとう",
+                                "audioName": ["1-lv22-satou.mp3", "2-lv22-satou.mp3"],
+                                "meaning": "sugar"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さとう",
+                                    "さと"
+                                ],
+                                "answer": "さと",
+                                "audioName": ["1-lv22-sato.mp3", "2-lv22-sato.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "くつ",
+                                    "くつう"
+                                ],
+                                "answer": "くつ",
+                                "audioName": ["1-lv23-kutsu.mp3", "2-lv23-kutsu.mp3"],
+                                "meaning": "shoes"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "くつ",
+                                    "くつう"
+                                ],
+                                "answer": "くつう",
+                                "audioName": ["1-lv23-kutsuu.mp3", "2-lv23-kutsuu.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "りょかん",
+                                    "りょうかん"
+                                ],
+                                "answer": "りょかん",
+                                "audioName": ["1-lv24-ryokann.mp3", "2-lv24-ryokann.mp3"],
+                                "meaning": "inn"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "りょかん",
+                                    "りょうかん"
+                                ],
+                                "answer": "りょうかん",
+                                "audioName": ["1-lv24-ryoukann.mp3", "2-lv24-ryoukann.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちゅうごく",
+                                    "ちゅごく"
+                                ],
+                                "answer": "ちゅうごく",
+                                "audioName": ["1-lv25-chyugoku.mp3", "2-lv25-chyugoku.mp3"],
+                                "meaning": "China"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちゅうごく",
+                                    "ちゅごく"
+                                ],
+                                "answer": "ちゅごく",
+                                "audioName": ["1-lv25-chygoku.mp3", "2-lv25-chygoku.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ゆうびんきょく",
+                                    "ゆびんきょく"
+                                ],
+                                "answer": "ゆうびんきょく",
+                                "audioName": ["1-lv26-yuubinkyoku.mp3", "2-lv26-yuubinkyoku.mp3"],
+                                "meaning": "post office"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ゆうびんきょく",
+                                    "ゆびんきょく"
+                                ],
+                                "answer": "ゆびんきょく",
+                                "audioName": ["1-lv26-yubinkyoku.mp3", "2-lv26-yubinkyoku.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "だいじょうぶ",
+                                    "だいじょぶ"
+                                ],
+                                "answer": "だいじょうぶ",
+                                "audioName": ["1-lv27-daijoubu.mp3", "2-lv27-daijoubu.mp3"],
+                                "meaning": "all right"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "だいじょうぶ",
+                                    "だいじょぶ"
+                                ],
+                                "answer": "だいじょぶ",
+                                "audioName": ["1-lv27-daijobu.mp3", "2-lv27-daijobu.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おにいさん",
+                                    "おにさん"
+                                ],
+                                "answer": "おにいさん",
+                                "audioName": ["1-lv28-oniisann.mp3", "2-lv28-oniisann.mp3"],
+                                "meaning": "big brother"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "おにいさん",
+                                    "おにさん"
+                                ],
+                                "answer": "おにさん",
+                                "audioName": ["1-lv28-onisann.mp3", "2-lv28-onisann.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ゆうめい",
+                                    "ゆめい"
+                                ],
+                                "answer": "ゆうめい",
+                                "audioName": ["1-lv29-yuumei.mp3", "2-lv29-yuumei.mp3"],
+                                "meaning": "famous"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ゆうめい",
+                                    "ゆめい"
+                                ],
+                                "answer": "ゆめい",
+                                "audioName": ["1-lv29-yumei.mp3", "2-lv29-yumei.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こおり",
+                                    "こり"
+                                ],
+                                "answer": "こおり",
+                                "audioName": ["1-lv30-koori.mp3", "2-lv30-koori.mp3"],
+                                "meaning": "ice"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こおり",
+                                    "こり"
+                                ],
+                                "answer": "ゆめい",
+                                "audioName": ["1-lv30-kori.mp3", "2-lv30-kori.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さとう",
+                                    "さと"
+                                ],
+                                "answer": "さとう",
+                                "audioName": ["1-lv31-saou.mp3", "2-lv31-saou.mp3"],
+                                "meaning": "sugar"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "さとう",
+                                    "さと"
+                                ],
+                                "answer": "さと",
+                                "audioName": ["1-lv31-sato.mp3", "2-lv31-sato.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "としょかん",
+                                    "としょうかん"
+                                ],
+                                "answer": "としょかん",
+                                "audioName": ["1-lv32-tosyokan.mp3", "2-lv32-tosyokan.mp3"],
+                                "meaning": "library"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "としょかん",
+                                    "としょうかん"
+                                ],
+                                "answer": "としょうかん",
+                                "audioName": ["1-lv32-tosyoukann.mp3","2-lv32-tosyoukann.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ふとん",
+                                    "ふうとん"
+                                ],
+                                "answer": "ふとん",
+                                "audioName": ["1-lv33-futon.mp3", "2-lv33-futon.mp3"],
+                                "meaning": "futon"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ふとん",
+                                    "ふうとん"
+                                ],
+                                "answer": "ふうとん",
+                                "audioName": ["1-lv33-fuuton.mp3", "2-lv33-fuuton.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅくだい",
+                                    "しゅうくだい"
+                                ],
+                                "answer": "しゅくだい",
+                                "audioName": ["1-lv34-syukudai.mp3", "2-lv34-syukudai.mp3"],
+                                "meaning": "homework"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "しゅくだい",
+                                    "しゅうくだい"
+                                ],
+                                "answer": "しゅうくだい",
+                                "audioName": ["1-lv34-syuukuai.mp3", "2-lv34-syuukuai.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じしょ",
+                                    "じしょう"
+                                ],
+                                "answer": "じしょ",
+                                "audioName": ["1-lv35-jisyo.mp3", "2-lv35-jisyo.mp3"],
+                                "meaning": "dictionary"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じしょ",
+                                    "じしょう"
+                                ],
+                                "answer": "じしょう",
+                                "audioName": ["1-lv35-jisyou.mp3", "2-lv35-jisyou.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こんど",
+                                    "こんどう"
+                                ],
+                                "answer": "こんど",
+                                "audioName": ["1-lv36-kondo.mp3", "2-lv36-kondo.mp3"],
+                                "meaning": "next time"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "こんど",
+                                    "こんどう"
+                                ],
+                                "answer": "こんどう",
+                                "audioName": ["1-lv36-kondou.mp3", "2-lv36-kondou.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かこ",
+                                    "かこう"
+                                ],
+                                "answer": "かこ",
+                                "audioName": ["1-lv37-kako.mp3", "2-lv37-kako.mp3"],
+                                "meaning": "past"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "かこ",
+                                    "かこう"
+                                ],
+                                "answer": "かこう",
+                                "audioName": ["1-lv37-kakou.mp3", "2-lv37-kakou.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ち",
+                                    "ちい"
+                                ],
+                                "answer": "ち",
+                                "audioName": ["1-lv38-chi.mp3", "2-lv38-chi.mp3"],
+                                "meaning": "blood"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ち",
+                                    "ちい"
+                                ],
+                                "answer": "ちい",
+                                "audioName": ["1-lv38-chii.mp3", "2-lv38-chii.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "き",
+                                    "きい"
+                                ],
+                                "answer": "き",
+                                "audioName": ["1-lv39-ki.mp3", "2-lv39-ki.mp3"],
+                                "meaning": "blood"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "き",
+                                    "きい"
+                                ],
+                                "answer": "きい",
+                                "audioName": ["1-lv39-kii.mp3", "2-lv39-kii.mp3"],
+                                "meaning": "non-word"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じこ",
+                                    "じこう"
+                                ],
+                                "answer": "じこ",
+                                "audioName": ["1-lv40-jiko.mp3", "2-lv40-jiko.mp3"],
+                                "meaning": "accident"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "じこ",
+                                    "じこう"
+                                ],
+                                "answer": "じこう",
+                                "audioName": ["1-lv40-jikou.mp3", "2-lv40-jikou.mp3"],
+                                "meaning": "non-word"
                             }
                         ]
                     }
