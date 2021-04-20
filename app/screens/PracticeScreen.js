@@ -62,7 +62,6 @@ function PracticeScreen({
         } /> )
     }
 
-    console.log(letterSound)
     if (letterSound != undefined) {
         const questions = letterSound.questions
         return ( <LetterSoundQuiz questions = {

@@ -40,8 +40,6 @@ export default class Scrambler extends Component {
         }
 
         questionArray = questionArray.slice(0, len)
-        console.log(len)
-        console.log(questionArray)
 
         //shuffles answers too
         for(let i = 0; i < questionArray.length; i++){

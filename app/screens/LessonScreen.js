@@ -126,7 +126,7 @@ function navigateTo(navigation, data, selectedOption, max, quizType){
     switch (quizType) {
         case 'multipleChoiceQuiz':
             navigation.navigate('Practice', {
-                multipleChoiceQuiz: data.multipleChoiceQuiz,
+                multipleChoice: data.multipleChoiceQuiz,
                 numQuestions: fitInputToRange(selectedOption, max),
             })
             return;

@@ -132,6 +132,7 @@ export default class MultipleChoiceQuiz extends Component {
 				}
 				await soundObjects[audioName].loadAsync(source)
 			} catch(e){
+				console.log(audioName)
 				console.log(e);
 			}
 		}
