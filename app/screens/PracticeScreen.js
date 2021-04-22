@@ -57,6 +57,8 @@ function PracticeScreen({
             questions
         } chooseNumber = {
             numQuestions
+        } multiAudio = {
+            scrambler.multiAudio
         } navigation = {
             navigation
         } /> )

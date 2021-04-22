@@ -143,7 +143,7 @@ export default class Scrambler extends Component {
 				}
 				await soundObjects[audioName].loadAsync(source)
 			} catch(e){
-				console.log(e);
+                console.log(e);
 			}
 		}
 		if(!this.state.endQuiz){

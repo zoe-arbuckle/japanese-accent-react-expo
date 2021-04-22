@@ -5,6 +5,7 @@
             "lessonName": "Mora",
             "lessonDescription": "Lesson 1",
             "scrambler": {
+                "multiAudio": false,
                 "questions": [
                     {
                         "question": "Which word do you hear?",
@@ -887,6 +888,7 @@
                         ]
                     },
                     "scrambler": {
+                        "multiAudio": true,
                         "questions": [
                             {
                                 "question": "Which word do you hear?",
@@ -898,7 +900,10 @@
                                     "げ"
                                 ],
                                 "answer": "げんきゅう",
-                                "audioName": "01-genkyu-M",
+                                "audioName": [
+                                    "15-genkyuu-FM",
+                                    "15-genkyuu-MF"
+                                ],
                                 "meaning": "pay cut"
                             },
                             {
@@ -911,7 +916,10 @@
                                     "げ"
                                 ],
                                 "answer": "けんきゅう",
-                                "audioName": "02-kenkyu-M",
+                                "audioName": [
+                                    "15-kenkyuu-FM",
+                                    "15-kenkyuu-MF"
+                                ],
                                 "meaning": "research"
                             },
                             {
@@ -923,7 +931,10 @@
                                     "ご"
                                 ],
                                 "answer": "ごうどう",
-                                "audioName": "03-goudou-F",
+                                "audioName": [
+                                    "16-goudou-FM",
+                                    "16-goudou-MF"
+                                ],
                                 "meaning": "combined"
                             },
                             {
@@ -935,7 +946,10 @@
                                     "ご"
                                 ],
                                 "answer": "こうどう",
-                                "audioName": "04-koudou-F",
+                                "audioName": [
+                                    "16-koudou-FM",
+                                    "16-koudou-FM"
+                                ],
                                 "meaning": "action"
                             },
                             {
@@ -947,7 +961,10 @@
                                     "が"
                                 ],
                                 "answer": "がんたん",
-                                "audioName": "05-gantan-M",
+                                "audioName": [
+                                    "17-gantan-FM",
+                                    "17-gantan-MF"
+                                ],
                                 "meaning": "New Year's Day"
                             },
                             {
@@ -959,22 +976,35 @@
                                     "が"
                                 ],
                                 "answer": "かんたん",
-                                "audioName": "06-kantan-M",
+                                "audioName": [
+                                    "17-kantan-FM",
+                                    "17-kantan-MF"
+                                ],
                                 "meaning": "easy"
                             },
                             {
                                 "question": "Which word do you hear?",
                                 "answers": [
-                                    "だ",
-                                    "い",
-                                    "か",
-                                    "が",
-                                    "く",
-                                    "め"
+                                    "ちょ","じょ","き","ん"
                                 ],
-                                "answer": "だいがくめい",
-                                "audioName": "07-daigakumei-M",
-                                "meaning": "university name"
+                                "answer": "ちょきん",
+                                "audioName": [
+                                    "18-chokin-FM.mp3",
+                                    "18-chokin-MF.mp3"
+                                ],
+                                "meaning": "savings"
+                            },
+                            {
+                                "question": "Which word do you hear?",
+                                "answers": [
+                                    "ちょ","じょ","き","ん"
+                                ],
+                                "answer": "じょきん",
+                                "audioName": [
+                                    "18-jokin-FM.mp3",
+                                    "18-jokin-MF.mp3"
+                                ],
+                                "meaning": "sterilization"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -987,7 +1017,10 @@
                                     "め"
                                 ],
                                 "answer": "だいかくめい",
-                                "audioName": "08-daikakumei-M",
+                                "audioName": [
+                                    "19-daikakumei-FM",
+                                    "19-daikakumei-MF"
+                                ],
                                 "meaning": "large revolution"
                             },
                             {
@@ -1000,7 +1033,10 @@
                                     "が"
                                 ],
                                 "answer": "しょうかい",
-                                "audioName": "09-shougai-F",
+                                "audioName": [
+                                    "20-syougai-FM",
+                                    "20-syougai-MF"
+                                ],
                                 "meaning": "disability"
                             },
                             {
@@ -1013,7 +1049,10 @@
                                     "が"
                                 ],
                                 "answer": "しょうかい",
-                                "audioName": "10-shoukai-F",
+                                "audioName": [
+                                    "20-syoukai-FM",
+                                    "20-syoukai-MF"
+                                ],
                                 "meaning": "introduction"
                             },
                             {
@@ -1026,7 +1065,10 @@
                                     "ご"
                                 ],
                                 "answer": "かんごく",
-                                "audioName": "11-kangoku-F",
+                                "audioName": [
+                                    "22-kangoku-FM",
+                                    "22-kangoku-MF"
+                                ],
                                 "meaning": "prison"
                             },
                             {
@@ -1039,7 +1081,10 @@
                                     "ご"
                                 ],
                                 "answer": "かんこく",
-                                "audioName": "12-kankoku-F",
+                                "audioName": [
+                                    "22-kankoku-FM",
+                                    "22-kankoku-MF"
+                                ],
                                 "meaning": "South Korea"
                             },
                             {
@@ -1051,7 +1096,10 @@
                                     "ぎ"
                                 ],
                                 "answer": "ぎかい",
-                                "audioName": "13-gikai-F",
+                                "audioName": [
+                                    "24-gikai-FM",
+                                    "24-gikai-MF"
+                                ],
                                 "meaning": "congress"
                             },
                             {
@@ -1063,7 +1111,10 @@
                                     "ぎ"
                                 ],
                                 "answer": "きかい",
-                                "audioName": "14-kikai-F",
+                                "audioName": [
+                                    "24-kikai-FM",
+                                    "24-kikai-MF"
+                                ],
                                 "meaning": "opportunity"
                             },
                             {
@@ -1074,7 +1125,10 @@
                                     "ぐ"
                                 ],
                                 "answer": "ぐち",
-                                "audioName": "15-guchi-M",
+                                "audioName": [
+                                    "27-guchi-FM",
+                                    "27-guchi-MF"
+                                ],
                                 "meaning": "whining"
                             },
                             {
@@ -1085,7 +1139,10 @@
                                     "ぐ"
                                 ],
                                 "answer": "くち",
-                                "audioName": "16-kuchi-M",
+                                "audioName": [
+                                    "27-kuchi-FM",
+                                    "27-kuchi-MF"
+                                ],
                                 "meaning": "mouth"
                             },
                             {
@@ -1098,7 +1155,10 @@
                                     "が"
                                 ],
                                 "answer": "がいこく",
-                                "audioName": "17-gaikoku-F",
+                                "audioName": [
+                                    "28-gaikoku-FM",
+                                    "28-gaikoku-MF"
+                                ],
                                 "meaning": "foreign country"
                             },
                             {
@@ -1111,7 +1171,10 @@
                                     "が"
                                 ],
                                 "answer": "かいこく",
-                                "audioName": "18-kaikoku-F",
+                                "audioName": [
+                                    "28-kaikoku-FM",
+                                    "28-kaikoku-MF"
+                                ],
                                 "meaning": "opening country"
                             }
                         ]
@@ -2214,6 +2277,7 @@
                         ]
                     },
                     "scrambler":{
+                        "multiAudio": true,
                         "questions": [
                             {
                                 "question": "Which word do you hear?",
@@ -2221,7 +2285,7 @@
                                     "け","い","ざ","い","じゃ"
                                 ],
                                 "answer": "けいざい",
-                                "audioName": "gl1-keizai.mp3",
+                                "audioName": ["MF-gl1-keizai.mp3","FM-gl1-keizai2.mp3"],
                                 "meaning": "economy"
                             },
                             {
@@ -2231,7 +2295,7 @@
                                     "じぇ"
                                 ],
                                 "answer": "ぜったい",
-                                "audioName": "gl2-zettai.mp3",
+                                "audioName": ["MF-gl2-zettai.mp3", "FM-gl2-zettai2.mp3"],
                                 "meaning": "economy"
                             },
                             {
@@ -2241,7 +2305,7 @@
                                     "ちゅ"
                                 ],
                                 "answer": "みっつ",
-                                "audioName": "gl3-mittsu.mp3",
+                                "audioName": ["MF-gl3-mittsu.mp3","FM-gl3-mittsu.mp3"],
                                 "meaning": "three"
                             },
                             {
@@ -2251,7 +2315,7 @@
                                     "ちゅ"
                                 ],
                                 "answer": "つくります",
-                                "audioName": "gl4-tsukurimasu.mp3",
+                                "audioName": ["MF-gl4-tsukurimasu.mp3","FM-gl4-tsukurimasu.mp3"],
                                 "meaning": "to make"
                             },
                             {
@@ -2261,7 +2325,7 @@
                                     "じょ"
                                 ],
                                 "answer": "ぞう",
-                                "audioName": "gl5-zou.mp3",
+                                "audioName": ["MF-gl5-zou.mp3","FM-gl5-zou.mp3"],
                                 "meaning": "elephant"
                             },
                             {
@@ -2271,7 +2335,7 @@
                                     "ちゅ"
                                 ],
                                 "answer": "つくえ",
-                                "audioName": "gl6-tsukue.mp3",
+                                "audioName": ["MF-gl6-tsukue.mp3","FM-gl6-tsukue.mp3"],
                                 "meaning": "desk"
                             },
                             {
@@ -2281,7 +2345,7 @@
                                     "ちゅ"
                                 ],
                                 "answer": "おまつり",
-                                "audioName": "gl7-omatsuri.mp3",
+                                "audioName": ["MF-gl7-omatsuri.mp3","FM-gl7-omatsuri.mp3"],
                                 "meaning": "festival"
                             },
                             {
@@ -2291,7 +2355,7 @@
                                     "ちゅ"
                                 ],
                                 "answer": "つうこう",
-                                "audioName": "gl8-tsuukou.mp3",
+                                "audioName": ["MF-gl8-tsuukou.mp3","FM-gl8-tsuukou.mp3"],
                                 "meaning": "go through"
                             },
                             {
@@ -2301,7 +2365,7 @@
                                     "じゅ"
                                 ],
                                 "answer": "ずっと",
-                                "audioName": "gl9-zutto.mp3",
+                                "audioName": ["MF-gl9-zutto.mp3","FM-gl9-zutto.mp3"],
                                 "meaning": "all the way"
                             },
                             {
@@ -2311,7 +2375,7 @@
                                     "じゅ"
                                 ],
                                 "answer": "かず",
-                                "audioName": "gl10-kazu.mp3",
+                                "audioName": ["MF-gl10-kazu.mp3","FM-gl10-kazu.mp3"],
                                 "meaning": "number"
                             },
                             {
@@ -2321,7 +2385,7 @@
                                     "じゅ"
                                 ],
                                 "answer": "じょうず",
-                                "audioName": "gl11-jouzu.mp3",
+                                "audioName": ["MF-gl11-jouzu.mp3","FM-gl11-jouzu.mp3"],
                                 "meaning": "good at"
                             },
                             {
@@ -2331,7 +2395,7 @@
                                     "じょ"
                                 ],
                                 "answer": "かぞく",
-                                "audioName": "gl12-kazoku.mp3",
+                                "audioName": ["MF-gl12-kazoku.mp3","FM-gl12-kazoku.mp3"],
                                 "meaning": "family"
                             },
                             {
@@ -2341,7 +2405,7 @@
                                     "じぇ"
                                 ],
                                 "answer": "かぜ",
-                                "audioName": "gl13-kaze.mp3",
+                                "audioName": ["MF-gl13-kaze.mp3","FM-gl13-kaze.mp3"],
                                 "meaning": "wind"
                             },
                             {
@@ -2351,7 +2415,7 @@
                                     "じょ"
                                 ],
                                 "answer": "ぞうか",
-                                "audioName": "gl14-zouka.mp3",
+                                "audioName": ["MF-gl14-zouka.mp3","FM-gl14-zouka.mp3"],
                                 "meaning": "increase"
                             },
                             {
@@ -2361,7 +2425,7 @@
                                     "じゃ"
                                 ],
                                 "answer": "ひざ",
-                                "audioName": "gl15-hiza.mp3",
+                                "audioName": ["MF-gl15-hiza.mp3","FM-gl15-hiza.mp3"],
                                 "meaning": "knee"
                             },
                             {
@@ -2371,7 +2435,7 @@
                                     "じゃ"
                                 ],
                                 "answer": "ざっし",
-                                "audioName": "gl16-zassi.mp3",
+                                "audioName": ["MF-gl16-zassi.mp3","FM-gl16-zassi.mp3"],
                                 "meaning": "magazine"
                             },
                             {
@@ -2381,7 +2445,7 @@
                                     "じゃ"
                                 ],
                                 "answer": "ございます",
-                                "audioName": "gl17-gozaimasu.mp3",
+                                "audioName": ["MF-gl17-gozaimasu.mp3","FM-gl17-gozaimasu.mp3"],
                                 "meaning": "thank you"
                             },
                             {
@@ -2391,7 +2455,7 @@
                                     "ちゅ"
                                 ],
                                 "answer": "つうしん",
-                                "audioName": "gl18-tsuusin.mp3",
+                                "audioName": ["MF-gl18-tsuusin.mp3","FM-gl18-tsuusin.mp3"],
                                 "meaning": "communication"
                             },
                             {
@@ -2401,7 +2465,7 @@
                                     "ちゅ"
                                 ],
                                 "answer": "つうこく",
-                                "audioName": "gl19-tsuukoku.mp3",
+                                "audioName": ["MF-gl19-tsuukoku.mp3", "FM-gl19-tsuukoku.mp3"],
                                 "meaning": "inform"
                             },
                             {
@@ -2411,7 +2475,7 @@
                                     "ちゅ"
                                 ],
                                 "answer": "ちゅうこく",
-                                "audioName": "gl19-tyuukoku.mp3",
+                                "audioName": ["MF-gl19-tyuukoku.mp3","FM-gl19-tyuukoku.mp3"],
                                 "meaning": "warn"
                             },
                             {
@@ -2421,7 +2485,7 @@
                                     "じょ"
                                 ],
                                 "answer": "ぞうき",
-                                "audioName": "gl20-zouki.mp3",
+                                "audioName": ["MF-gl20-zouki.mp3","FM-gl20-zouki.mp3"],
                                 "meaning": "organ"
                             },
                             {
@@ -2431,7 +2495,7 @@
                                     "じょ"
                                 ],
                                 "answer": "じょうき",
-                                "audioName": "gl20-jouki.mp3",
+                                "audioName": ["MF-gl20-jouki.mp3","FM-gl20-jouki.mp3"],
                                 "meaning": "steam"
                             },
                             {
@@ -2441,7 +2505,7 @@
                                     "じょ"
                                 ],
                                 "answer": "どうぞう",
-                                "audioName": "gl21-douzou.mp3",
+                                "audioName": ["MF-gl21-douzou.mp3","FM-gl21-douzou.mp3"],
                                 "meaning": "bronze statue"
                             },
                             {
@@ -2451,7 +2515,7 @@
                                     "じょ"
                                 ],
                                 "answer": "どうじょう",
-                                "audioName": "gl21-doujou.mp3",
+                                "audioName": ["MF-gl21-doujou.mp3","FM-gl21-doujou.mp3"],
                                 "meaning": "sympathy"
                             },
                             {
@@ -2461,7 +2525,7 @@
                                     "じょ"
                                 ],
                                 "answer": "れいぞう",
-                                "audioName": "gl22-reizou.mp3",
+                                "audioName": ["MF-gl22-reizou.mp3","FM-gl22-reizou.mp3"],
                                 "meaning": "refrigerator"
                             },
                             {
@@ -2471,7 +2535,7 @@
                                     "じょ"
                                 ],
                                 "answer": "れいじょう",
-                                "audioName": "gl22-reijou.mp3",
+                                "audioName": ["MF-gl22-reijou.mp3","FM-gl22-reijou.mp3"],
                                 "meaning": "thank you note"
                             },
                             {
@@ -2481,7 +2545,7 @@
                                     "ぞ"
                                 ],
                                 "answer": "じょうし",
-                                "audioName": "gl23-joushi.mp3",
+                                "audioName": ["MF-gl23-joushi.mp3","FM-gl23-joushi.mp3"],
                                 "meaning": "boss"
                             },
                             {
@@ -2491,7 +2555,7 @@
                                     "じょ"
                                 ],
                                 "answer": "こうぞう",
-                                "audioName": "gl24-kouzou.mp3",
+                                "audioName": ["MF-gl24-kouzou.mp3","FM-gl24-kouzou.mp3"],
                                 "meaning": "structure"
                             },
                             {
@@ -2501,7 +2565,7 @@
                                     "じょ"
                                 ],
                                 "answer": "こうじょう",
-                                "audioName": "gl24-koujou.mp3",
+                                "audioName": ["MF-gl24-koujou.mp3","FM-gl24-koujou.mp3"],
                                 "meaning": "factory"
                             },
                             {
@@ -2511,7 +2575,7 @@
                                     "ず"
                                 ],
                                 "answer": "じゅうぶん",
-                                "audioName": "gl25-juubun.mp3",
+                                "audioName": ["MF-gl25-juubun.mp3","FM-gl25-juubun.mp3"],
                                 "meaning": "sufficient"
                             },
                             {
@@ -2521,7 +2585,7 @@
                                     "ず"
                                 ],
                                 "answer": "じゅぎょう",
-                                "audioName": "gl26-jugyou.mp3",
+                                "audioName": ["MF-gl26-jugyou.mp3","FM-gl26-jugyou.mp3"],
                                 "meaning": "class"
                             },
                             {
@@ -2531,7 +2595,7 @@
                                     "ず"
                                 ],
                                 "answer": "きょうじゅ",
-                                "audioName": "gl27-kyouju.mp3",
+                                "audioName": ["MF-gl27-kyouju.mp3","FM-gl27-kyouju.mp3"],
                                 "meaning": "professor"
                             },
                             {
@@ -2541,7 +2605,7 @@
                                     "ぞ"
                                 ],
                                 "answer": "じょうほう",
-                                "audioName": "gl28-jouhou.mp3",
+                                "audioName": ["MF-gl28-jouhou.mp3","FM-gl28-jouhou.mp3"],
                                 "meaning": "information"
                             },
                             {
@@ -2551,7 +2615,7 @@
                                     "ず"
                                 ],
                                 "answer": "じゅんび",
-                                "audioName": "gl29-junbi.mp3",
+                                "audioName": ["MF-gl29-junbi.mp3","FM-gl29-junbi.mp3"],
                                 "meaning": "preparation"
                             },
                             {
@@ -2561,7 +2625,7 @@
                                     "つ"
                                 ],
                                 "answer": "ちゅうい",
-                                "audioName": "gl30-cyuui.mp3",
+                                "audioName": ["MF-gl30-cyuui.mp3","FM-gl30-cyuui.mp3"],
                                 "meaning": "warning"
                             },
                             {
@@ -2571,7 +2635,7 @@
                                     "ぞ"
                                 ],
                                 "answer": "かのじょ",
-                                "audioName": "gl31-kanojo.mp3",
+                                "audioName": ["MF-gl31-kanojo.mp3","FM-gl31-kanojo.mp3"],
                                 "meaning": "warning"
                             },
                             {
@@ -2581,7 +2645,7 @@
                                     "ず"
                                 ],
                                 "answer": "じゅっぷん",
-                                "audioName": "gl32-juppun.mp3",
+                                "audioName": ["MF-gl32-juppun.mp3","FM-gl32-juppun.mp3"],
                                 "meaning": "ten minutes"
                             },
                             {
@@ -2591,7 +2655,7 @@
                                     "ず"
                                 ],
                                 "answer": "じゅうしょ",
-                                "audioName": "gl33-juusyo.mp3",
+                                "audioName": ["MF-gl33-juusyo.mp3","FM-gl33-juusyo.mp3"],
                                 "meaning": "address"
                             },
                             {
@@ -2601,7 +2665,7 @@
                                     "ぞ"
                                 ],
                                 "answer": "だいじょうぶ",
-                                "audioName": "gl34-daijoubu.mp3",
+                                "audioName": ["MF-gl34-daijoubu.mp3","FM-gl34-daijoubu.mp3"],
                                 "meaning": "all right"
                             },
                             {
@@ -2611,7 +2675,7 @@
                                     "ぞ"
                                 ],
                                 "answer": "たんじょうび",
-                                "audioName": "gl35-tanjoubi.mp3",
+                                "audioName": ["MF-gl35-tanjoubi.mp3","FM-gl35-tanjoubi.mp3"],
                                 "meaning": "birthday"
                             },
                             {
@@ -2621,7 +2685,7 @@
                                     "つ"
                                 ],
                                 "answer": "かいぎちゅう",
-                                "audioName": "gl36-kaigityuu.mp3",
+                                "audioName": ["MF-gl36-kaigityuu.mp3","FM-gl36-kaigityuu.mp3"],
                                 "meaning": "middle of meeting"
                             }
                         ]
@@ -3134,8 +3198,8 @@
                                     "じゅぎょう",
                                     "ずぎょう"
                                 ],
-                                "answer": ["MF-gl26-jugyou.mp3","FM-gl26-jugyou.mp3"],
-                                "audioName": "gl26-jugyou.mp3",
+                                "answer": "じゅぎょう",
+                                "audioName": ["MF-gl26-jugyou.mp3","FM-gl26-jugyou.mp3"],
                                 "meaning": "class"
                             },
                             {
@@ -3741,6 +3805,7 @@
                         ]
                     },
                     "scrambler": {
+                        "multiAudio": true,
                         "questions":[
                             {
                                 "question": "Which word do you hear?",
@@ -3748,7 +3813,7 @@
                                     "さ","か","さっ"
                                 ],
                                 "answer": "さか",
-                                "audioName": "dc1-saka.mp3",
+                                "audioName": ["MF-dc1-saka.mp3", "FM-dc1-saka.mp3"],
                                 "meaning": "slope"
                             },
                             {
@@ -3757,7 +3822,7 @@
                                     "さ","か","さっ"
                                 ],
                                 "answer": "さっか",
-                                "audioName": "dc1-sakka.mp3",
+                                "audioName": ["MF-dc1-sakka.mp3", "FM-dc1-sakka.mp3"],
                                 "meaning": "writer"
                             },
                             {
@@ -3766,7 +3831,7 @@
                                     "か","こ","かっ"
                                 ],
                                 "answer": "かこ",
-                                "audioName": "dc2-kako.mp3",
+                                "audioName": ["MF-dc2-kako.mp3", "FM-dc2-kako.mp3"],
                                 "meaning": "past"
                             },
                             {
@@ -3775,7 +3840,7 @@
                                     "か","こ","かっ"
                                 ],
                                 "answer": "かっこ",
-                                "audioName": "dc2-kakko.mp3",
+                                "audioName": ["MF-dc2-kakko.mp3", "FM-dc2-kakko.mp3"],
                                 "meaning": "parenthesis"
                             },
                             {
@@ -3784,7 +3849,7 @@
                                     "お","と","おっ"
                                 ],
                                 "answer": "おと",
-                                "audioName": "dc3-oto.mp3",
+                                "audioName": ["MF-dc3-oto.mp3", "FM-dc3-oto.mp3"],
                                 "meaning": "sound"
                             },
                             {
@@ -3793,7 +3858,7 @@
                                     "お","と","おっ"
                                 ],
                                 "answer": "おっと",
-                                "audioName": "dc3-otto.mp3",
+                                "audioName": ["MF-dc3-otto.mp3", "FM-dc3-otto.mp3"],
                                 "meaning": "husband"
                             },
                             {
@@ -3802,7 +3867,7 @@
                                     "が","か","がっ"
                                 ],
                                 "answer": "がか",
-                                "audioName": "dc4-gaka.mp3",
+                                "audioName": ["MF-dc4-gaka.mp3", "FM-dc4-gaka.mp3"],
                                 "meaning": "painter"
                             },
                             {
@@ -3811,7 +3876,7 @@
                                     "が","か","がっ"
                                 ],
                                 "answer": "がっか",
-                                "audioName": "dc4-gakka.mp3",
+                                "audioName": ["MF-dc4-gakka.mp3", "FM-dc4-gakka.mp3"],
                                 "meaning": "department"
                             },
                             {
@@ -3820,7 +3885,7 @@
                                     "そ","と","そっ"
                                 ],
                                 "answer": "そと",
-                                "audioName": "dc5-soto.mp3",
+                                "audioName": ["MF-dc5-soto.mp3", "FM-dc5-soto.mp3"],
                                 "meaning": "outside"
                             },
                             {
@@ -3829,7 +3894,7 @@
                                     "そ","と","そっ"
                                 ],
                                 "answer": "そっと",
-                                "audioName": "dc5-sotto.mp3",
+                                "audioName": ["MF-dc5-sotto.mp3", "FM-dc5-sotto.mp3"],
                                 "meaning": "gently"
                             },
                             {
@@ -3838,7 +3903,7 @@
                                     "しゅ","ちょ","う","っ"
                                 ],
                                 "answer": "しゅちょう",
-                                "audioName": "dc6-styutyou.mp3",
+                                "audioName": ["MF-dc6-styutyou.mp3", "FM-dc6-styutyou.mp3"],
                                 "meaning": "insistance"
                             },
                             {
@@ -3847,7 +3912,7 @@
                                     "しゅ","ちょ","う","っ"
                                 ],
                                 "answer": "しゅっちょう",
-                                "audioName": "dc6-syuttyou.mp3",
+                                "audioName": ["MF-dc6-syuttyou.mp3", "FM-dc6-syuttyou.mp3"],
                                 "meaning": "business trip"
                             },
                             {
@@ -3856,7 +3921,7 @@
                                     "バ","ター","バッ"
                                 ],
                                 "answer": "バター",
-                                "audioName": "dc7-bataa.mp3",
+                                "audioName": ["MF-dc7-bataa.mp3", "FM-dc7-bataa.mp3"],
                                 "meaning": "butter"
                             },
                             {
@@ -3865,7 +3930,7 @@
                                     "バ","ター","バッ"
                                 ],
                                 "answer": "バッター",
-                                "audioName": "dc7-battaa.mp3",
+                                "audioName": ["MF-dc7-battaa.mp3", "FM-dc7-battaa.mp3"],
                                 "meaning": "batter"
                             },
                             {
@@ -3874,7 +3939,7 @@
                                     "き","て","く","だ","さ","い","きっ"
                                 ],
                                 "answer": "きてください",
-                                "audioName": "dc8-kite.mp3",
+                                "audioName": ["MF-dc8-kite.mp3", "FM-dc8-kite.mp3"],
                                 "meaning": "please come"
                             },
                             {
@@ -3883,7 +3948,7 @@
                                     "き","て","く","だ","さ","い","きっ"
                                 ],
                                 "answer": "きってください",
-                                "audioName": "dc8-kitte.mp3",
+                                "audioName": ["MF-dc8-kitte.mp3", "FM-dc8-kitte.mp3"],
                                 "meaning": "please cut"
                             },
                             {
@@ -3892,7 +3957,7 @@
                                     "じ","け","ん","じっ"
                                 ],
                                 "answer": "じけん",
-                                "audioName": "dc9-jiken.mp3",
+                                "audioName": ["MF-dc9-jiken.mp3", "FM-dc9-jiken.mp3"],
                                 "meaning": "incident"
                             },
                             {
@@ -3901,7 +3966,7 @@
                                     "じ","け","ん","じっ"
                                 ],
                                 "answer": "じっけん",
-                                "audioName": "dc9-jikken.mp3",
+                                "audioName": ["MF-dc9-jikken.mp3", "FM-dc9-jikken.mp3"],
                                 "meaning": "experiment"
                             },
                             {
@@ -3910,7 +3975,7 @@
                                     "あ","さ","り","あっ"
                                 ],
                                 "answer": "あさり",
-                                "audioName": "dc10-asari.mp3",
+                                "audioName": ["MF-dc10-asari.mp3", "FM-dc10-asari.mp3"],
                                 "meaning": "cram"
                             },
                             {
@@ -3919,7 +3984,7 @@
                                     "あ","さ","り","あっ"
                                 ],
                                 "answer": "あっさり",
-                                "audioName": "dc10-assari.mp3",
+                                "audioName": ["MF-dc10-assari.mp3", "FM-dc10-assari.mp3"],
                                 "meaning": "simple"
                             },
                             {
@@ -3928,7 +3993,7 @@
                                     "ひ","と","ひっ"
                                 ],
                                 "answer": "ひと",
-                                "audioName": "dc11-hito.mp3",
+                                "audioName": ["MF-dc11-hito.mp3", "FM-dc11-hito.mp3"],
                                 "meaning": "hit"
                             },
                             {
@@ -3937,7 +4002,7 @@
                                     "ヒ","ト","ヒッ"
                                 ],
                                 "answer": "ヒット",
-                                "audioName": "dc11-hitto.mp3",
+                                "audioName": ["MF-dc11-hitto.mp3", "FM-dc11-hitto.mp3"],
                                 "meaning": "painful"
                             },
                             {
@@ -3946,7 +4011,7 @@
                                     "い","た","い","いっ"
                                 ],
                                 "answer": "いたい",
-                                "audioName": "dc12-itai.mp3",
+                                "audioName": ["MF-dc12-itai.mp3", "FM-dc12-itai.mp3"],
                                 "meaning": "painful"
                             },
                             {
@@ -3955,7 +4020,7 @@
                                     "い","た","い","いっ"
                                 ],
                                 "answer": "いったい",
-                                "audioName": "dc12-ittai.mp3",
+                                "audioName": ["MF-dc12-ittai.mp3", "FM-dc12-ittai.mp3"],
                                 "meaning": "what on earth"
                             },
                             {
@@ -3964,7 +4029,7 @@
                                     "じ","か","ん","じっ"
                                 ],
                                 "answer": "じかん",
-                                "audioName": "dc13-jikan.mp3",
+                                "audioName": ["MF-dc13-jikan.mp3", "FM-dc13-jikan.mp3"],
                                 "meaning": "time"
                             },
                             {
@@ -3973,7 +4038,7 @@
                                     "じ","か","ん","じっ"
                                 ],
                                 "answer": "じっかん",
-                                "audioName": "dc13-jikkan.mp3",
+                                "audioName": ["MF-dc13-jikkan.mp3", "FM-dc13-jikkan.mp3"],
                                 "meaning": "real feeling"
                             },
                             {
@@ -3982,7 +4047,7 @@
                                     "ま","ち","まっ"
                                 ],
                                 "answer": "まち",
-                                "audioName": "dc14-machi.mp3",
+                                "audioName": ["MF-dc14-machi.mp3", "FM-dc14-machi.mp3"],
                                 "meaning": "town"
                             },
                             {
@@ -3991,7 +4056,7 @@
                                     "マ","チ","マッ"
                                 ],
                                 "answer": "マッチ",
-                                "audioName": "dc14-macchi.mp3",
+                                "audioName": ["MF-dc14-macchi.mp3", "FM-dc14-macchi.mp3"],
                                 "meaning": "matches"
                             },
                             {
@@ -4000,7 +4065,7 @@
                                     "し","か","く","しっ"
                                 ],
                                 "answer": "しかく",
-                                "audioName": "dc15-sikaku.mp3",
+                                "audioName": ["MF-dc15-sikaku.mp3", "FM-dc15-sikaku.mp3"],
                                 "meaning": "rectangle"
                             },
                             {
@@ -4009,7 +4074,7 @@
                                     "し","か","く","しっ"
                                 ],
                                 "answer": "しっかく",
-                                "audioName": "dc15-sikkaku.mp3",
+                                "audioName": ["MF-dc15-sikkaku.mp3", "FM-dc15-sikkaku.mp3"],
                                 "meaning": "disqualified"
                             },
                             {
@@ -4018,7 +4083,7 @@
                                     "も","と","もっ"
                                 ],
                                 "answer": "もと",
-                                "audioName": "dc16-moto.mp3",
+                                "audioName": ["MF-dc16-moto.mp3", "FM-dc16-moto.mp3"],
                                 "meaning": "former"
                             },
                             {
@@ -4027,7 +4092,7 @@
                                     "も","と","もっ"
                                 ],
                                 "answer": "もっと",
-                                "audioName": "dc16-motto.mp3",
+                                "audioName": ["MF-dc16-motto.mp3", "FM-dc16-motto.mp3"],
                                 "meaning": "more"
                             },
                             {
@@ -4036,7 +4101,7 @@
                                     "こ","と","う","こっ"
                                 ],
                                 "answer": "ことう",
-                                "audioName": "dc18-kotou.mp3",
+                                "audioName": ["MF-dc18-kotou.mp3", "FM-dc18-kotou.mp3"],
                                 "meaning": "isolated island"
                             },
                             {
@@ -4045,7 +4110,7 @@
                                     "こ","と","う","こっ"
                                 ],
                                 "answer": "こっとう",
-                                "audioName": "dc18-kottou.mp3",
+                                "audioName": ["MF-dc18-kottou.mp3", "FM-dc18-kottou.mp3"],
                                 "meaning": "antique"
                             },
                             {
@@ -4054,7 +4119,7 @@
                                     "じ","こ","う","じっ"
                                 ],
                                 "answer": "じこう",
-                                "audioName": "dc19-jikou.mp3",
+                                "audioName": ["MF-dc19-jikou.mp3", "FM-dc19-jikou.mp3"],
                                 "meaning": "statute of limitiation"
                             },
                             {
@@ -4063,7 +4128,7 @@
                                     "じ","こ","う","じっ"
                                 ],
                                 "answer": "じっこう",
-                                "audioName": "dc19-jikkou.mp3",
+                                "audioName": ["MF-dc19-jikkou.mp3", "FM-dc19-jikkou.mp3"],
                                 "meaning": "execution"
                             },
                             {
@@ -4072,7 +4137,7 @@
                                     "き","た","きっ"
                                 ],
                                 "answer": "きた",
-                                "audioName": "dc20-kita.mp3",
+                                "audioName": ["MF-dc20-kita.mp3", "FM-dc20-kita.mp3"],
                                 "meaning": "came"
                             },
                             {
@@ -4081,7 +4146,7 @@
                                     "き","た","きっ"
                                 ],
                                 "answer": "きった",
-                                "audioName": "dc20-kitta.mp3",
+                                "audioName": ["MF-dc20-kitta.mp3", "FM-dc20-kitta.mp3"],
                                 "meaning": "cut"
                             }
                         ]
@@ -5280,6 +5345,7 @@
                         ]
                     },
                     "scrambler": {
+                        "multiAudio": true,
                         "questions": [
                             {
                                 "question": "Which word do you hear?",
@@ -5287,7 +5353,7 @@
                                     "ビ","ル","ビー"
                                 ],
                                 "answer": "ビル",
-                                "audioName": "01-01-biru-F.mp3",
+                                "audioName": ["1-lv1-biru.mp3", "2-lv1-biru.mp3"],
                                 "meaning": "building"
                             },
                             {
@@ -5296,7 +5362,7 @@
                                     "ビ","ル","ビー"
                                 ],
                                 "answer": "ビール",
-                                "audioName": "01-02-biiru-F.mp3",
+                                "audioName": ["1-lv1-biiru.mp3", "2-lv1-biiru.mp3"],
                                 "meaning": "beer"
                             },
                             {
@@ -5305,7 +5371,7 @@
                                     "しゅ","じ","ん","う"
                                 ],
                                 "answer": "しゅじん",
-                                "audioName": "02-01-syujin-F.mp3",
+                                "audioName": ["1-lv2-syujin.mp3", "2-lv2-syujin.mp3"],
                                 "meaning": "husband"
                             },
                             {
@@ -5314,7 +5380,7 @@
                                     "しゅ","じ","ん","う"
                                 ],
                                 "answer": "しゅうじん",
-                                "audioName": "02-02-syuujin-F.mp3",
+                                "audioName": ["1-lv2-syuujinn.mp3", "2-lv2-syuujinn.mp3"],
                                 "meaning": "prisoner"
                             },
                             {
@@ -5323,7 +5389,7 @@
                                     "こ","と","う"
                                 ],
                                 "answer": "こと",
-                                "audioName": "03-01-koto-F.mp3",
+                                "audioName": ["1-lv3-koto.mp3", "2-lv3-koto.mp3"],
                                 "meaning": "matter"
                             },
                             {
@@ -5332,7 +5398,7 @@
                                     "コ","ト","ー"
                                 ],
                                 "answer": "コート",
-                                "audioName": "03-02-kooto-F.mp3",
+                                "audioName": ["1-lv3-kooto.mp3", "2-lv3-kooto.mp3"],
                                 "meaning": "coat"
                             },
                             {
@@ -5341,7 +5407,7 @@
                                     "ち","ず","う"
                                 ],
                                 "answer": "ちず",
-                                "audioName": "04-01-chizu-F.mp3",
+                                "audioName": ["1-lv4-chizu.mp3", "2-lv4-chizu.mp3"],
                                 "meaning": "map"
                             },
                             {
@@ -5350,7 +5416,7 @@
                                     "チ","ズ","ー"
                                 ],
                                 "answer": "チーズ",
-                                "audioName": "04-02-chiizu-F.mp3",
+                                "audioName": ["1-lv4-cheezu.mp3", "2-lv4-cheezu.mp3"],
                                 "meaning": "cheese"
                             },
                             {
@@ -5359,7 +5425,7 @@
                                     "と","り","お"
                                 ],
                                 "answer": "とり",
-                                "audioName": "05-01-tori-F.mp3",
+                                "audioName": ["1-lv5-tori.mp3", "2-lv5-tori.mp3"],
                                 "meaning": "bird"
                             },
                             {
@@ -5368,7 +5434,7 @@
                                     "と","り","お"
                                 ],
                                 "answer": "とおり",
-                                "audioName": "05-02-toori-F.mp3",
+                                "audioName": ["1-lv5-toori.mp3", "2-lv5-toori.mp3"],
                                 "meaning": "street"
                             },
                             {
@@ -5377,7 +5443,7 @@
                                     "にゅ","う","よ","く"
                                 ],
                                 "answer": "にゅうよく",
-                                "audioName": "06-01-nyuuyoku-F.mp3",
+                                "audioName": ["1-lv6-nyuuyoku.mp3", "2-lv6-nyuuyoku.mp3"],
                                 "meaning": "taking a bath"
                             },
                             {
@@ -5386,7 +5452,7 @@
                                     "ニュ","ー","ヨ","ク"
                                 ],
                                 "answer": "ニューヨーク",
-                                "audioName": "06-02-nyuuyooku-F.mp3",
+                                "audioName": ["1-lv6-nyuuyooku.mp3", "2-lv6-nyuuyooku.mp3"],
                                 "meaning": "New York"
                             },
                             {
@@ -5395,7 +5461,7 @@
                                     "そ","こ","う"
                                 ],
                                 "answer": "そこ",
-                                "audioName": "07-01-soko-F.mp3",
+                                "audioName": ["1-lv7-soko.mp3", "2-lv7-soko.mp3"],
                                 "meaning": "there"
                             },
                             {
@@ -5404,7 +5470,7 @@
                                     "そ","こ","う"
                                 ],
                                 "answer": "そうこ",
-                                "audioName": "07-02-sooko-F.mp3",
+                                "audioName": ["1-lv7-souko.mp3", "2-lv7-souko.mp3"],
                                 "meaning": "storage"
                             },
                             {
@@ -5413,7 +5479,7 @@
                                     "お","ば","さ","ん","あ"
                                 ],
                                 "answer": "おばさん",
-                                "audioName": "08-01-obasan-F.mp3",
+                                "audioName": ["1-lv8-obasann.mp3", "2-lv8-obasann.mp3"],
                                 "meaning": "aunt"
                             },
                             {
@@ -5422,7 +5488,7 @@
                                     "お","ば","さ","ん","あ"
                                 ],
                                 "answer": "おばあさん",
-                                "audioName": "08-02-obaasan-F.mp3",
+                                "audioName": ["1-lv8-obaasan.mp3", "2-lv8-obaasan.mp3"],
                                 "meaning": "grandmother"
                             },
                             {
@@ -5431,7 +5497,7 @@
                                     "お","じ","さ","ん","い"
                                 ],
                                 "answer": "おじさん",
-                                "audioName": "09-01-ojisan-F.mp3",
+                                "audioName": ["1-lv9-ojisan.mp3", "2-lv9-ojisan.mp3"],
                                 "meaning": "uncle"
                             },
                             {
@@ -5440,7 +5506,7 @@
                                     "お","じ","さ","ん","い"
                                 ],
                                 "answer": "おじいさん",
-                                "audioName": "09-02-ojiisan-F.mp3",
+                                "audioName": ["1-lv9-ojiisan.mp3", "2-lv9-ojiisan.mp3"],
                                 "meaning": "grandfather"
                             },
                             {
@@ -5449,7 +5515,7 @@
                                     "い","え"
                                 ],
                                 "answer": "いえ",
-                                "audioName": "10-01-ie-F.mp3",
+                                "audioName": ["1-lv10-ie.mp3", "2-lv10-ie.mp3"],
                                 "meaning": "house"
                             },
                             {
@@ -5458,7 +5524,7 @@
                                     "い","え"
                                 ],
                                 "answer": "いいえ",
-                                "audioName": "10-02-iie-F.mp3",
+                                "audioName": ["1-lv10-iie.mp3", "2-lv10-iie.mp3"],
                                 "meaning": "no"
                             },
                             {
@@ -5467,7 +5533,7 @@
                                     "かっ","た","あ"
                                 ],
                                 "answer": "かった",
-                                "audioName": "11-01-katta-F.mp3",
+                                "audioName": ["1-lv11-katta.mp3", "2-lv11-katta.mp3"],
                                 "meaning": "won"
                             },
                             {
@@ -5476,7 +5542,7 @@
                                     "カッ","タ","ー"
                                 ],
                                 "answer": "カッター",
-                                "audioName": "11-02-kattaa-F.mp3",
+                                "audioName": ["1-lv11-kattaa.mp3", "2-lv11-kattaa.mp3"],
                                 "meaning": "box cutter"
                             },
                             {
@@ -5485,7 +5551,7 @@
                                     "つ","り","い"
                                 ],
                                 "answer": "つり",
-                                "audioName": "12-01-tsuri-F.mp3",
+                                "audioName": ["1-lv12-tsuri.mp3", "2-lv12-tsuri.mp3"],
                                 "meaning": "fishing"
                             },
                             {
@@ -5494,7 +5560,7 @@
                                     "ツ","リ","ー"
                                 ],
                                 "answer": "ツリー",
-                                "audioName": "12-02-tsurii-F.mp3",
+                                "audioName": ["1-lv12-tsurii.mp3", "2-lv12-tsurii.mp3"],
                                 "meaning": "tree"
                             },
                             {
@@ -5503,7 +5569,7 @@
                                     "せ","い"
                                 ],
                                 "answer": "せ",
-                                "audioName": "13-01-se-F.mp3",
+                                "audioName": ["1-lv13-se.mp3", "2-lv13-se.mp3"],
                                 "meaning": "height"
                             },
                             {
@@ -5512,7 +5578,7 @@
                                     "せ","い"
                                 ],
                                 "answer": "せい",
-                                "audioName": "13-02-see-F.mp3",
+                                "audioName": ["1-lv13-sei.mp3", "2-lv13-sei.mp3"],
                                 "meaning": "last name"
                             },
                             {
@@ -5521,7 +5587,7 @@
                                     "す","き","い"
                                 ],
                                 "answer": "すき",
-                                "audioName": "14-01-suki-F.mp3",
+                                "audioName": ["1-lv14-suki.mp3", "2-lv14-suki.mp3"],
                                 "meaning": "like"
                             },
                             {
@@ -5530,7 +5596,7 @@
                                     "ス","キ","ー"
                                 ],
                                 "answer": "スキー",
-                                "audioName": "14-02-sukii-F.mp3",
+                                "audioName": ["1-lv14-sukii.mp3", "2-lv14-sukii.mp3"],
                                 "meaning": "skiing"
                             },
                             {
@@ -5539,7 +5605,7 @@
                                     "さっ","か", "あ"
                                 ],
                                 "answer": "さっか",
-                                "audioName": "15-01-sakka-F.mp3",
+                                "audioName": ["1-lv15-sakka.mp3", "2-lv15-sakka.mp3"],
                                 "meaning": "writer"
                             },
                             {
@@ -5548,7 +5614,7 @@
                                     "サッ","カ","ー"
                                 ],
                                 "answer": "サッカー",
-                                "audioName": "15-02-sakkaa-F.mp3",
+                                "audioName": ["1-lv15-sakkaa.mp3", "2-lv15-sakkaa.mp3"],
                                 "meaning": "soccer"
                             },
                             {
@@ -5557,7 +5623,7 @@
                                     "か","れ","え"
                                 ],
                                 "answer": "かれ",
-                                "audioName": "16-01-kare-F.mp3",
+                                "audioName": ["1-lv16-kare.mp3", "2-lv16-kare.mp3"],
                                 "meaning": "boyfriend"
                             },
                             {
@@ -5566,7 +5632,7 @@
                                     "カ","レ","ー"
                                 ],
                                 "answer": "カレー",
-                                "audioName": "16-02-karee-F.mp3",
+                                "audioName": ["1-lv16-karee.mp3", "2-lv16-karee.mp3"],
                                 "meaning": "curry"
                             },
                             {
@@ -5575,7 +5641,7 @@
                                     "き","ぼ","う"
                                 ],
                                 "answer": "きぼ",
-                                "audioName": "17-01-kibo-F.mp3",
+                                "audioName": ["1-lv17-kibo.mp3", "2-lv17-kibo.mp3"],
                                 "meaning": "size"
                             },
                             {
@@ -5584,7 +5650,7 @@
                                     "き","ぼ","う"
                                 ],
                                 "answer": "きぼう",
-                                "audioName": "17-02-kiboo-F.mp3",
+                                "audioName": ["1-lv17-kibou.mp3", "2-lv17-kibou.mp3"],
                                 "meaning": "hope"
                             },
                             {
@@ -5593,7 +5659,7 @@
                                     "よ","う","じ"
                                 ],
                                 "answer": "ようじ",
-                                "audioName": "18-02-yooji-F.mp3",
+                                "audioName": ["1-lv18-youji.mp3", "2-lv18-youji.mp3"],
                                 "meaning": "4 o'clock"
                             },
                             {
@@ -5602,7 +5668,7 @@
                                     "よ","う","じ"
                                 ],
                                 "answer": "よじ",
-                                "audioName": "18-01-yoji-F.mp3",
+                                "audioName": ["1-lv18-yoji.mp3", "2-lv18-yoji.mp3"],
                                 "meaning": "errand"
                             },
                             {
@@ -5611,7 +5677,7 @@
                                     "す","う"
                                 ],
                                 "answer": "す",
-                                "audioName": "19-01-su-F.mp3",
+                                "audioName": ["1-lv19-su.mp3", "2-lv19-su.mp3"],
                                 "meaning": "vinegar"
                             },
                             {
@@ -5620,7 +5686,7 @@
                                     "す","う"
                                 ],
                                 "answer": "すう",
-                                "audioName": "19-02-suu-F.mp3",
+                                "audioName": ["1-lv19-suu.mp3", "2-lv19-suu.mp3"],
                                 "meaning": "inhale"
                             },
                             {
@@ -5629,7 +5695,7 @@
                                     "い","し"
                                 ],
                                 "answer": "いし",
-                                "audioName": "20-01-ishi-F.mp3",
+                                "audioName": ["1-lv20-ishi.mp3", "2-lv20-ishi.mp3"],
                                 "meaning": "stone"
                             },
                             {
@@ -5638,7 +5704,7 @@
                                     "い","し"
                                 ],
                                 "answer": "いしい",
-                                "audioName": "20-02-ishii-F.mp3",
+                                "audioName": ["1-lv20-ishii.mp3", "2-lv20-ishii.mp3"],
                                 "meaning": "Ishii (name)"
                             },
                             {
@@ -5647,7 +5713,7 @@
                                     "お","ね","え","さ","ん"
                                 ],
                                 "answer": "おねえさん",
-                                "audioName": "21-01-onesan-F.mp3",
+                                "audioName": ["1-lv21-oneesann.mp3", "2-lv21-oneesann.mp3"],
                                 "meaning": "big sister"
                             },
                             {
@@ -5656,7 +5722,7 @@
                                     "さ","と","う"
                                 ],
                                 "answer": "さとう",
-                                "audioName": "22-02-satou-F.mp3",
+                                "audioName": ["1-lv22-satou.mp3", "2-lv22-satou.mp3"],
                                 "meaning": "sugar"
                             },
                             {
@@ -5665,7 +5731,7 @@
                                     "く","つ","う"
                                 ],
                                 "answer": "くつ",
-                                "audioName": "23-01-kutsu-F.mp3",
+                                "audioName": ["1-lv23-kutsu.mp3", "2-lv23-kutsu.mp3"],
                                 "meaning": "shoes"
                             },
                             {
@@ -5674,7 +5740,7 @@
                                     "りょ","う","か","ん"
                                 ],
                                 "answer": "りょかん",
-                                "audioName": "24-01-ryokan-F.mp3",
+                                "audioName": ["1-lv24-ryokann.mp3", "2-lv24-ryokann.mp3"],
                                 "meaning": "inn"
                             },
                             {
@@ -5683,7 +5749,7 @@
                                     "ちゅ","う","ご","く"
                                 ],
                                 "answer": "ちゅうごく",
-                                "audioName": "25-02-chuugoku-F.mp3",
+                                "audioName": ["1-lv25-chyugoku.mp3", "2-lv25-chyugoku.mp3"],
                                 "meaning": "China"
                             },
                             {
@@ -5692,7 +5758,7 @@
                                     "ゆ","う","び","ん","きょ","く"
                                 ],
                                 "answer": "ゆうびんきょく",
-                                "audioName": "26-02-yuubinkyoku-F.mp3",
+                                "audioName": ["1-lv26-yuubinkyoku.mp3", "2-lv26-yuubinkyoku.mp3"],
                                 "meaning": "post office"
                             },
                             {
@@ -5701,7 +5767,7 @@
                                     "だ","い","じょ","う","ぶ"
                                 ],
                                 "answer": "だいじょうぶ",
-                                "audioName": "27-02-daijoobu-F.mp3",
+                                "audioName": ["1-lv27-daijoubu.mp3", "2-lv27-daijoubu.mp3"],
                                 "meaning": "all right"
                             },
                             {
@@ -5710,7 +5776,7 @@
                                     "お","に","い","さ","ん"
                                 ],
                                 "answer": "おにいさん",
-                                "audioName": "28-02-oniisan-F.mp3",
+                                "audioName": ["1-lv28-oniisann.mp3", "2-lv28-oniisann.mp3"],
                                 "meaning": "big brother"
                             },
                             {
@@ -5719,7 +5785,7 @@
                                     "ゆ","う","め","い"
                                 ],
                                 "answer": "ゆうめい",
-                                "audioName": "29-02-yuumee-F.mp3",
+                                "audioName": ["1-lv29-yuumei.mp3", "2-lv29-yuumei.mp3"],
                                 "meaning": "famous"
                             },
                             {
@@ -5728,7 +5794,7 @@
                                     "こ","お","り"
                                 ],
                                 "answer": "こおり",
-                                "audioName": "30-02-koori-F.mp3",
+                                "audioName": ["1-lv30-koori.mp3", "2-lv30-koori.mp3"],
                                 "meaning": "ice"
                             },
                             {
@@ -5737,7 +5803,7 @@
                                     "さ","と","う"
                                 ],
                                 "answer": "さとう",
-                                "audioName": "31-02-satou-F.mp3",
+                                "audioName": ["1-lv31-saou.mp3", "2-lv31-saou.mp3"],
                                 "meaning": "sugar"
                             },
                             {
@@ -5746,7 +5812,7 @@
                                     "と","しょ","う","か","ん"
                                 ],
                                 "answer": "としょかん",
-                                "audioName": "32-01-tosyokani-F.mp3",
+                                "audioName": ["1-lv32-tosyokan.mp3", "2-lv32-tosyokan.mp3"],
                                 "meaning": "library"
                             },
                             {
@@ -5755,7 +5821,7 @@
                                     "ふ","う","と","ん"
                                 ],
                                 "answer": "ふとん",
-                                "audioName": "33-01-futon-F.mp3",
+                                "audioName": ["1-lv33-futon.mp3", "2-lv33-futon.mp3"],
                                 "meaning": "futon"
                             },
                             {
@@ -5764,7 +5830,7 @@
                                     "しゅ","う","く","だ","い"
                                 ],
                                 "answer": "しゅくだい",
-                                "audioName": "34-01-syukudai-F.mp3",
+                                "audioName":  ["1-lv34-syukudai.mp3", "2-lv34-syukudai.mp3"],
                                 "meaning": "homework"
                             },
                             {
@@ -5773,7 +5839,7 @@
                                     "じ","しょ","う"
                                 ],
                                 "answer": "じしょ",
-                                "audioName": "35-01-jisyo-F2.mp3",
+                                "audioName": ["1-lv35-jisyo.mp3", "2-lv35-jisyo.mp3"],
                                 "meaning": "dictionary"
                             },
                             {
@@ -5782,7 +5848,7 @@
                                     "こ","ん","ど","う"
                                 ],
                                 "answer": "こんど",
-                                "audioName": "36-01-kondo-F.mp3",
+                                "audioName": ["1-lv36-kondo.mp3", "2-lv36-kondo.mp3"],
                                 "meaning": "next time"
                             },
                             {
@@ -5791,7 +5857,7 @@
                                     "か","こ","う"
                                 ],
                                 "answer": "かこ",
-                                "audioName": "37-01-kako-F.mp3",
+                                "audioName": ["1-lv37-kako.mp3", "2-lv37-kako.mp3"],
                                 "meaning": "past"
                             },
                             {
@@ -5800,7 +5866,7 @@
                                     "ち","い"
                                 ],
                                 "answer": "ち",
-                                "audioName": "38-01-chi-F.mp3",
+                                "audioName": ["1-lv38-chi.mp3", "2-lv38-chi.mp3"],
                                 "meaning": "blood"
                             },
                             {
@@ -5809,7 +5875,7 @@
                                     "き","い"
                                 ],
                                 "answer": "き",
-                                "audioName": "39-01-ki-F.mp3",
+                                "audioName": ["1-lv39-ki.mp3", "2-lv39-ki.mp3"],
                                 "meaning": "blood"
                             },
                             {
@@ -5818,7 +5884,7 @@
                                     "じ","こ","う"
                                 ],
                                 "answer": "じこ",
-                                "audioName": "40-01-jiko-F.mp3",
+                                "audioName": ["1-lv40-jiko.mp3", "2-lv40-jiko.mp3"],
                                 "meaning": "accident"
                             }
                         ]
@@ -7217,6 +7283,7 @@
                         ]
                     },
                     "scrambler": {
+                        "multiAudio": true,
                         "questions":[
                             {
                                 "question": "Which word do you hear?",
@@ -7224,7 +7291,7 @@
                                     "む","だ","ら"
                                 ],
                                 "answer": "むだ",
-                                "audioName": "drn1-muda.mp3",
+                                "audioName": ["MF-drn1-muda.mp3", "FM-drn1-muda.mp3"],
                                 "meaning": "waste"
                             },
                             {
@@ -7233,7 +7300,7 @@
                                     "む","だ","ら"
                                 ],
                                 "answer": "むら",
-                                "audioName": "drn1-mura.mp3",
+                                "audioName": ["MF-drn1-mura.mp3", "FM-drn1-mura.mp3"],
                                 "meaning": "village"
                             },
                             {
@@ -7242,7 +7309,7 @@
                                     "にゅ","う","が","く","りゅ"
                                 ],
                                 "answer": "にゅうがく",
-                                "audioName": "drn2-nyuugaku.mp3",
+                                "audioName": ["MF-drn2-nyuugaku.mp3", "FM-drn2-nyuugaku.mp3"],
                                 "meaning": "entrance"
                             },
                             {
@@ -7251,7 +7318,7 @@
                                     "にゅ","う","が","く","りゅ"
                                 ],
                                 "answer": "りゅうがく",
-                                "audioName": "drn2-ryuugaku.mp3",
+                                "audioName": ["MF-drn2-ryuugaku.mp3", "FM-drn2-ryuugaku.mp3"],
                                 "meaning": "study abroad"
                             },
                             {
@@ -7260,7 +7327,7 @@
                                     "は","な","ら"
                                 ],
                                 "answer": "はな",
-                                "audioName": "drn3-hana.mp3",
+                                "audioName": ["MF-drn3-hana.mp3", "FM-drn3-hana.mp3"],
                                 "meaning": "flower"
                             },
                             {
@@ -7269,7 +7336,7 @@
                                     "は","な","ら"
                                 ],
                                 "answer": "はら",
-                                "audioName": "drn3-hara.mp3",
+                                "audioName": ["MF-drn3-hara.mp3", "FM-drn3-hara.mp3"],
                                 "meaning": "belly"
                             },
                             {
@@ -7278,7 +7345,7 @@
                                     "は","な","だ"
                                 ],
                                 "answer": "はな",
-                                "audioName": "drn4-hana.mp3",
+                                "audioName": ["MF-drn4-hana.mp3", "FM-drn4-hana.mp3"],
                                 "meaning": "flower"
                             },
                             {
@@ -7287,7 +7354,7 @@
                                     "は","な","だ"
                                 ],
                                 "answer": "はだ",
-                                "audioName": "drn4-hada.mp3",
+                                "audioName": ["MF-drn4-hada.mp3", "FM-drn4-hada.mp3"],
                                 "meaning": "skin"
                             },
                             {
@@ -7296,7 +7363,7 @@
                                     "に","く","り"
                                 ],
                                 "answer": "にく",
-                                "audioName": "drn5-niku.mp3",
+                                "audioName": ["MF-drn5-niku.mp3", "FM-drn5-niku.mp3"],
                                 "meaning": "meat"
                             },
                             {
@@ -7305,7 +7372,7 @@
                                     "に","く","り"
                                 ],
                                 "answer": "りく",
-                                "audioName": "drn5-riku.mp3",
+                                "audioName": ["MF-drn5-riku.mp3", "FM-drn5-riku.mp3"],
                                 "meaning": "land"
                             },
                             {
@@ -7314,7 +7381,7 @@
                                     "に","か","い","り"
                                 ],
                                 "answer": "にかい",
-                                "audioName": "drn6-nikai.mp3",
+                                "audioName": ["MF-drn6-nikai.mp3", "FM-drn6-nikai.mp3"],
                                 "meaning": "second floor"
                             },
                             {
@@ -7323,7 +7390,7 @@
                                     "に","か","い","り"
                                 ],
                                 "answer": "りかい",
-                                "audioName": "drn6-rikai.mp3",
+                                "audioName": ["MF-drn6-rikai.mp3", "FM-drn6-rikai.mp3"],
                                 "meaning": "understanding"
                             },
                             {
@@ -7332,7 +7399,7 @@
                                     "あ","に","り"
                                 ],
                                 "answer": "あに",
-                                "audioName": "drn7-ani.mp3",
+                                "audioName": ["MF-drn7-ani.mp3", "FM-drn7-ani.mp3"],
                                 "meaning": "big brother"
                             },
                             {
@@ -7341,26 +7408,8 @@
                                     "あ","に","り"
                                 ],
                                 "answer": "あり",
-                                "audioName": "drn7-ari.mp3",
+                                "audioName": ["MF-drn7-ari.mp3", "FM-drn7-ari.mp3"],
                                 "meaning": "ant"
-                            },
-                            {
-                                "question": "Which word do you hear?",
-                                "answers": [
-                                    "にゅ","う","す","い","りゅ"
-                                ],
-                                "answer": "にゅうすい",
-                                "audioName": "drn8-nyuusui.mp3",
-                                "meaning": "non-word"
-                            },
-                            {
-                                "question": "Which word do you hear?",
-                                "answers": [
-                                    "にゅ","う","す","い","りゅ"
-                                ],
-                                "answer": "りゅうすい",
-                                "audioName": "drn8-ryuusui.mp3",
-                                "meaning": "non-word"
                             },
                             {
                                 "question": "Which word do you hear?",
@@ -7368,7 +7417,7 @@
                                     "く","に","り"
                                 ],
                                 "answer": "くに",
-                                "audioName": "drn9-kuni.mp3",
+                                "audioName": ["MF-drn9-kuni.mp3", "FM-drn9-kuni.mp3"],
                                 "meaning": "country"
                             },
                             {
@@ -7377,7 +7426,7 @@
                                     "く","に","り"
                                 ],
                                 "answer": "くり",
-                                "audioName": "drn9-kuri.mp3",
+                                "audioName": ["MF-drn9-kuri.mp3", "FM-drn9-kuri.mp3"],
                                 "meaning": "chestnut"
                             },
                             {
@@ -7386,7 +7435,7 @@
                                     "ナ","イ","ター","ラ"
                                 ],
                                 "answer": "ナイター",
-                                "audioName": "drn10-naita.mp3",
+                                "audioName": ["MF-drn10-naita.mp3", "FM-drn10-naita.mp3"],
                                 "meaning": "night game"
                             },
                             {
@@ -7395,7 +7444,7 @@
                                     "ナ","イ","ター","ラ"
                                 ],
                                 "answer": "ライター",
-                                "audioName": "drn10-raita.mp3",
+                                "audioName": ["MF-drn10-raita.mp3", "FM-drn10-raita.mp3"],
                                 "meaning": "lighter"
                             },
                             {
@@ -7404,7 +7453,7 @@
                                     "ナ","イ","フ","ラ"
                                 ],
                                 "answer": "ナイフ",
-                                "audioName": "drn11-naifu.mp3",
+                                "audioName": ["MF-drn11-naifu.mp3", "FM-drn11-naifu.mp3"],
                                 "meaning": "knife"
                             },
                             {
@@ -7413,7 +7462,7 @@
                                     "ナ","イ","フ","ラ"
                                 ],
                                 "answer": "ライフ",
-                                "audioName": "drn11-raifu.mp3",
+                                "audioName": ["MF-drn11-raifu.mp3", "FM-drn11-raifu.mp3"],
                                 "meaning": "life"
                             },
                             {
@@ -7422,7 +7471,7 @@
                                     "ナ","イ","ト","ラ"
                                 ],
                                 "answer": "ナイト",
-                                "audioName": "drn12-naito.mp3",
+                                "audioName": ["MF-drn12-naito.mp3", "FM-drn12-naito.mp3"],
                                 "meaning": "night"
                             },
                             {
@@ -7431,7 +7480,7 @@
                                     "ナ","イ","ト","ラ"
                                 ],
                                 "answer": "ライト",
-                                "audioName": "drn12-raito.mp3",
+                                "audioName": ["MF-drn12-raito.mp3", "FM-drn12-raito.mp3"],
                                 "meaning": "light"
                             },
                             {
@@ -7440,7 +7489,7 @@
                                     "ネ","ジ","レ"
                                 ],
                                 "answer": "ネジ",
-                                "audioName": "drn13-neji.mp3",
+                                "audioName": ["MF-drn13-neji.mp3", "FM-drn13-neji.mp3"],
                                 "meaning": "screw"
                             },
                             {
@@ -7449,7 +7498,7 @@
                                     "ネ","ジ","レ"
                                 ],
                                 "answer": "レジ",
-                                "audioName": "drn13-reji.mp3",
+                                "audioName": ["MF-drn13-reji.mp3", "FM-drn13-reji.mp3"],
                                 "meaning": "cash register"
                             },
                             {
@@ -7458,7 +7507,7 @@
                                     "ひ","ど","い","ろ"
                                 ],
                                 "answer": "ひどい",
-                                "audioName": "drn14-hidoi.mp3",
+                                "audioName": ["MF-drn14-hidoi.mp3", "FM-drn14-hidoi.mp3"],
                                 "meaning": "awful"
                             },
                             {
@@ -7467,7 +7516,7 @@
                                     "ひ","ど","い","ろ"
                                 ],
                                 "answer": "ひろい",
-                                "audioName": "drn14-hiroi.mp3",
+                                "audioName": ["MF-drn14-hiroi.mp3", "FM-drn14-hiroi.mp3"],
                                 "meaning": "spacious"
                             },
                             {
@@ -7476,7 +7525,7 @@
                                     "こ","ど","も","ろ"
                                 ],
                                 "answer": "こども",
-                                "audioName": "drn15-kodomo.mp3",
+                                "audioName": ["MF-drn15-kodomo.mp3", "FM-drn15-kodomo.mp3"],
                                 "meaning": "child"
                             },
                             {
@@ -7485,7 +7534,7 @@
                                     "こ","ん","ど","ん"
                                 ],
                                 "answer": "こんど",
-                                "audioName": "drn16-kondo.mp3",
+                                "audioName": ["MF-drn16-kondo.mp3", "FM-drn16-kondo.mp3"],
                                 "meaning": "next time"
                             },
                             {
@@ -7494,7 +7543,7 @@
                                     "しゅ","く","だ","い","ら"
                                 ],
                                 "answer": "しゅくだい",
-                                "audioName": "drn17-syukudai.mp3",
+                                "audioName": ["MF-drn17-syukudai.mp3", "FM-drn17-syukudai.mp3"],
                                 "meaning": "homework"
                             },
                             {
@@ -7503,7 +7552,7 @@
                                     "ひ","だ","り","ら"
                                 ],
                                 "answer": "ひだり",
-                                "audioName": "drn18-hidari.mp3",
+                                "audioName": ["MF-drn18-hidari.mp3", "FM-drn18-hidari.mp3"],
                                 "meaning": "left"
                             },
                             {
@@ -7512,7 +7561,7 @@
                                     "の","ど","ろ"
                                 ],
                                 "answer": "のど",
-                                "audioName": "drn19-nodo.mp3",
+                                "audioName": ["MF-drn19-nodo.mp3", "FM-drn19-nodo.mp3"],
                                 "meaning": "throat"
                             },
                             {
@@ -7521,7 +7570,7 @@
                                     "く","だ","さ","い","ら"
                                 ],
                                 "answer": "ください",
-                                "audioName": "drn20-kudasai.mp3",
+                                "audioName": ["MF-drn20-kudasai.mp3", "FM-drn20-kudasai.mp3"],
                                 "meaning": "please"
                             },
                             {
@@ -7530,7 +7579,7 @@
                                     "か","ら","だ"
                                 ],
                                 "answer": "からだ",
-                                "audioName": "drn21-karada.mp3",
+                                "audioName": ["MF-drn21-karada.mp3", "FM-drn21-karada.mp3"],
                                 "meaning": "body"
                             },
                             {
@@ -7539,7 +7588,7 @@
                                     "フ","ラ","ン","ス","ダ"
                                 ],
                                 "answer": "フランス",
-                                "audioName": "drn22-furansu.mp3",
+                                "audioName": ["MF-drn22-furansu.mp3", "FM-drn22-furansu.mp3"],
                                 "meaning": "France"
                             },
                             {
@@ -7548,7 +7597,7 @@
                                     "お","れ","い","ね"
                                 ],
                                 "answer": "おれい",
-                                "audioName": "drn23-orei.mp3",
+                                "audioName": ["MF-drn23-orei.mp3", "FM-drn23-orei.mp3"],
                                 "meaning": "gratitude"
                             },
                             {
@@ -7557,7 +7606,7 @@
                                     "りゅ","う","こ","う","にゅ"
                                 ],
                                 "answer": "りゅうこう",
-                                "audioName": "drn24-ryuukou.mp3",
+                                "audioName": ["MF-drn24-ryuukou.mp3", "FM-drn24-ryuukou.mp3"],
                                 "meaning": "trend"
                             },
                             {
@@ -7566,7 +7615,7 @@
                                     "あ","ま","り","に"
                                 ],
                                 "answer": "あまり",
-                                "audioName": "drn25-amari.mp3",
+                                "audioName": ["MF-drn25-amari.mp3", "FM-drn25-amari.mp3"],
                                 "meaning": "not very"
                             },
                             {
@@ -7575,7 +7624,7 @@
                                     "れ","い","ね"
                                 ],
                                 "answer": "れい",
-                                "audioName": "drn26-rei.mp3",
+                                "audioName": ["MF-drn26-rei.mp3", "FM-drn26-rei.mp3"],
                                 "meaning": "not very"
                             },
                             {
@@ -7584,7 +7633,7 @@
                                     "の","う","りょ","く","ろ"
                                 ],
                                 "answer": "のうりょく",
-                                "audioName": "drn27-nouryoku.mp3",
+                                "audioName": ["MF-drn27-nouryoku.mp3", "FM-drn27-nouryoku.mp3"],
                                 "meaning": "ability"
                             },
                             {
@@ -7593,7 +7642,7 @@
                                     "に","せ","い","り"
                                 ],
                                 "answer": "にせい",
-                                "audioName": "drn28-nisei.mp3",
+                                "audioName": ["MF-drn28-nisei.mp3", "FM-drn28-nisei.mp3"],
                                 "meaning": "second generation"
                             },
                             {
@@ -7602,7 +7651,7 @@
                                     "れ","ん","しゅ","う","ね"
                                 ],
                                 "answer": "れんしゅう",
-                                "audioName": "drn29-rennsyuu.mp3",
+                                "audioName": ["MF-drn29-rennsyuu.mp3", "FM-drn29-rennsyuu.mp3"],
                                 "meaning": "practice"
                             }
                         ]
