@@ -989,8 +989,8 @@
                                 ],
                                 "answer": "ちょきん",
                                 "audioName": [
-                                    "18-chokin-FM.mp3",
-                                    "18-chokin-MF.mp3"
+                                    "18-chokin-FM",
+                                    "18-chokin-MF"
                                 ],
                                 "meaning": "savings"
                             },
@@ -1001,8 +1001,8 @@
                                 ],
                                 "answer": "じょきん",
                                 "audioName": [
-                                    "18-jokin-FM.mp3",
-                                    "18-jokin-MF.mp3"
+                                    "18-jokin-FM",
+                                    "18-jokin-MF"
                                 ],
                                 "meaning": "sterilization"
                             },

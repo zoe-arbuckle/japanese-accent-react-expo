@@ -92,10 +92,9 @@ export default class Scrambler extends Component {
 	async componentWillUnmount() {
 		await correctSound.unloadAsync()
 		await incorrectSound.unloadAsync()
-		for (const question in this.state.questionList){
-			const audioName = this.state.questionList[question].audioName
+		for(const obj in soundObjects){
 			try {
-				await soundObjects[audioName].unloadAsync();
+				soundObjects[obj].unloadAsync();
 			} catch (e){
 				console.log(e)
 			}
