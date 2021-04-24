@@ -3188,8 +3188,8 @@
                                     "じゅうぶん",
                                     "ずうぶん"
                                 ],
-                                "answer": ["MF-gl25-zuubun.mp3","FM-gl25-zuubun.mp3"],
-                                "audioName": "gl25-zuubun.mp3",
+                                "answer": "ずうぶん",
+                                "audioName": ["MF-gl25-zuubun.mp3","FM-gl25-zuubun.mp3"],
                                 "meaning": "non-word"
                             },
                             {
