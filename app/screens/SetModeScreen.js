@@ -6,7 +6,6 @@ import colors from '../config/colors'
 function SetModeScreen({ route, navigation }) {
     const {letterSound, numQuestions} = route.params
 
-    console.log(`${letterSound} and ${numQuestions}`)
     return (
         <SafeAreaView style={styles.scoreView}>
             <View style={styles.textView}>
