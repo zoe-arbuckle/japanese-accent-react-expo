@@ -24,7 +24,8 @@ export default class LetterSoundQuiz extends Component {
 	constructor(props){
 		super(props);
 
-        let array = props.questions
+		let array = props.questions
+		//mode = 0 if letters only
         let mode = props.mode
         var len;
 
@@ -145,16 +146,13 @@ export default class LetterSoundQuiz extends Component {
 				console.log(e);
 			}
 		}
-		if(!this.state.endQuiz){
+		if(!this.state.endQuiz & !(this.state.mode == 0)){
 			this.playAudio()
 		}
         
 	}
 
     playAudio = async () => {
-        if (this.state.mode == 0){
-            return;
-        }
 		try {
 			if(this.state.multiAudio){
 				if(soundObjects[this.state.audioName[0]]){
@@ -185,6 +183,9 @@ export default class LetterSoundQuiz extends Component {
 			}
 			if(this.state.gaveCorrectAnswer != false ){
 				this.setState({score: (this.state.score + 1)})
+				if(this.state.mode == 0){
+					this.playAudio()
+				}
 			}
 			if(this.state.questionList[this.state.currentIndex].meaning != undefined){
 				this.setState({modalVisible: true})
@@ -223,8 +224,9 @@ export default class LetterSoundQuiz extends Component {
 			} catch(e){
 				console.log(e)
 			}
-
-			this.playAudio()
+			if (this.state.mode != 0){
+				this.playAudio()
+			}
 
 		}
 		
