@@ -3,6 +3,7 @@
         {
             "lessonid": 1,
             "lessonName": "Mora",
+            "lessonJapanese": "日本語の音の単位（モーラ）",
             "lessonDescription": "Lesson 1",
             "scrambler": {
                 "multiAudio": false,
@@ -316,6 +317,7 @@
         {
             "lessonid": 2,
             "lessonName": "Consonants and Vowels",
+            "lessonJapanese": "母音と子音",
             "lessonDescription": "Lesson 2",
             "subsections": [
                 {
@@ -8245,16 +8247,19 @@
         {
             "lessonid": 3,
             "lessonName": "Rhythm",
+            "lessonJapanese": "日本語のリズム",
             "lessonDescription": "Lesson 3"
         },
         {
             "lessonid": 4,
             "lessonName": "Basics of Pitch Accent",
+            "lessonJapanese": "日本語のピッチアクセントの基本",
             "lessonDescription": "Lesson 4"
         },
         {
             "lessonid": 5,
             "lessonName": "Accents in Words",
+            "lessonJapanese": "カテゴリー別の単語のアクセント",
             "lessonDescription": "Lesson 5"
         }
     ]

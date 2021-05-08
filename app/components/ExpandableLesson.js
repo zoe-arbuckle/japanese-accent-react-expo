@@ -11,10 +11,22 @@ export default class ExpandableLesson extends Component {
 
         this.state = {
             subsections: props.data,
+            titleEnglish: props.titleEnglish,
+            titleJapanese: props.titleJapanese,
             expanded: false,
-            title: props.title,
             navigation: props.navigation,
             self: props.self,
+            japanese: props.japanese,
+        }
+    }
+
+    UNSAFE_componentWillUpdate({japanese}){
+        if(this.state.japanese != japanese){
+            this.setState((state, props) => {
+                return {
+                    japanese: props.japanese
+                }
+            })
         }
     }
 
@@ -22,7 +34,7 @@ export default class ExpandableLesson extends Component {
         return (
             <View>
                 <TouchableOpacity style={styles.buttonContainer} onPress={() => this.toggleExpand()}>
-                    <Text style={styles.buttonText}>{this.state.title}</Text>
+                    <Text style={styles.buttonText}>{this.state.japanese ? this.state.titleJapanese : this.state.titleEnglish}</Text>
                     <Ionicons name={this.state.expanded ? 'caret-down': 'caret-forward'} 
                         size={32} color="white" style={styles.arrow}/>
                 </TouchableOpacity>
