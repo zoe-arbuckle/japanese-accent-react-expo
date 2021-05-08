@@ -52,7 +52,7 @@
                     {
                         "question": "Which word do you hear?",
                         "answers": [
-                            "ぎょ","う"
+                            "ぎょ","う", "きゅ"
                         ],
                         "answer": "ぎょぎょう",
                         "audioName": "gyogyou-ET",

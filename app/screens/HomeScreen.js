@@ -1,8 +1,6 @@
 import React from 'react';
 import { SafeAreaView, ScrollView, StyleSheet, Image } from 'react-native';
 
-import LessonButton from '../components/LessonButton';
-
 import data from '../assets/data'
 import ExpandableLesson from '../components/ExpandableLesson';
 
@@ -11,7 +9,10 @@ let lessons = data.lessons;
 function HomeScreen({ navigation }) {
     return (
         <SafeAreaView style={styles.screen}>
-            <Image style={styles.logo} source={require('../assets/images/logo.png')}/>
+            <View>
+                <Image style={styles.logo} source={require('../assets/images/logo.png')}/>
+                {/* TODO Add toggle language button */}
+            </View>
             <ScrollView style={styles.lessons}>{
                lessons.map((item, index) => (
                    <ExpandableLesson 
