@@ -16,7 +16,7 @@ function HomeScreen({ navigation }) {
         <SafeAreaView style={styles.screen}>
             <View style={styles.header}>
                 <Image style={styles.logo} source={require('../assets/images/logo.png')}/>
-                <TouchableOpacity onPress={() => {setModalVisible(true)}}> 
+                <TouchableOpacity style={styles.settings} onPress={() => {setModalVisible(true)}}> 
                     <Ionicons name={'settings'} 
                         size={32} color="black" style={styles.settings}/>
                 </TouchableOpacity>
@@ -83,7 +83,6 @@ const styles =  StyleSheet.create({
         flexDirection: 'row',
         flex: 0.5,
         justifyContent: 'center',
-        alignContent: 'center',
         width: '100%'
     },
     languageButton: {
@@ -95,8 +94,7 @@ const styles =  StyleSheet.create({
         paddingHorizontal: 10,
     },
     settings: {
-        justifyContent: 'flex-end',
-        alignSelf: 'flex-end',
+        alignSelf: 'flex-start',
     },
     modalView: {
 		margin: 20,
