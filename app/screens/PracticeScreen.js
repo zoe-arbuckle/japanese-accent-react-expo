@@ -5,6 +5,7 @@ import MultipleChoiceQuiz from '../components/MultipleChoiceQuiz'
 import Scrambler from '../components/Scrambler';
 import LetterSoundQuiz from '../components/LetterSoundQuiz';
 import { getNativeSourceFromSource } from 'expo-av/build/AV';
+import PitchQuiz from '../components/PitchQuiz';
 
 // function for playing audio when audio button pressed
 
@@ -19,6 +20,7 @@ function PracticeScreen({
         scrambler,
         conversation,
         letterSound,
+        pitchQuiz,
         numQuestions,
         mode,
     } = route.params;
@@ -75,6 +77,18 @@ function PracticeScreen({
         } mode ={
             mode
         } />)
+    }
+
+    if(pitchQuiz != undefined){
+        const questions = pitchQuiz.questions
+        return ( <PitchQuiz questions = {
+            questions
+        } chooseNumber = {
+            numQuestions
+        } navigation = {
+            navigation
+        }   
+        />)
     }
 }
 

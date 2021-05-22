@@ -11,6 +11,7 @@ import LessonScreen from './app/screens/LessonScreen';
 import PracticeScreen from './app/screens/PracticeScreen';
 import ScoreScreen from './app/screens/ScoreScreen';
 import SetModeScreen from './app/screens/SetModeScreen';
+import PitchQuiz from './app/components/PitchQuiz';
 
 const Stack = createStackNavigator();
 
@@ -23,6 +24,7 @@ function App() {
         <Stack.Screen name="Practice" component={PracticeScreen} />
         <Stack.Screen name="Score" component={ScoreScreen} />
         <Stack.Screen name="Mode" component={SetModeScreen}/>
+        <Stack.Screen name="Pitch" component={PitchQuiz}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

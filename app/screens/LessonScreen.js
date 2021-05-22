@@ -74,6 +74,22 @@ function LessonScreen({ route, navigation }) {
         )
     }
 
+    if(data.pitchQuiz != undefined && data.pitchQuiz.questions.length > 0){
+        buttons.push(
+            <PracticeButton 
+                title="One mora quiz"
+                key="pitchQuiz"
+                onPress={() => {
+                    setMax(data.pitchQuiz.questions.length)
+                    setSelectedOption(data.pitchQuiz.questions.length.toString())
+                    setModalVisible(true)
+                    setQuizType('pitchQuiz')
+                }}
+                style={styles.practiceButton}
+            />
+        )
+    }
+
     return (
         <SafeAreaView style={styles.screen}>
             <Modal visible={modalVisible} animationType="slide" transparent={true} 
@@ -145,6 +161,12 @@ function navigateTo(navigation, data, selectedOption, max, quizType){
         case 'letterSound':
             navigation.navigate('Mode',{
                 letterSound: data.letterSoundQuiz,
+                numQuestions: fitInputToRange(selectedOption, max)
+            })
+            return;
+        case 'pitchQuiz':
+            navigation.navigate('Practice',{
+                pitchQuiz: data.pitchQuiz,
                 numQuestions: fitInputToRange(selectedOption, max)
             })
             return;
