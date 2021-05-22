@@ -13,6 +13,7 @@ function LessonScreen({ route, navigation }) {
     const [ validationVisible, setValidationVisible ] = useState(false)
     const [ quizType, setQuizType ] = useState('')
     const [ max, setMax ] = useState(1)
+    const [ pitchData, setPitchData ] = useState({})
 
     if(data.multipleChoiceQuiz != undefined && data.multipleChoiceQuiz.questions.length > 0){
         buttons.push(
@@ -74,20 +75,28 @@ function LessonScreen({ route, navigation }) {
         )
     }
 
-    if(data.pitchQuiz != undefined && data.pitchQuiz.questions.length > 0){
-        buttons.push(
-            <PracticeButton 
-                title="One mora quiz"
-                key="pitchQuiz"
-                onPress={() => {
-                    setMax(data.pitchQuiz.questions.length)
-                    setSelectedOption(data.pitchQuiz.questions.length.toString())
-                    setModalVisible(true)
-                    setQuizType('pitchQuiz')
-                }}
-                style={styles.practiceButton}
-            />
-        )
+    if(data.pitchQuiz != undefined){
+        for (var index in data.pitchQuiz.quizNames){
+            const name = data.pitchQuiz.quizNames[index]
+            if(data[name] != undefined && data[name].questions.length > 0){
+                buttons.push(
+                    <PracticeButton 
+                        title={name}
+                        key={name}
+                        onPress={() => {
+                            setMax(data[name].questions.length)
+                            setSelectedOption(data[name].questions.length.toString())
+                            setModalVisible(true)
+                            setQuizType('pitchQuiz')
+                            setPitchData(data[name])
+                        }}
+                        style={styles.practiceButton}
+                    />
+                )
+            }
+            
+        }
+        
     }
 
     return (
@@ -108,7 +117,7 @@ function LessonScreen({ route, navigation }) {
                             setValidationVisible(true)
                         } else {
                             setModalVisible(false)
-                            navigateTo(navigation, data, selectedOption, max, quizType)
+                            navigateTo(navigation, data, selectedOption, max, quizType, pitchData)
                             setValidationVisible(false)
                             setSelectedOption("1")
                         }
@@ -138,7 +147,7 @@ function fitInputToRange(value, max){
     }
 }
 
-function navigateTo(navigation, data, selectedOption, max, quizType){
+function navigateTo(navigation, data, selectedOption, max, quizType, pitchData){
     switch (quizType) {
         case 'multipleChoiceQuiz':
             navigation.navigate('Practice', {
@@ -166,7 +175,7 @@ function navigateTo(navigation, data, selectedOption, max, quizType){
             return;
         case 'pitchQuiz':
             navigation.navigate('Practice',{
-                pitchQuiz: data.pitchQuiz,
+                pitchQuiz: pitchData,
                 numQuestions: fitInputToRange(selectedOption, max)
             })
             return;

@@ -8256,13 +8256,32 @@
             "lessonJapanese": "日本語のピッチアクセントの基本",
             "lessonDescription": "Lesson 4",
             "pitchQuiz": {
+                "quizNames": [
+                    "oneMora",
+                    "twoMora"
+                ]
+            },
+            "oneMora": {
+                "name": "One Mora Nouns",
                 "questions": [
                     {
                         "question": "Click the correct pattern you hear",
-                        "moraCount": 4,
+                        "moraCount": 1,
                         "answer": 1,
                         "audioName": "arigatou-ET",
                         "meaning": "thank you"
+                    }
+                ]
+            },
+            "twoMora": {
+                "name": "Two Mora Nouns",
+                "questions": [
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 2,
+                        "answer": 0,
+                        "audioName": "15-genkyuu-FM",
+                        "meaning": "pay cut"
                     }
                 ]
             }

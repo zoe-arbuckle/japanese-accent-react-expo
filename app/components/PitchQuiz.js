@@ -169,7 +169,6 @@ export default class PitchQuiz extends Component {
 	// HANDLING QUESTIONS
 	
 	pickAnswer = answerValue => async () => {
-		console.log(this.state.answer)
 		const correctAnswer = this.state.answer
 
 		if(answerValue === correctAnswer){
