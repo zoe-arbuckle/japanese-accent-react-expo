@@ -8246,19 +8246,15 @@
         },
         {
             "lessonid": 3,
-            "lessonName": "Rhythm",
-            "lessonJapanese": "日本語のリズム",
-            "lessonDescription": "Lesson 3"
-        },
-        {
-            "lessonid": 4,
             "lessonName": "Basics of Pitch Accent",
             "lessonJapanese": "日本語のピッチアクセントの基本",
-            "lessonDescription": "Lesson 4",
+            "lessonDescription": "Lesson 3",
             "pitchQuiz": {
                 "quizNames": [
                     "oneMora",
-                    "twoMora"
+                    "twoMora",
+                    "threeMora",
+                    "fourMora"
                 ]
             },
             "oneMora": {
@@ -8267,9 +8263,82 @@
                     {
                         "question": "Click the correct pattern you hear",
                         "moraCount": 1,
+                        "answer": 0,
+                        "audioName": "1-01-hi-H.mp3",
+                        "meaning": "fire",
+                        "text": "ひが　でる。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 1,
+                        "answer": 0,
+                        "audioName": "1-02-ha-H.mp3",
+                        "meaning": "tooth",
+                        "text": "はが　いたい。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 0,
                         "answer": 1,
-                        "audioName": "arigatou-ET",
-                        "meaning": "thank you"
+                        "audioName": "1-03-me-H.mp3",
+                        "meaning": "eye",
+                        "text": "めが　おおきい。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 1,
+                        "answer": 0,
+                        "audioName": "1-04-o-H.mp3",
+                        "meaning": "tail",
+                        "text": "おが　ながい。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 1,
+                        "answer": 0,
+                        "audioName": "1-05-ya-H.mp3",
+                        "meaning": "arrow",
+                        "text": "やが　あたる。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 1,
+                        "answer": 1,
+                        "audioName": "1-06-i-L.mp3",
+                        "meaning": "stomach",
+                        "text": "いが　いたい。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 1,
+                        "answer": 1,
+                        "audioName": "1-07-ki-L.mp3",
+                        "meaning": "feeling",
+                        "text": "きが　はやい。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 1,
+                        "answer": 1,
+                        "audioName": "1-08-mi-L.mp3",
+                        "meaning": "flesh",
+                        "text": "みが　かたい。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 1,
+                        "answer": 1,
+                        "audioName": "1-09-ka-L.mp3",
+                        "meaning": "mosquito",
+                        "text": "かが　うるさい。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 1,
+                        "answer": 1,
+                        "audioName": "1-10-hi-L.mp3",
+                        "meaning": "daylight",
+                        "text": "ひが　ながい。"
                     }
                 ]
             },
@@ -8279,18 +8348,319 @@
                     {
                         "question": "Click the correct pattern you hear",
                         "moraCount": 2,
+                        "answer": 2,
+                        "audioName": "2-02-koko-LHH.mp3",
+                        "meaning": "here",
+                        "text": "ここに　いてください。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 2,
+                        "answer": 2,
+                        "audioName": "2-03-sore-LHH.mp3",
+                        "meaning": "that",
+                        "text": "それは　なんですか。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 2,
+                        "answer": 2,
+                        "audioName": "2-01-uchi-LHH.mp3",
+                        "meaning": "home",
+                        "text": "うちに　かえります。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 2,
+                        "answer": 1,
+                        "audioName": "2-04-isu-LHL.mp3",
+                        "meaning": "chair",
+                        "text": "いすに　すわってください。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 2,
                         "answer": 0,
-                        "audioName": "15-genkyuu-FM",
-                        "meaning": "pay cut"
+                        "audioName": "2-05-boku-HLL.mp3",
+                        "meaning": "I",
+                        "text": "ぼくは　にほんじんです。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 2,
+                        "answer": 0,
+                        "audioName": "2-06-hon-HLL.mp3",
+                        "meaning": "book",
+                        "text": "ほんを　よみます。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 2,
+                        "answer": 0,
+                        "audioName": "2-07-goji-HLL.mp3",
+                        "meaning": "5 o'clock",
+                        "text": "ごじに　かえります。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 2,
+                        "answer": 0,
+                        "audioName": "2-08-neko-HLL.mp3",
+                        "meaning": "cat",
+                        "text": "ねこが　います。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 2,
+                        "answer": 1,
+                        "audioName": "2-09-heya-LHL.mp3",
+                        "meaning": "room",
+                        "text": "へやは　どこですか。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 2,
+                        "answer": 1,
+                        "audioName": "2-10-inu-LHL.mp3",
+                        "meaning": "dog",
+                        "text": "いぬが　います。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 2,
+                        "answer": 1,
+                        "audioName": "2-11-yama-LHL.mp3",
+                        "meaning": "mountain",
+                        "text": "やまに　のぼります。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 2,
+                        "answer": 1,
+                        "audioName": "2-12-kawa-LHL.mp3",
+                        "meaning": "river",
+                        "text": "かわで　あそびます。"
+                    }
+                ]
+            },
+            "threeMora": {
+                "name": "Three Mora Nouns",
+                "questions": [
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 3,
+                        "answer": 3,
+                        "audioName": "3-01-namae-LHHH.mp3",
+                        "meaning": "name",
+                        "text": "なまえは　なんですか。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 3,
+                        "answer": 3,
+                        "audioName": "3-02-eigo-LHHH.mp3",
+                        "meaning": "English",
+                        "text": "えいごが　すきです。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 3,
+                        "answer": 3,
+                        "audioName": "3-03-watashi-LHHH.mp3",
+                        "meaning": "I",
+                        "text": "わたしは　やまだです。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 3,
+                        "answer": 0,
+                        "audioName": "3-04-gohan-HLLL.mp3",
+                        "meaning": "meal",
+                        "text": "ごはんを　たべます。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 3,
+                        "answer": 0,
+                        "audioName": "3-05-honya-HLLL.mp3",
+                        "meaning": "bookstore",
+                        "text": "ほんやに　いきます。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 3,
+                        "answer": 0,
+                        "audioName": "3-06-chikaku-HLLL.mp3",
+                        "meaning": "near by",
+                        "text": "ちかくに　あります。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 3,
+                        "answer": 1,
+                        "audioName": "3-07-ofuro-LHLL.mp3",
+                        "meaning": "bathing",
+                        "text": "おふろに　はいります。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 3,
+                        "answer": 1,
+                        "audioName": "3-08-nihon-LHLL.mp3",
+                        "meaning": "Japan",
+                        "text": "にほんから　きました。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 3,
+                        "answer": 1,
+                        "audioName": "3-09-hachiji-LHLL.mp3",
+                        "meaning": "8 o'clock",
+                        "text": "はちじに　いきます。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 3,
+                        "answer": 2,
+                        "audioName": "3-10-yasumi-LHHL.mp3",
+                        "meaning": "day off",
+                        "text": "やすみが　ありません。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 3,
+                        "answer": 2,
+                        "audioName": "3-11-atama-LHHL.mp3",
+                        "meaning": "head",
+                        "text": "あたまが　いたい。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 3,
+                        "answer": 2,
+                        "audioName": "3-12-otoko-LHHL.mp3",
+                        "meaning": "male",
+                        "text": "おとこが　いません。"
+                    }
+                ]
+            },
+            "fourMora": {
+                "name": "Four Mora Nouns",
+                "questions": [
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 4,
+                        "audioName": "4-01-gakusei-LHHHH.mp3",
+                        "meaning": "student",
+                        "text": "がくせいが　います。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 4,
+                        "audioName": "4-02-senkou-LHHHH.mp3",
+                        "meaning": "major",
+                        "text": "せんこうは　れきしです。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 4,
+                        "audioName": "4-03-daigaku-LHHHH.mp3",
+                        "meaning": "college",
+                        "text": "だいがくに　いきます。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 0,
+                        "audioName": "4-04-kankoku-HLLLL.mp3",
+                        "meaning": "South Korea",
+                        "text": "かんこくから　きました。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 0,
+                        "audioName": "4-05-chuugoku-HLLLL.mp3",
+                        "meaning": "China",
+                        "text": "ちゅうごくに　いきます。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 0,
+                        "audioName": "4-06-ongaku-HLLLL.mp3",
+                        "meaning": "music",
+                        "text": "おんがくが　すきです。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 1,
+                        "audioName": "4-07-doyoubi-LHLLL.mp3",
+                        "meaning": "Saturday",
+                        "text": "どようびに　いきます。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 1,
+                        "audioName": "4-08-tosyokan-LHLLL.mp3",
+                        "meaning": "library",
+                        "text": "としょかんで　べんきょうします。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 1,
+                        "audioName": "4-09-hikouki-LHLLL.mp3",
+                        "meaning": "airplane",
+                        "text": "ひこうきで　いきます。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 2,
+                        "audioName": "4-10-taiwan-LHHLL.mp3",
+                        "meaning": "Taiwan",
+                        "text": "たいわんに　いきます。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 2,
+                        "audioName": "4-11-kyoukasyo-LHHLL.mp3",
+                        "meaning": "textbook",
+                        "text": "きょうかしょは　なんですか。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 2,
+                        "audioName": "4-12-taifuu-LHHLL.mp3",
+                        "meaning": "typhoon",
+                        "text": "たいふうが　きます。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 3,
+                        "audioName": "4-13-imouto-LHHHL.mp3",
+                        "meaning": "younger sister",
+                        "text": "いもうとが　ひとりいます。"
+                    },
+                    {
+                        "question": "Click the correct pattern you hear",
+                        "moraCount": 4,
+                        "answer": 3,
+                        "audioName": "4-14-otouto-LHHHL.mp3",
+                        "meaning": "yonger brother",
+                        "text": "おとうとは　げんきです。"
                     }
                 ]
             }
-        },
-        {
-            "lessonid": 5,
-            "lessonName": "Accents in Words",
-            "lessonJapanese": "カテゴリー別の単語のアクセント",
-            "lessonDescription": "Lesson 5"
         }
     ]
 }
