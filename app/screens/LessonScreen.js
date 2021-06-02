@@ -81,7 +81,7 @@ function LessonScreen({ route, navigation }) {
             if(data[name] != undefined && data[name].questions.length > 0){
                 buttons.push(
                     <PracticeButton 
-                        title={name}
+                        title={data[name].name}
                         key={name}
                         onPress={() => {
                             setMax(data[name].questions.length)
@@ -191,6 +191,7 @@ const styles = StyleSheet.create({
         flex: 4,
         justifyContent: 'center',
         alignItems:'flex-start',
+        flexWrap: 'wrap',
     },
     closeModal: {
         alignSelf: 'flex-start'
@@ -219,13 +220,14 @@ const styles = StyleSheet.create({
         elevation: 5,
     },
     practiceButton: {
-        width: '80%',
+        // width: '80%',
         elevation: 8,
         backgroundColor: colors.primary,
         borderRadius: 10,
         paddingVertical: 10,
         marginVertical: 10,
-        alignSelf: 'center'
+        alignSelf: 'center',
+        justifyContent: 'center'
     },
     picker: {
         height: 50,

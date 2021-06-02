@@ -274,13 +274,13 @@ const styles = StyleSheet.create({
 		flex: 1,
 	},
 	audioButton: {
-		width: 100,
-		height: 100,
+		width: '30%',
+		height: '30%',
 		margin: 10,
 	},
 	audioImage: {
-		width: 100,
-		height: 100,
+		width: '100%',
+		height: '100%',
 		resizeMode: 'contain',
 	},
 	buttonView: {

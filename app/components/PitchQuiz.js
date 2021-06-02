@@ -259,8 +259,7 @@ export default class PitchQuiz extends Component {
 		    		<TouchableOpacity style={styles.audioButton} onPress={this.playAudio}>
 		    			<Image source={require('../assets/images/audio.png')} style={styles.audioImage}/>
 		    		</TouchableOpacity>
-		    	</View>
-				<View style={styles.answerView}>
+					<View style={styles.answerView}>
 					{
 						this.answerImages[this.state.moraCount - 1].map((value, index) => (
 							<TouchableOpacity onPress={this.pickAnswer(index)} key={index} style={styles.pitchButton}>
@@ -269,6 +268,7 @@ export default class PitchQuiz extends Component {
 						))
 					}
 		    		</View>
+		    	</View>
             </SafeAreaView>
         );
     }
@@ -279,10 +279,11 @@ export default class PitchQuiz extends Component {
 const styles = StyleSheet.create({
 	answerView: {
         flexDirection: 'row',
-		alignItems: 'flex-end',
-		justifyContent: 'flex-end',
+		alignItems: 'center',
+		justifyContent: 'center',
 		flex: 1,
-		marginBottom: '5%',
+		marginBottom: '10%',
+		flexWrap: 'wrap',
 	},
 	audioButton: {
 		width: 100,
@@ -295,22 +296,20 @@ const styles = StyleSheet.create({
 		resizeMode: 'contain',
 	},
 	pitchButton: {
-		width: 200,
-		height: 200,
+		width: '30%',
+		height: '30%',
 		margin: 20,
 	},
 	pitchImage: {
-		width: 200,
-		height: 200,
+		width: '100%',
+		height: '100%',
 		resizeMode: 'contain',
 	},
 	buttonView: {
         flexDirection: 'row',
         flex: 1,
 		width: '100%',
-		height: '50%',
-		marginTop: '5%',
-		justifyContent: 'center',
+		justifyContent: 'flex-start',
 	},
 	meaningText: {
 		color: 'black',
